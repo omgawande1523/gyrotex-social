@@ -1,1 +1,2 @@
 2026-10-06 | ChatGPT will show ads while it generates your images. Testing starts in the US this month | https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/
+2026-10-06-PM | Cohere launches North 2 with agent memory and spending caps | https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory | graphic
