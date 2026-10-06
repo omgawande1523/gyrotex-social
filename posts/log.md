@@ -1,0 +1,1 @@
+2026-10-06 | ChatGPT will show ads while it generates your images. Testing starts in the US this month | https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/
