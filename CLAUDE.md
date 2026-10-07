@@ -29,5 +29,7 @@ When a skill writes or updates `voice.md`, `swipe.md` or `log.md`, copy it back 
 - `instagram/log.md`: what has been posted.
 - `drafts/`: work waiting for approval.
 - `instagram/DAILY.md`: the steps the daily draft task follows.
-- `tools/carousel/make.mjs`: builds carousel slides from a `slides.json`.
+- `tools/carousel/make.mjs`: builds carousel slides (and Story frames) from a `slides.json`.
+- `tools/beatreel/`: builds the beat-synced Reel and its synthesized score from a `reel.json`. This is the Reel style Om approved.
+- `tools/reel/`: an older narrated-Reel builder with a voiceover. Not used by the daily task.
 - `archive-news-posts/`: images and log from the earlier automated news posts.

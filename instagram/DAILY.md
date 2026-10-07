@@ -23,20 +23,20 @@ Every day except Sunday also gets three Story frames (section D).
 
 ## B. Reel (Mon, Wed, Fri)
 
-1. Read `.claude/skills/ig-reel/SKILL.md` and follow it for a faceless account: the "spoken script" is the voiceover.
-2. Hooks: write three hook options to `hooks.txt` and run `python3 -I .claude/skills/ig-reel/hookscore.py hooks.txt`. Use the top one. If it scores under 50, write three new ones (two rounds at most). The hook must take under 3 seconds to say.
-3. Script: 55 to 75 words in total, short sentences, numbers written the way they are spoken. Save as `script.txt` and run `python3 -I .claude/skills/ig-reel/beats.py script.txt --target 25`. Split any beat it flags as too long.
-4. Write `reel.json` (fields are described at the top of `tools/reel/gen.mjs`): 4 to 6 scenes, the first scene is the hook, the last is an `outro` with ONE ask. `"format":"short"`, `"voice":"af_nova"`, `"speed":1.05`.
-5. Build and render:
+The Reel is a beat-synced motion graphic: colour-block scenes cut on a 128 BPM beat, a hook word that types in, three facts with big numbers, a break, then the Gyrotex AI wordmark and the ask. It has an original synthesized score and sound effects and no voiceover. About 21 seconds.
+
+1. Read `.claude/skills/ig-reel/SKILL.md` for the hook rules. Write three candidate hook lines to `hooks.txt`, run `python3 -I .claude/skills/ig-reel/hookscore.py hooks.txt`, and take the hook WORD (10 letters or fewer, usually the company or product name) and the first fact from the top-scoring line.
+2. Write `reel.json` in the draft folder. The fields and their length limits are described at the top of `tools/beatreel/beat.mjs`: `date`, `topic`, `word`, exactly three `facts` (each `big`, `label`, `note`), `source`, `ask`. Every `big` is a verified number or short name from the source. Keep to the length limits or the text will not fit.
+3. Build and render:
    ```bash
-   pip install -q --break-system-packages kokoro-onnx soundfile
+   pip install -q --break-system-packages numpy
    export HYPERFRAMES_TELEMETRY_DISABLED=1 HYPERFRAMES_BROWSER_PATH=/opt/pw-browsers/chromium PRODUCER_HEADLESS_SHELL_PATH=$(ls /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell | head -1)
-   node tools/reel/gen.mjs <folder>/reel.json <folder>/build
+   node tools/beatreel/beat.mjs <folder>/reel.json <folder>/build
    (cd <folder>/build && npx -y hyperframes check . && npx -y hyperframes render . -q high -o ../reel.mp4 --quiet)
    ```
-   If the voice cannot be generated the tool builds a silent Reel; say so in the report. Check `reel.mp4` exists, is 15 to 35 seconds, and look at three frames from it (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 f.jpg`) for cut-off or overlapping text.
-   Before committing, delete `<folder>/build/node_modules` if it exists and `<folder>/build/audio/s*.wav`.
-6. Metricool: `instagramData.type` is `"REEL"`, `media` is the one raw URL of `reel.mp4`.
+   `check` must pass. Then look at frames at 3.4, 5.5, 9, 13.5 and 19.5 seconds (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 f.jpg`) for cut-off or overlapping text. If text does not fit, shorten it in `reel.json` and rebuild.
+   Before committing, delete `<folder>/build/node_modules` if it exists.
+4. Metricool: `instagramData.type` is `"REEL"`, `media` is the one raw URL of `reel.mp4`.
 
 ## C. Carousel (Tue, Thu, Sat)
 
@@ -56,7 +56,7 @@ Every day except Sunday also gets three Story frames (section D).
 Follow `instagram/voice.md` and `.claude/skills/ig-caption/SKILL.md`. Save as `caption.txt` in the draft folder, then run
 `python3 -I .claude/skills/ig-human/humanize.py caption.txt --report` and
 `python3 -I .claude/skills/ig-caption/caption.py caption.txt --keywords "<company>,<product>"`.
-Rewrite until the verdict is READY and nothing is flagged (3 tries at most). The caption's ask must match the last slide or the Reel's last line. Never change a fact to pass a check.
+Rewrite until the verdict is READY and nothing is flagged (3 tries at most). The caption's ask must match the last slide or the Reel's `ask`. Never change a fact to pass a check.
 
 ## F. Save and queue
 
