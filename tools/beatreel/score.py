@@ -2,9 +2,9 @@
 """Synthesize the Reel's original score and sound effects on a beat grid.
 
 Usage: python3 score.py <plan.json> <out.wav>
-plan.json: {"bpm":128,"beats":44,"drop":4,"break":[32,36],"cuts":[4,8,16,24,32,36],"ticks":[beat,...]}
+plan.json: {"bpm":128,"beats":40,"drop":2,"break":[30,32],"cuts":[2,6,14,22,30,32],"ticks":[beat,...],"prog":0,"seed":0}
 
-Style: 128 BPM, F minor, four-on-the-floor. A filtered intro with a riser, a drop,
+Style: 124 to 132 BPM, minor key, four-on-the-floor. `prog` picks one of three chord progressions and `seed` the arpeggio. A filtered intro with a riser, a drop,
 a short break with a second riser, an impact on the logo, and a tail.
 Everything is generated here from maths: nothing downloaded, nothing to license.
 """
@@ -146,8 +146,14 @@ def main():
     n = int(dur * SR)
     drums, mus, fx = np.zeros((n, 2)), np.zeros((n, 2)), np.zeros((n, 2))
     # F minor: Fm - Db - Ab - Eb, one chord per bar
-    prog = [(29, (53, 56, 60)), (25, (53, 56, 61)), (32, (51, 56, 60)), (27, (51, 55, 58))]
-    arp = (0, 2, 1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 0, 2, 1, 0)
+    progs = [
+        [(29, (53, 56, 60)), (25, (53, 56, 61)), (32, (51, 56, 60)), (27, (51, 55, 58))],  # Fm  Db  Ab  Eb
+        [(33, (57, 60, 64)), (29, (57, 60, 65)), (24, (55, 60, 64)), (31, (55, 59, 62))],  # Am  F   C   G
+        [(26, (57, 62, 65)), (22, (58, 62, 65)), (29, (57, 60, 65)), (24, (55, 60, 64))],  # Dm  Bb  F   C
+    ]
+    prog = progs[plan.get("prog", 0) % len(progs)]
+    arps = [(0, 2, 1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 0, 2, 1, 0), (0, 1, 2, 1, 0, 1, 2, 2, 0, 1, 2, 1, 2, 1, 0, 1), (2, 1, 0, 1, 2, 0, 1, 0, 2, 1, 0, 2, 1, 0, 1, 2)]
+    arp = arps[plan.get("seed", 0) % len(arps)]
     k, c, h, oh = kick(), clap(), hat(), hat(0.14, 0.05)
     duck = np.ones(n)
     for b in range(beats):
@@ -181,7 +187,7 @@ def main():
             put(mus, t, bass(hz(root), beat * 2), 0.7)
     mus *= duck[:, None]
     # risers into the drop and out of the break; impacts on both
-    put(fx, max(0, drop * beat - 1.7), riser(1.7), 0.5)
+    put(fx, 0.0, riser(max(0.3, drop * beat)), 0.5)
     put(fx, drop * beat, impact(), 0.8)
     if br1 < beats:
         put(fx, br0 * beat, riser((br1 - br0) * beat), 0.6)
