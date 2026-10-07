@@ -1,0 +1,9 @@
+Mistral Large 4 has 1 trillion parameters and costs $1.36 per million input tokens.
+
+Only 49 billion of those parameters are active at a time, according to Mistral. The model covers 160+ languages and takes images as input.
+
+Output costs $4.18 per million tokens. Mistral says the weights come out by the end of this month. Source: mistral.ai.
+
+Comment OPEN or CLOSED to say which kind of model you'd pick.
+
+#MistralAI #AINews #LLM

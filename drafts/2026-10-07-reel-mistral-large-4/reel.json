@@ -1,0 +1,3 @@
+{"date":"7 OCT 2026","topic":"MISTRAL LARGE 4","word":"MISTRAL",
+"facts":[{"big":"1T","label":"parameters","note":"49 billion active at a time"},{"big":"160+","label":"languages","note":"plus image input"},{"big":"$1.36","label":"per million input tokens","note":"$4.18 per million output"}],
+"source":"mistral.ai","ask":"Open weights or a closed API?"}
