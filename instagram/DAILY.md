@@ -36,7 +36,12 @@ The Reel is a beat-synced motion graphic: colour-block scenes cut on a 128 BPM b
    ```
    `check` must pass. Then look at frames at 3.4, 5.5, 9, 13.5 and 19.5 seconds (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 f.jpg`) for cut-off or overlapping text. If text does not fit, shorten it in `reel.json` and rebuild.
    Before committing, delete `<folder>/build/node_modules` if it exists.
-4. Metricool: `instagramData.type` is `"REEL"`, `media` is the one raw URL of `reel.mp4`.
+4. Critique pass (one round). One Reel carries one idea: the three facts must all be about the same story. Looking at the frames, check and fix through `reel.json`:
+   - no scene has an empty half: if a `note` or `label` is missing the lower part sits blank;
+   - nothing is too faint or too small to read on a phone held at arm's length;
+   - every number and name on screen matches the source exactly, with its unit;
+   - the hook word is the thing a stranger would recognise (company or product), not a generic word.
+5. Metricool: `instagramData.type` is `"REEL"`, `media` is the one raw URL of `reel.mp4`.
 
 ## C. Carousel (Tue, Thu, Sat)
 
