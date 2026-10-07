@@ -15,7 +15,8 @@ When a skill writes or updates `voice.md`, `swipe.md` or `log.md`, copy it back 
 
 ## Rules
 
-- Nothing is posted, scheduled or queued until Om approves that specific post in chat.
+- Nothing is published or scheduled to publish until Om approves that specific post.
+- The daily draft task may save a post in Metricool as a DRAFT (`draft: true`) for Om to approve there. It never publishes.
 - Drafts go in `drafts/` as `YYYY-MM-DD-<format>-<slug>/` with the script or slide copy, the caption and any image files.
 - Every caption goes through `/ig-human` and then `caption.py` before it is shown to Om.
 - Never invent a number, client or result. If `instagram/voice.md` has a TODO where a fact is needed, ask.
@@ -27,4 +28,6 @@ When a skill writes or updates `voice.md`, `swipe.md` or `log.md`, copy it back 
 - `instagram/voice.md`: the account's voice profile. Fill in the TODO lines first.
 - `instagram/log.md`: what has been posted.
 - `drafts/`: work waiting for approval.
+- `instagram/DAILY.md`: the steps the daily draft task follows.
+- `tools/carousel/make.mjs`: builds carousel slides from a `slides.json`.
 - `archive-news-posts/`: images and log from the earlier automated news posts.
