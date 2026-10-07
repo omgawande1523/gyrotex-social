@@ -78,7 +78,7 @@ Rewrite until the verdict is READY and nothing is flagged (3 tries at most). The
 
 1. Commit and push to main. Confirm every media URL `https://raw.githubusercontent.com/omgawande1523/gyrotex-social/main/<folder>/<file>` returns 200.
 2. Check `getScheduledPosts` for today. If a draft or post for today already exists, stop and report it.
-3. Call createScheduledPost with blogId "7265302", date = today 18:30 India time (+05:30), and info JSON with `"draft": true`, `"autoPublish": false`, `media`, `text` (the caption), `"providers":[{"network":"instagram"}]`, `"instagramData":{"type":"POST" or "REEL","collaborators":[],"showReelOnFeed":true,"isAiGenerated":false}`, `publicationDate` in Asia/Calcutta, and the other fields empty as in the tool description. `draft` must be true.
+3. Call createScheduledPost with blogId "7265302", date = today 13:00 India time (+05:30), and info JSON with `"draft": true`, `"autoPublish": false`, `media`, `text` (the caption), `"providers":[{"network":"instagram"}]`, `"instagramData":{"type":"POST" or "REEL","collaborators":[],"showReelOnFeed":true,"isAiGenerated":false}`, `publicationDate` in Asia/Calcutta, and the other fields empty as in the tool description. `draft` must be true.
 4. Do not add a line to `instagram/log.md`; that happens when Om approves.
 
 ## G. Report
