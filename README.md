@@ -1,3 +1,3 @@
 # Gyrotex AI social posts
 
-Images for the daily AI news post on @gyrotex_ai. `posts/log.md` lists what has been posted.
+Workspace for the @gyrotex_ai Instagram account. See CLAUDE.md.

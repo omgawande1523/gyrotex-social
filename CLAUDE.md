@@ -1,0 +1,30 @@
+# Gyrotex AI Instagram workspace
+
+This repository runs the @gyrotex_ai Instagram account with the Instagram agent skills
+(https://github.com/Jakeschincariol/instagram-agent-skill, MIT) installed in `.claude/skills/`.
+
+## Start of every session
+
+The skills read their files from `~/.claude/instagram/`. Copy this repo's versions there first:
+
+```bash
+mkdir -p ~/.claude/instagram && cp instagram/*.md ~/.claude/instagram/
+```
+
+When a skill writes or updates `voice.md`, `swipe.md` or `log.md`, copy it back into `instagram/` and commit.
+
+## Rules
+
+- Nothing is posted, scheduled or queued until Om approves that specific post in chat.
+- Drafts go in `drafts/` as `YYYY-MM-DD-<format>-<slug>/` with the script or slide copy, the caption and any image files.
+- Every caption goes through `/ig-human` and then `caption.py` before it is shown to Om.
+- Never invent a number, client or result. If `instagram/voice.md` has a TODO where a fact is needed, ask.
+- Approved posts are scheduled through the Metricool connector (brand id 7265302, timezone Asia/Calcutta), then logged in `instagram/log.md`.
+
+## Layout
+
+- `.claude/skills/ig-*`: the thirteen skills and their Python tools.
+- `instagram/voice.md`: the account's voice profile. Fill in the TODO lines first.
+- `instagram/log.md`: what has been posted.
+- `drafts/`: work waiting for approval.
+- `archive-news-posts/`: images and log from the earlier automated news posts.

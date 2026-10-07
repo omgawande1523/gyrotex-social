@@ -1,6 +1,6 @@
 # voice.md: Gyrotex AI on Instagram
 
-Read by the daily post run before it writes a caption. Lines marked TODO are for Om to fill in; until then the run leaves those things out instead of guessing.
+Read by every Instagram skill. Lines marked TODO are for Om to fill in; until then drafts leave those things out instead of guessing.
 
 ## Who we are
 
@@ -12,7 +12,7 @@ Read by the daily post run before it writes a caption. Lines marked TODO are for
 
 ## What we sound like
 
-- **Format:** Faceless. Image posts with a bold headline; no one on camera.
+- **Face on camera:** Faceless so far. TODO (Om): will anyone appear on camera or record voiceover for Reels?
 - **Tone:** Plain, factual, calm. A newsroom voice, not a hype voice.
 - **Words we use:** launches, tests, releases, costs, says, according to.
 - **Words we never use:** game-changer, revolutionary, insane, mind-blowing, "you won't believe", "the future is here".
