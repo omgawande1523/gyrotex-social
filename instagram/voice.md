@@ -12,7 +12,9 @@ Read by every Instagram skill. Lines marked TODO are for Om to fill in; until th
 
 ## What we sound like
 
-- **Face on camera:** Faceless so far. TODO (Om): will anyone appear on camera or record voiceover for Reels?
+- **Face on camera:** Never. The account is faceless (decided 7 Oct 2026).
+- **Reels:** On-screen text and motion graphics. Voiceover, if used, is a synthetic voice, never presented as a real person.
+- **Content:** AI news. Every post starts from a real, verified story (decided 7 Oct 2026).
 - **Tone:** Plain, factual, calm. A newsroom voice, not a hype voice.
 - **Words we use:** launches, tests, releases, costs, says, according to.
 - **Words we never use:** game-changer, revolutionary, insane, mind-blowing, "you won't believe", "the future is here".
@@ -22,6 +24,7 @@ Read by every Instagram skill. Lines marked TODO are for Om to fill in; until th
 
 ## Caption rules
 
+- Every fact and number is checked against the company's own announcement or a reputable outlet before it is written.
 - Line 1 is the whole story in 125 characters or fewer, and it names a company, product or number.
 - Body: two or three short paragraphs. Name the source outlet.
 - One ask per post. Rotate: a yes/no or one-word comment question about the story, or "Save this for later". Not "follow for more".
