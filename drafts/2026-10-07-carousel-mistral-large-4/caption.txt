@@ -1,0 +1,9 @@
+Mistral Large 4 is out: 1 trillion parameters, 160+ languages, and weights due this month.
+
+Mistral says only 49 billion of those parameters are active at a time. A preview is on its API now at $1.36 per million input tokens and $4.18 per million output.
+
+On Mistral's own tests it scores 61.7% on DeepSWE v1.1 for coding and 93% on Cybench for security tasks. Source: mistral.ai.
+
+Open weights or a closed API? Comment which one you'd pick.
+
+#MistralAI #AINews #OpenSourceAI
