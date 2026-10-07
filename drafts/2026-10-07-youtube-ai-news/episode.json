@@ -1,93 +1,317 @@
 {
  "date": "7 OCT 2026",
  "host": "Jenny",
- "voice": "af_nova",
+ "voice": "af_heart",
  "speed": 1.0,
- "thumb": "1 TRILLION",
- "open": {
-  "say": "A one trillion parameter model, with open weights on the way. Ads inside ChatGPT's image generator. And Google buys nuclear power for its data centers. I'm Jenny, the AI host at Gyrotex AI, and this is today's AI news.",
-  "lines": [
-   "Mistral's 1 trillion parameter model",
-   "Ads in ChatGPT's image generator",
-   "Google buys nuclear power"
-  ]
- },
- "stories": [
+ "thumb": "1 *trillion*",
+ "sections": [
   {
-   "word": "MISTRAL",
-   "topic": "MISTRAL LARGE 4",
-   "headline": "A 1 trillion parameter model, with open weights coming",
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 7 OCT",
+    "rows": [
+     "Mistral's 1 trillion parameter model",
+     "Ads in ChatGPT's image generator",
+     "Google buys nuclear power"
+    ]
+   },
+   "beats": [
+    {
+     "say": "A one trillion parameter model, with open weights on the way.",
+     "text": "A *1 trillion* parameter model."
+    },
+    {
+     "say": "Ads inside ChatGPT's image generator.",
+     "text": "*Ads* inside ChatGPT's image generator."
+    },
+    {
+     "say": "And Google buys nuclear power for its data centers.",
+     "text": "Google buys *nuclear power.*"
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "mistral large 4",
+   "chapter": "Mistral Large 4: 1 trillion parameters",
    "source": "mistral.ai",
-   "say": "First, Mistral. The French lab has released Mistral Large 4, its biggest model so far.",
-   "facts": [
+   "card": {
+    "type": "stat",
+    "title": "MISTRAL LARGE 4",
+    "big": "1T",
+    "sub": "parameters",
+    "rows": [
+     [
+      "active at a time",
+      "49B"
+     ],
+     [
+      "design",
+      "mixture of experts"
+     ]
+    ],
+    "at": [
+     2,
+     2,
+     3
+    ]
+   },
+   "beats": [
     {
-     "big": "1T",
-     "label": "parameters",
-     "note": "49 billion active at a time",
-     "say": "It has one trillion parameters, but only forty nine billion are active at a time. That design is called a mixture of experts, and it keeps running costs down."
+     "say": "First up, Mistral.",
+     "text": "First up, *Mistral.*"
     },
     {
-     "big": "$1.36",
-     "label": "per million input tokens",
-     "note": "$4.18 per million output",
-     "say": "On Mistral's API, it costs one dollar thirty six per million input tokens, and four dollars eighteen for output."
+     "say": "The French lab has released Mistral Large Four, its biggest model so far.",
+     "text": "Its *biggest model* so far."
     },
     {
-     "big": "OCT",
-     "label": "open weights",
-     "note": "due by the end of this month",
-     "say": "And Mistral says it will release the weights by the end of this month, so anyone with enough hardware can run it."
+     "say": "It has one trillion parameters, but only forty nine billion are active at a time.",
+     "text": "*1 trillion* parameters. Only 49 billion active."
+    },
+    {
+     "say": "That's called a mixture of experts, and it keeps the running costs down.",
+     "text": "A *mixture of experts* keeps costs down."
     }
-   ],
-   "chapter": "Mistral Large 4: 1 trillion parameters"
+   ]
   },
   {
-   "word": "OPENAI",
-   "topic": "CHATGPT ADS",
-   "headline": "Ads are coming to ChatGPT's image generator",
+   "kind": "story",
+   "label": "the price",
+   "source": "mistral.ai",
+   "card": {
+    "type": "bars",
+    "title": "PRICE PER MILLION TOKENS",
+    "rows": [
+     {
+      "k": "Input",
+      "v": "$1.36",
+      "pct": 33
+     },
+     {
+      "k": "Output",
+      "v": "$4.18",
+      "pct": 100,
+      "hot": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "say": "On Mistral's API, input costs one dollar thirty six per million tokens.",
+     "text": "*$1.36* per million input tokens."
+    },
+    {
+     "say": "Output is four dollars eighteen.",
+     "text": "*$4.18* for output."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "open weights",
+   "source": "mistral.ai",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "OPEN WEIGHTS",
+    "rows": [
+     "Weights due by the end of October",
+     "Run it on your own hardware"
+    ]
+   },
+   "beats": [
+    {
+     "say": "And Mistral says it'll release the weights by the end of this month.",
+     "text": "Open weights *this month.*"
+    },
+    {
+     "say": "So anyone with enough hardware can run it themselves.",
+     "text": "Run it *yourself.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "chatgpt ads",
+   "chapter": "Ads in ChatGPT's image generator",
    "source": "BleepingComputer",
-   "say": "Next, OpenAI. ChatGPT is getting a new kind of ad.",
-   "facts": [
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "CHATGPT IMAGE ADS",
+    "rows": [
+     "Shown while an image generates",
+     "US test starts this month",
+     "Small group of advertisers"
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
     {
-     "big": "ADS",
-     "label": "during image generation",
-     "note": "US test starts this month",
-     "say": "OpenAI will test visual ads that appear while ChatGPT generates an image. The test starts in the United States later this month, with a small group of advertisers."
+     "say": "Next, OpenAI. ChatGPT is getting a new kind of ad.",
+     "text": "ChatGPT gets a *new kind of ad.*"
     },
     {
-     "big": "1.2B",
-     "label": "weekly users",
-     "note": "reported by BleepingComputer",
-     "say": "ChatGPT now reaches one point two billion weekly users, according to Bleeping Computer. OpenAI says the ads will be labelled, kept separate from your image, and will not change ChatGPT's answers."
+     "say": "OpenAI will test visual ads that appear while ChatGPT generates an image.",
+     "text": "Ads while your *image generates.*"
+    },
+    {
+     "say": "The test starts in the United States later this month, with a small group of advertisers.",
+     "text": "A US test starts *this month.*"
     }
-   ],
-   "chapter": "Ads in ChatGPT's image generator"
+   ]
   },
   {
-   "word": "GOOGLE",
-   "topic": "GOOGLE NUCLEAR DEAL",
-   "headline": "A 20-year nuclear power deal for AI data centers",
-   "source": "Axios",
-   "say": "Finally, Google. Its data centers need more electricity, and it is turning to nuclear power.",
-   "facts": [
+   "kind": "story",
+   "label": "the rules",
+   "source": "BleepingComputer",
+   "card": {
+    "type": "stat",
+    "title": "CHATGPT",
+    "big": "1.2B",
+    "sub": "weekly users",
+    "rows": [
+     [
+      "ads",
+      "labelled"
+     ],
+     [
+      "your image",
+      "kept separate"
+     ],
+     [
+      "answers",
+      "unchanged"
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
     {
-     "big": "890",
-     "label": "megawatts of new capacity",
-     "note": "from upgrades at 11 nuclear units",
-     "say": "Google has signed a twenty year deal with Constellation Energy. Upgrades at eleven nuclear units will add eight hundred and ninety megawatts of new capacity."
+     "say": "ChatGPT now reaches one point two billion weekly users, according to Bleeping Computer.",
+     "text": "*1.2 billion* weekly users."
     },
     {
-     "big": "$4.3B",
-     "label": "investment",
-     "note": "power arrives 2028 to 2032",
-     "say": "The investment is four point three billion dollars, according to Axios, with the power arriving in phases from twenty twenty eight through twenty thirty two."
+     "say": "OpenAI says the ads will be labelled, and kept separate from your image.",
+     "text": "Ads are *labelled* and kept separate."
+    },
+    {
+     "say": "And they won't change ChatGPT's answers.",
+     "text": "Answers *don't change.*"
     }
-   ],
-   "chapter": "Google's 20-year nuclear deal"
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "google goes nuclear",
+   "chapter": "Google's 20-year nuclear deal",
+   "source": "Axios",
+   "card": {
+    "type": "stat",
+    "title": "GOOGLE + CONSTELLATION",
+    "big": "890",
+    "sub": "megawatts of new capacity",
+    "rows": [
+     [
+      "deal length",
+      "20 years"
+     ],
+     [
+      "nuclear units upgraded",
+      "11"
+     ]
+    ],
+    "at": [
+     2,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, Google. Its data centers need more electricity, so it's turning to nuclear power.",
+     "text": "Google turns to *nuclear power.*"
+    },
+    {
+     "say": "It has signed a twenty year deal with Constellation Energy.",
+     "text": "A *20-year* deal with Constellation."
+    },
+    {
+     "say": "Upgrades at eleven nuclear units will add eight hundred and ninety megawatts of new capacity.",
+     "text": "*890 megawatts* of new capacity."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the bill",
+   "source": "Axios",
+   "card": {
+    "type": "stat",
+    "title": "THE INVESTMENT",
+    "big": "$4.3B",
+    "sub": "invested",
+    "rows": [
+     [
+      "first power",
+      "2028"
+     ],
+     [
+      "final phase",
+      "2032"
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "The investment is four point three billion dollars, according to Axios.",
+     "text": "A *$4.3 billion* investment."
+    },
+    {
+     "say": "The power arrives in phases, from twenty twenty eight through twenty thirty two.",
+     "text": "Power arrives *2028 to 2032.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Which of these three stories matters most to you? Tell me in the comments.",
+     "text": "Which story matters *most to you?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
   }
- ],
- "close": {
-  "say": "That's today's AI news. Which of these three stories matters most to you? Tell me in the comments. I'm Jenny, and I'll see you tomorrow.",
-  "ask": "Which story matters most to you?"
- }
+ ]
 }

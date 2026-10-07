@@ -2,9 +2,9 @@ Today's AI news in under two minutes: Mistral releases Large 4 with 1 trillion p
 Every number in this video comes from the sources listed below.
 
 0:00 Today's headlines
-0:14 Mistral Large 4: 1 trillion parameters
-0:44 Ads in ChatGPT's image generator
-1:12 Google's 20-year nuclear deal
+0:15 Mistral Large 4: 1 trillion parameters
+0:45 Ads in ChatGPT's image generator
+1:14 Google's 20-year nuclear deal
 
 Sources
 Mistral Large 4: https://mistral.ai/news/mistral-large-4

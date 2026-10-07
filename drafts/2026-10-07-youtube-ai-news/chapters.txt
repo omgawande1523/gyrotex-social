@@ -1,4 +1,4 @@
 0:00 Today's headlines
-0:14 Mistral Large 4: 1 trillion parameters
-0:44 Ads in ChatGPT's image generator
-1:12 Google's 20-year nuclear deal
+0:15 Mistral Large 4: 1 trillion parameters
+0:45 Ads in ChatGPT's image generator
+1:14 Google's 20-year nuclear deal

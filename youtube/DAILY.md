@@ -12,10 +12,11 @@ Goal: one narrated AI-news video (1 minute 30 to 3 minutes, three stories) for t
 
 Read `youtube/voice.md` and `.claude/skills/yt-script/SKILL.md`. The host is Jenny, an AI voice.
 
-1. Hooks: write five opening lines to `hooks.txt` and run `python3 -I .claude/skills/yt-script/hookscore.py hooks.txt`. Build `open.say` from the best one: it names all three stories inside the first 15 seconds, then "I'm Jenny, the AI host at Gyrotex AI, and this is today's AI news." It must run 10 seconds or longer (about 30 words or more).
-2. Write `episode.json`. The fields and limits are described at the top of `tools/ytnews/build.mjs`. Per story: a `word`, `topic`, `chapter`, `headline`, a one or two sentence `say`, and two or three `facts` each with one big number or short word, a `label`, a `note` and a `say` of one to three sentences. Close with one ask: a comment question about the day's stories.
-3. Every `say` is written the way it is spoken: numbers as words, no symbols or abbreviations that would be read wrongly, short sentences. Name the outlet when the source is not the company itself. Total script: 220 to 420 words.
-4. `thumb` is three words or fewer and must not repeat a word from the title.
+1. Hooks: write five opening lines to `hooks.txt` and run `python3 -I .claude/skills/yt-script/hookscore.py hooks.txt`. Build the open section from the best one: one beat per headline, then "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news." The open section must run 10 seconds or longer (about 30 words or more).
+2. Write `episode.json`. The fields and limits are described at the top of `tools/ytnews/build.mjs`, and `drafts/2026-10-07-youtube-ai-news/episode.json` is the approved example to copy the shape from. It is a list of sections: one `open` (a `list` card with the three headlines), then two or three `story` sections per story, then one `close`. The first section of each story carries `chapter`; every story section carries `source`.
+3. Each section has 2 to 4 beats. A beat is one short spoken sentence (`say`) and its on-screen version (`text`, 60 characters or fewer, key words wrapped in `*stars*`). Each section has one card: `stat` for one big number, `bars` to compare two to four numbers, `list` for two or three points. Use `"at"` so a number appears on the beat where Jenny says it. Do not use the same card type three sections in a row.
+4. Every `say` is written the way a person says it: numbers as words, no symbols or abbreviations that would be read wrongly, contractions, and a spoken joiner at the start of each story (First up, Next, Finally). Name the outlet when the source is not the company itself. Total script: 220 to 420 words. Voice stays `af_heart` at speed 1.0.
+5. `thumb` is three words or fewer, with the key word in `*stars*`, and must not repeat a word from the title.
 
 ## 3. Build and render
 
@@ -29,7 +30,7 @@ node tools/ytnews/build.mjs <folder>/episode.json <folder>/build      # voice, s
 
 The build takes about 2 minutes and the render about 2.5 times the video's length. If the builder prints warnings, fix `episode.json` and rebuild. If the voice cannot be generated, stop and report; do not publish a silent video.
 
-Check: `check` passes; `video.mp4` is 80 to 200 seconds; look at one frame from every scene (`ffmpeg -ss <t> -i video.mp4 -frames:v 1 f.jpg`, times from `transcript.txt`) and at `thumbnail.jpg`. Fix through `episode.json` anything cut off, overlapping, misspelled, or any number that does not match the source exactly.
+Check: `check` passes; `video.mp4` is 80 to 200 seconds; look at one frame from the end of every beat (`ffmpeg -ss <t> -i video.mp4 -frames:v 1 f.jpg`; a beat ends just before the next time in `transcript.txt`) and at `thumbnail.jpg`. Fix through `episode.json` anything cut off, overlapping, misspelled, or any number that does not match the source exactly.
 
 ## 4. Title, description, tags
 

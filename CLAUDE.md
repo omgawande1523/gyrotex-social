@@ -31,7 +31,7 @@ When a skill writes or updates `voice.md`, `swipe.md` or `log.md`, copy it back 
 - `youtube/voice.md`: the channel's voice profile and the host, Jenny (an AI voice).
 - `youtube/DAILY.md`: the steps the daily YouTube video task follows.
 - `youtube/log.md`: what has been published on YouTube.
-- `tools/ytnews/build.mjs`: builds the narrated news video, its score, chapters, transcript and thumbnail from an `episode.json`.
+- `tools/ytnews/build.mjs`: builds the narrated explainer-card news video (the YouTube format Om approved), its score, chapters, transcript and thumbnail from an `episode.json`.
 - `instagram/voice.md`: the account's voice profile. Fill in the TODO lines first.
 - `instagram/log.md`: what has been posted.
 - `drafts/`: work waiting for approval.
