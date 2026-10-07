@@ -4,6 +4,6 @@ Mistral says only 49 billion of those parameters are active at a time. A preview
 
 On Mistral's own tests it scores 61.7% on DeepSWE v1.1 for coding and 93% on Cybench for security tasks. Source: mistral.ai.
 
-Open weights or a closed API? Comment which one you'd pick.
+Comment OPEN or CLOSED to say which kind of model you'd pick.
 
-#MistralAI #AINews #OpenSourceAI
+#MistralAI #AINews #LLM
