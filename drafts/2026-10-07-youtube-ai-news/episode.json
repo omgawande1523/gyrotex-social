@@ -1,0 +1,93 @@
+{
+ "date": "7 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_nova",
+ "speed": 1.0,
+ "thumb": "1 TRILLION",
+ "open": {
+  "say": "A one trillion parameter model, with open weights on the way. Ads inside ChatGPT's image generator. And Google buys nuclear power for its data centers. I'm Jenny, the AI host at Gyrotex AI, and this is today's AI news.",
+  "lines": [
+   "Mistral's 1 trillion parameter model",
+   "Ads in ChatGPT's image generator",
+   "Google buys nuclear power"
+  ]
+ },
+ "stories": [
+  {
+   "word": "MISTRAL",
+   "topic": "MISTRAL LARGE 4",
+   "headline": "A 1 trillion parameter model, with open weights coming",
+   "source": "mistral.ai",
+   "say": "First, Mistral. The French lab has released Mistral Large 4, its biggest model so far.",
+   "facts": [
+    {
+     "big": "1T",
+     "label": "parameters",
+     "note": "49 billion active at a time",
+     "say": "It has one trillion parameters, but only forty nine billion are active at a time. That design is called a mixture of experts, and it keeps running costs down."
+    },
+    {
+     "big": "$1.36",
+     "label": "per million input tokens",
+     "note": "$4.18 per million output",
+     "say": "On Mistral's API, it costs one dollar thirty six per million input tokens, and four dollars eighteen for output."
+    },
+    {
+     "big": "OCT",
+     "label": "open weights",
+     "note": "due by the end of this month",
+     "say": "And Mistral says it will release the weights by the end of this month, so anyone with enough hardware can run it."
+    }
+   ],
+   "chapter": "Mistral Large 4: 1 trillion parameters"
+  },
+  {
+   "word": "OPENAI",
+   "topic": "CHATGPT ADS",
+   "headline": "Ads are coming to ChatGPT's image generator",
+   "source": "BleepingComputer",
+   "say": "Next, OpenAI. ChatGPT is getting a new kind of ad.",
+   "facts": [
+    {
+     "big": "ADS",
+     "label": "during image generation",
+     "note": "US test starts this month",
+     "say": "OpenAI will test visual ads that appear while ChatGPT generates an image. The test starts in the United States later this month, with a small group of advertisers."
+    },
+    {
+     "big": "1.2B",
+     "label": "weekly users",
+     "note": "reported by BleepingComputer",
+     "say": "ChatGPT now reaches one point two billion weekly users, according to Bleeping Computer. OpenAI says the ads will be labelled, kept separate from your image, and will not change ChatGPT's answers."
+    }
+   ],
+   "chapter": "Ads in ChatGPT's image generator"
+  },
+  {
+   "word": "GOOGLE",
+   "topic": "GOOGLE NUCLEAR DEAL",
+   "headline": "A 20-year nuclear power deal for AI data centers",
+   "source": "Axios",
+   "say": "Finally, Google. Its data centers need more electricity, and it is turning to nuclear power.",
+   "facts": [
+    {
+     "big": "890",
+     "label": "megawatts of new capacity",
+     "note": "from upgrades at 11 nuclear units",
+     "say": "Google has signed a twenty year deal with Constellation Energy. Upgrades at eleven nuclear units will add eight hundred and ninety megawatts of new capacity."
+    },
+    {
+     "big": "$4.3B",
+     "label": "investment",
+     "note": "power arrives 2028 to 2032",
+     "say": "The investment is four point three billion dollars, according to Axios, with the power arriving in phases from twenty twenty eight through twenty thirty two."
+    }
+   ],
+   "chapter": "Google's 20-year nuclear deal"
+  }
+ ],
+ "close": {
+  "say": "That's today's AI news. Which of these three stories matters most to you? Tell me in the comments. I'm Jenny, and I'll see you tomorrow.",
+  "ask": "Which story matters most to you?"
+ }
+}

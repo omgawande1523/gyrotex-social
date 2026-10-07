@@ -1,0 +1,16 @@
+Today's AI news in under two minutes: Mistral releases Large 4 with 1 trillion parameters, OpenAI will test ads in ChatGPT's image generator, and Google signs a 20-year nuclear power deal for its data centers.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:14 Mistral Large 4: 1 trillion parameters
+0:44 Ads in ChatGPT's image generator
+1:12 Google's 20-year nuclear deal
+
+Sources
+Mistral Large 4: https://mistral.ai/news/mistral-large-4
+ChatGPT ads: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/
+Google and Constellation: https://www.axios.com/2026/10/06/google-constellation-nuclear-energy
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080">
+<script src="gsap.min.js"></script>
+<style>
+@font-face{font-family:"Archivo";font-weight:100 900;font-stretch:62% 125%;src:url("fonts/archivo-latin-wdth-normal.woff2") format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:500;src:url("fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2")}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#0c0c10}
+#root{position:relative;width:100%;height:100%;font-family:"Archivo",sans-serif}
+.scene{position:absolute;inset:0;overflow:hidden}
+.lab{position:absolute;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:22px;letter-spacing:.08em}
+.tl{left:64px;top:52px}.tr{right:64px;top:52px}.bl{left:64px;bottom:52px}.br{right:64px;bottom:52px}
+.mid{position:absolute;left:120px;right:120px;top:120px;bottom:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px}
+.openL{position:absolute;left:120px;top:120px;bottom:120px;width:640px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:34px}
+.openR{position:absolute;left:820px;right:120px;top:120px;bottom:120px;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.ol{display:flex;align-items:baseline;gap:30px;padding-bottom:30px;border-bottom:3px solid var(--fg)}
+.ol b{flex:0 0 auto;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:34px;color:var(--dot)}
+.ol span{flex:1;font-weight:800;font-stretch:112%;font-size:58px;line-height:1.06;text-transform:uppercase}
+.host{display:block;font-weight:800;font-stretch:112%;font-size:56px;line-height:1;text-transform:uppercase}
+.headw{position:absolute;left:120px;right:120px;top:130px;bottom:130px;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.num{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:32px;letter-spacing:.14em}
+.hl{display:block;font-weight:800;font-stretch:112%;font-size:66px;line-height:1.06;text-transform:uppercase;max-width:1500px}
+.src{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:28px;letter-spacing:.14em}
+.factL{position:absolute;left:120px;top:130px;bottom:130px;width:900px;display:flex;flex-direction:column;justify-content:center;gap:18px}
+.factR{position:absolute;left:1040px;right:60px;top:110px;bottom:110px;display:flex;align-items:center;justify-content:center}
+.big{display:block;font-weight:900;font-stretch:125%;line-height:.9;letter-spacing:-.02em;transform-origin:0 70%;white-space:nowrap}
+.label{display:block;font-weight:800;font-stretch:112%;font-size:70px;line-height:1.02;text-transform:uppercase}
+.note{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:36px;line-height:1.3}
+.dot{display:block;width:110px;height:110px;border-radius:50%;background:var(--dot)}
+.cdot{position:absolute;display:block;width:64px;height:64px;border-radius:50%;background:var(--dot)}
+.pdot{display:inline-block;width:.24em;height:.24em;border-radius:50%;margin-left:.06em;background:var(--dot)}
+.line{display:block;width:520px;height:5px;transform-origin:0 50%;background:var(--fg)}
+.mid .line{transform-origin:50% 50%}
+.kick{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:30px;letter-spacing:.14em}
+.wordrow{display:flex;align-items:baseline;font-weight:900;font-stretch:125%;line-height:1;letter-spacing:-.02em;white-space:nowrap}
+.lt{display:inline-block}
+.wm{display:flex;align-items:baseline;justify-content:center;font-weight:900;font-stretch:125%;font-size:190px;line-height:1;letter-spacing:-.02em;white-space:nowrap}
+.ask{display:block;font-weight:800;font-stretch:112%;font-size:64px;line-height:1.1;text-align:center;text-transform:uppercase}
+.persp{perspective:1400px;width:600px;height:600px;display:flex;align-items:center;justify-content:center}
+.sph{position:relative;width:0;height:0;transform-style:preserve-3d}
+.sph i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(9,30px);grid-auto-rows:30px;gap:44px}
+.gd{display:block;width:30px;height:30px;border-radius:50%;background:var(--fg)}
+.gd.g1{background:var(--dot)}.gd.g2{background:var(--alt)}
+.rings{position:relative;display:block;flex:0 0 auto;width:800px;height:800px;transform-origin:50% 50%;scale:.86}
+.rg{position:absolute;left:0;top:0;display:block}
+.st1{stroke:var(--fg)}.st2{stroke:var(--alt)}
+.bars{display:flex;align-items:flex-end;justify-content:center;gap:18px;height:560px;width:740px}
+.bar{display:block;flex:0 0 46px;height:560px;border-radius:8px;background:var(--fg);transform-origin:50% 100%}
+.bar.hot{background:var(--dot)}
+.orbits{position:relative;display:block;flex:0 0 auto;width:640px;height:640px}
+.orbw{position:absolute;left:50%;top:50%;display:block}
+.orb{position:relative;display:block;width:100%;height:100%;border-radius:50%;border:3px solid var(--fg)}
+.orb i{position:absolute;left:50%;top:-14px;margin-left:-14px;display:block;width:28px;height:28px;border-radius:50%;background:var(--alt)}
+.shards{position:absolute;left:50%;top:50%;width:0;height:0}
+.sh{position:absolute;display:block;left:0;top:0}
+#sc0{background:#0c0c10;color:#ece6d8;--fg:#ece6d8;--dot:#f5c84c;--alt:#2447f9}
+#sc1{background:#2447f9;color:#ece6d8;--fg:#ece6d8;--dot:#ece6d8;--alt:#f5c84c}
+#sc2{background:#0c0c10;color:#ece6d8;--fg:#ece6d8;--dot:#f5c84c;--alt:#2447f9}
+#sc3{background:#ece6d8;color:#0c0c10;--fg:#0c0c10;--dot:#2447f9;--alt:#f5c84c}
+#sc4{background:#2447f9;color:#ece6d8;--fg:#ece6d8;--dot:#ece6d8;--alt:#f5c84c}
+#sc5{background:#f5c84c;color:#0c0c10;--fg:#0c0c10;--dot:#0c0c10;--alt:#2447f9}
+#sc6{background:#2447f9;color:#ece6d8;--fg:#ece6d8;--dot:#ece6d8;--alt:#f5c84c}
+#sc7{background:#ece6d8;color:#0c0c10;--fg:#0c0c10;--dot:#2447f9;--alt:#f5c84c}
+#sc8{background:#2447f9;color:#ece6d8;--fg:#ece6d8;--dot:#ece6d8;--alt:#f5c84c}
+#sc9{background:#ece6d8;color:#0c0c10;--fg:#0c0c10;--dot:#2447f9;--alt:#f5c84c}
+#sc10{background:#0c0c10;color:#ece6d8;--fg:#ece6d8;--dot:#f5c84c;--alt:#2447f9}
+#sc11{background:#0c0c10;color:#ece6d8;--fg:#ece6d8;--dot:#f5c84c;--alt:#2447f9}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="106.499" data-width="1920" data-height="1080">
+<div id="sc0" class="clip scene" data-start="0" data-duration="14.965" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">01 / 12</div><div class="lab bl">TODAY · AI NEWS</div><div class="lab br">7 OCT 2026</div><div class="openL"><div class="dot"></div><div class="line"></div><div class="kick">AI NEWS · 7 OCT 2026</div><div class="host">with Jenny</div></div><div class="openR"><div class="ol ol0"><b>01</b><span>Mistral's 1 trillion parameter model</span></div><div class="ol ol1"><b>02</b><span>Ads in ChatGPT's image generator</span></div><div class="ol ol2"><b>03</b><span>Google buys nuclear power</span></div></div></div>
+<div id="sc1" class="clip scene" data-start="14.965" data-duration="5.904" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">02 / 12</div><div class="lab bl">STORY 1 · MISTRAL LARGE 4</div><div class="lab br">7 OCT 2026</div><div class="headw"><div class="num">STORY 01 / 03</div><div class="wordrow" style="font-size:256px"><span class="lt lt0">M</span><span class="lt lt1">I</span><span class="lt lt2">S</span><span class="lt lt3">T</span><span class="lt lt4">R</span><span class="lt lt5">A</span><span class="lt lt6">L</span><span class="pdot"></span></div><div class="hl">A 1 trillion parameter model, with open weights coming</div><div class="src">SOURCE · MISTRAL.AI</div></div></div>
+<div id="sc2" class="clip scene" data-start="20.869" data-duration="9.403" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">03 / 12</div><div class="lab bl">STORY 1 · 1/3 · MISTRAL LARGE 4</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:300px">1T</div><div class="label">parameters</div><div class="note">49 billion active at a time</div></div><div class="factR" id="m2"><div class="persp"><div class="sph"><i style="transform:translate3d(0.0px,250.0px,0.0px)"></i><i style="transform:translate3d(-30.1px,246.6px,27.6px)"></i><i style="transform:translate3d(5.0px,243.3px,-57.3px)"></i><i style="transform:translate3d(42.7px,239.9px,55.7px)"></i><i style="transform:translate3d(-79.6px,236.6px,-14.1px)"></i><i style="transform:translate3d(76.0px,233.2px,-48.3px)"></i><i style="transform:translate3d(-25.5px,229.9px,94.9px)"></i><i style="transform:translate3d(-48.8px,226.5px,-93.9px)"></i><i style="transform:translate3d(105.9px,223.2px,38.7px)"></i><i style="transform:translate3d(-110.1px,219.8px,45.4px)"></i><i style="transform:translate3d(53.0px,216.4px,-113.3px)"></i><i style="transform:translate3d(39.1px,213.1px,124.8px)"></i><i style="transform:translate3d(-117.7px,209.7px,-68.2px)"></i><i style="transform:translate3d(137.8px,206.4px,-30.3px)"></i><i style="transform:translate3d(-83.9px,203.0px,119.3px)"></i><i style="transform:translate3d(-19.3px,199.7px,-149.2px)"></i><i style="transform:translate3d(118.4px,196.3px,99.8px)"></i><i style="transform:translate3d(-158.8px,193.0px,6.6px)"></i><i style="transform:translate3d(115.5px,189.6px,-114.9px)"></i><i style="transform:translate3d(-7.7px,186.2px,166.6px)"></i><i style="transform:translate3d(-109.2px,182.9px,-130.9px)"></i><i style="transform:translate3d(172.4px,179.5px,23.2px)"></i><i style="transform:translate3d(-145.6px,176.2px,101.3px)"></i><i style="transform:translate3d(39.6px,172.8px,-176.2px)"></i><i style="transform:translate3d(91.4px,169.5px,159.5px)"></i><i style="transform:translate3d(-178.0px,166.1px,-56.8px)"></i><i style="transform:translate3d(172.3px,162.8px,-79.6px)"></i><i style="transform:translate3d(-74.4px,159.4px,177.7px)"></i><i style="transform:translate3d(-66.1px,156.0px,-183.8px)"></i><i style="transform:translate3d(175.2px,152.7px,92.1px)"></i><i style="transform:translate3d(-193.9px,149.3px,51.1px)"></i><i style="transform:translate3d(109.8px,146.0px,-170.7px)"></i><i style="transform:translate3d(34.8px,142.6px,202.4px)"></i><i style="transform:translate3d(-164.2px,139.3px,-127.1px)"></i><i style="transform:translate3d(209.1px,135.9px,-17.3px)"></i><i style="transform:translate3d(-143.9px,132.6px,155.6px)"></i><i style="transform:translate3d(1.0px,129.2px,-214.0px)"></i><i style="transform:translate3d(145.1px,125.8px,160.0px)"></i><i style="transform:translate3d(-217.0px,122.5px,-20.1px)"></i><i style="transform:translate3d(175.1px,119.1px,-132.9px)"></i><i style="transform:translate3d(-39.7px,115.8px,218.0px)"></i><i style="transform:translate3d(-118.9px,112.4px,-189.0px)"></i><i style="transform:translate3d(217.0px,109.1px,59.5px)"></i><i style="transform:translate3d(-201.6px,105.7px,103.4px)"></i><i style="transform:translate3d(79.3px,102.3px,-213.9px)"></i><i style="transform:translate3d(86.6px,99.0px,212.6px)"></i><i style="transform:translate3d(-208.7px,95.6px,-98.9px)"></i><i style="transform:translate3d(222.0px,92.3px,-68.5px)"></i><i style="transform:translate3d(-118.1px,88.9px,201.6px)"></i><i style="transform:translate3d(-49.3px,85.6px,-229.7px)"></i><i style="transform:translate3d(192.5px,82.2px,136.7px)"></i><i style="transform:translate3d(-235.4px,78.9px,29.3px)"></i><i style="transform:translate3d(154.5px,75.5px,-181.5px)"></i><i style="transform:translate3d(8.7px,72.1px,239.2px)"></i><i style="transform:translate3d(-168.7px,68.8px,-171.2px)"></i><i style="transform:translate3d(241.0px,65.4px,12.3px)"></i><i style="transform:translate3d(-186.7px,62.1px,154.3px)"></i><i style="transform:translate3d(33.6px,58.7px,-240.7px)"></i><i style="transform:translate3d(138.3px,55.4px,200.8px)"></i><i style="transform:translate3d(-238.3px,52.0px,-54.8px)"></i><i style="transform:translate3d(213.4px,48.7px,-120.9px)"></i><i style="transform:translate3d(-75.9px,45.3px,233.9px)"></i><i style="transform:translate3d(-102.3px,41.9px,-224.2px)"></i><i style="transform:translate3d(227.4px,38.6px,96.5px)"></i><i style="transform:translate3d(-233.3px,35.2px,82.6px)"></i><i style="transform:translate3d(116.4px,31.9px,-218.9px)"></i><i style="transform:translate3d(62.1px,28.5px,240.5px)"></i><i style="transform:translate3d(-208.6px,25.2px,-135.5px)"></i><i style="transform:translate3d(245.7px,21.8px,-41.0px)"></i><i style="transform:translate3d(-153.6px,18.5px,196.4px)"></i><i style="transform:translate3d(-19.4px,15.1px,-248.8px)"></i><i style="transform:translate3d(182.5px,11.7px,170.5px)"></i><i style="transform:translate3d(-249.8px,8.4px,-2.4px)"></i><i style="transform:translate3d(185.9px,5.0px,-167.0px)"></i><i style="transform:translate3d(-24.3px,1.7px,248.8px)"></i><i style="transform:translate3d(-150.2px,-1.7px,-199.9px)"></i><i style="transform:translate3d(245.7px,-5.0px,45.9px)"></i><i style="transform:translate3d(-212.1px,-8.4px,132.0px)"></i><i style="transform:translate3d(67.2px,-11.7px,-240.5px)"></i><i style="transform:translate3d(112.9px,-15.1px,222.6px)"></i><i style="transform:translate3d(-233.3px,-18.5px,-87.8px)"></i><i style="transform:translate3d(231.1px,-21.8px,-92.8px)"></i><i style="transform:translate3d(-107.6px,-25.2px,224.2px)"></i><i style="transform:translate3d(-72.0px,-28.5px,-237.7px)"></i><i style="transform:translate3d(213.3px,-31.9px,126.4px)"></i><i style="transform:translate3d(-242.2px,-35.2px,50.8px)"></i><i style="transform:translate3d(144.0px,-38.6px,-200.7px)"></i><i style="transform:translate3d(29.3px,-41.9px,244.7px)"></i><i style="transform:translate3d(-186.4px,-45.3px,-160.3px)"></i><i style="transform:translate3d(245.1px,-48.7px,-7.7px)"></i><i style="transform:translate3d(-175.0px,-52.0px,170.8px)"></i><i style="transform:translate3d(13.6px,-55.4px,-243.4px)"></i><i style="transform:translate3d(153.9px,-58.7px,188.1px)"></i><i style="transform:translate3d(-239.7px,-62.1px,-34.6px)"></i><i style="transform:translate3d(199.4px,-65.4px,-135.9px)"></i><i style="transform:translate3d(-55.0px,-68.8px,234.0px)"></i><i style="transform:translate3d(-117.0px,-72.1px,-208.8px)"></i><i style="transform:translate3d(226.3px,-75.5px,74.6px)"></i><i style="transform:translate3d(-216.3px,-78.9px,97.4px)"></i><i style="transform:translate3d(93.3px,-82.2px,-216.9px)"></i><i style="transform:translate3d(77.3px,-85.6px,221.8px)"></i><i style="transform:translate3d(-205.8px,-88.9px,-110.7px)"></i><i style="transform:translate3d(225.2px,-92.3px,-57.0px)"></i><i style="transform:translate3d(-126.8px,-95.6px,193.1px)"></i><i style="transform:translate3d(-36.7px,-99.0px,-226.6px)"></i><i style="transform:translate3d(179.0px,-102.3px,141.4px)"></i><i style="transform:translate3d(-226.0px,-105.7px,16.5px)"></i><i style="transform:translate3d(154.4px,-109.1px,-163.6px)"></i><i style="transform:translate3d(-3.3px,-112.4px,223.3px)"></i><i style="transform:translate3d(-147.3px,-115.8px,-165.6px)"></i><i style="transform:translate3d(218.6px,-119.1px,22.4px)"></i><i style="transform:translate3d(-174.9px,-122.5px,130.1px)"></i><i style="transform:translate3d(40.7px,-125.8px,-212.1px)"></i><i style="transform:translate3d(112.2px,-129.2px,182.2px)"></i><i style="transform:translate3d(-203.9px,-132.6px,-58.0px)"></i><i style="transform:translate3d(187.6px,-135.9px,-94.0px)"></i><i style="transform:translate3d(-74.1px,-139.3px,194.0px)"></i><i style="transform:translate3d(-75.6px,-142.6px,-190.9px)"></i><i style="transform:translate3d(182.5px,-146.0px,88.7px)"></i><i style="transform:translate3d(-192.2px,-149.3px,57.2px)"></i><i style="transform:translate3d(101.7px,-152.7px,-169.8px)"></i><i style="transform:translate3d(39.1px,-156.0px,191.4px)"></i><i style="transform:translate3d(-155.9px,-159.4px,-113.1px)"></i><i style="transform:translate3d(188.5px,-162.8px,-21.6px)"></i><i style="transform:translate3d(-122.5px,-166.1px,141.1px)"></i><i style="transform:translate3d(-4.9px,-169.5px,-183.7px)"></i><i style="transform:translate3d(125.5px,-172.8px,129.9px)"></i><i style="transform:translate3d(-177.0px,-176.2px,-10.8px)"></i><i style="transform:translate3d(135.2px,-179.5px,-109.5px)"></i><i style="transform:translate3d(-25.2px,-182.9px,168.6px)"></i><i style="transform:translate3d(-93.2px,-186.2px,-138.3px)"></i><i style="transform:translate3d(158.4px,-189.6px,38.1px)"></i><i style="transform:translate3d(-139.1px,-193.0px,77.0px)"></i><i style="transform:translate3d(49.2px,-196.3px,-146.8px)"></i><i style="transform:translate3d(61.1px,-199.7px,137.5px)"></i><i style="transform:translate3d(-133.7px,-203.0px,-58.3px)"></i><i style="transform:translate3d(133.5px,-206.4px,-45.8px)"></i><i style="transform:translate3d(-65.1px,-209.7px,119.5px)"></i><i style="transform:translate3d(-31.5px,-213.1px,-126.9px)"></i><i style="transform:translate3d(104.2px,-216.4px,69.2px)"></i><i style="transform:translate3d(-117.7px,-219.8px,18.5px)"></i><i style="transform:translate3d(70.3px,-223.2px,-88.1px)"></i><i style="transform:translate3d(7.2px,-226.5px,105.6px)"></i><i style="transform:translate3d(-71.2px,-229.9px,-67.8px)"></i><i style="transform:translate3d(90.0px,-233.2px,1.8px)"></i><i style="transform:translate3d(-60.6px,-236.6px,53.4px)"></i><i style="transform:translate3d(7.5px,-239.9px,-69.8px)"></i><i style="transform:translate3d(34.1px,-243.3px,46.3px)"></i><i style="transform:translate3d(-40.1px,-246.6px,-7.9px)"></i><i style="transform:translate3d(0.0px,-250.0px,0.0px)"></i></div></div><div class="cdot"></div></div></div>
+<div id="sc3" class="clip scene" data-start="30.272" data-duration="7.632" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">04 / 12</div><div class="lab bl">STORY 1 · 2/3 · MISTRAL LARGE 4</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:215px">$1.36</div><div class="label">per million input tokens</div><div class="note">$4.18 per million output</div></div><div class="factR" id="m3"><div class="rings"><svg class="rg rg0" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="60" fill="none" class="st1" stroke-width="6" stroke-dasharray="20 14" /></svg><svg class="rg rg1" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="110" fill="none" class="st2" stroke-width="3" stroke-dasharray="34 23" /></svg><svg class="rg rg2" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="160" fill="none" class="st1" stroke-width="6" stroke-dasharray="48 32" /></svg><svg class="rg rg3" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="210" fill="none" class="st1" stroke-width="3" stroke-dasharray="62 41" /></svg><svg class="rg rg4" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="260" fill="none" class="st2" stroke-width="6" stroke-dasharray="76 50" /></svg><svg class="rg rg5" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="310" fill="none" class="st1" stroke-width="3" stroke-dasharray="90 59" /></svg><svg class="rg rg6" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="360" fill="none" class="st1" stroke-width="6" stroke-dasharray="104 68" /></svg></div><div class="cdot"></div></div></div>
+<div id="sc4" class="clip scene" data-start="37.904" data-duration="6.309" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">05 / 12</div><div class="lab bl">STORY 1 · 3/3 · MISTRAL LARGE 4</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:300px">OCT</div><div class="label">open weights</div><div class="note">due by the end of this month</div></div><div class="factR" id="m4"><div class="bars"><i class="bar b0"></i><i class="bar b1"></i><i class="bar b2"></i><i class="bar b3"></i><i class="bar b4"></i><i class="bar b5 hot"></i><i class="bar b6"></i><i class="bar b7"></i><i class="bar b8"></i><i class="bar b9"></i><i class="bar b10"></i></div></div></div>
+<div id="sc5" class="clip scene" data-start="44.213" data-duration="4.795" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">06 / 12</div><div class="lab bl">STORY 2 · CHATGPT ADS</div><div class="lab br">7 OCT 2026</div><div class="headw"><div class="num">STORY 02 / 03</div><div class="wordrow" style="font-size:293px"><span class="lt lt0">O</span><span class="lt lt1">P</span><span class="lt lt2">E</span><span class="lt lt3">N</span><span class="lt lt4">A</span><span class="lt lt5">I</span><span class="pdot"></span></div><div class="hl">Ads are coming to ChatGPT's image generator</div><div class="src">SOURCE · BLEEPINGCOMPUTER</div></div></div>
+<div id="sc6" class="clip scene" data-start="49.008" data-duration="10.64" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">07 / 12</div><div class="lab bl">STORY 2 · 1/2 · CHATGPT ADS</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:300px">ADS</div><div class="label">during image generation</div><div class="note">US test starts this month</div></div><div class="factR" id="m6"><div class="grid"><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i></div></div></div>
+<div id="sc7" class="clip scene" data-start="59.648" data-duration="12.645" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">08 / 12</div><div class="lab bl">STORY 2 · 2/2 · CHATGPT ADS</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:269px">1.2B</div><div class="label">weekly users</div><div class="note">reported by BleepingComputer</div></div><div class="factR" id="m7"><div class="rings"><svg class="rg rg0" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="60" fill="none" class="st1" stroke-width="6" stroke-dasharray="20 14" /></svg><svg class="rg rg1" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="110" fill="none" class="st2" stroke-width="3" stroke-dasharray="34 23" /></svg><svg class="rg rg2" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="160" fill="none" class="st1" stroke-width="6" stroke-dasharray="48 32" /></svg><svg class="rg rg3" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="210" fill="none" class="st1" stroke-width="3" stroke-dasharray="62 41" /></svg><svg class="rg rg4" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="260" fill="none" class="st2" stroke-width="6" stroke-dasharray="76 50" /></svg><svg class="rg rg5" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="310" fill="none" class="st1" stroke-width="3" stroke-dasharray="90 59" /></svg><svg class="rg rg6" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="360" fill="none" class="st1" stroke-width="6" stroke-dasharray="104 68" /></svg></div><div class="cdot"></div></div></div>
+<div id="sc8" class="clip scene" data-start="72.293" data-duration="5.926" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">09 / 12</div><div class="lab bl">STORY 3 · GOOGLE NUCLEAR DEAL</div><div class="lab br">7 OCT 2026</div><div class="headw"><div class="num">STORY 03 / 03</div><div class="wordrow" style="font-size:293px"><span class="lt lt0">G</span><span class="lt lt1">O</span><span class="lt lt2">O</span><span class="lt lt3">G</span><span class="lt lt4">L</span><span class="lt lt5">E</span><span class="pdot"></span></div><div class="hl">A 20-year nuclear power deal for AI data centers</div><div class="src">SOURCE · AXIOS</div></div></div>
+<div id="sc9" class="clip scene" data-start="78.219" data-duration="9.616" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">10 / 12</div><div class="lab bl">STORY 3 · 1/2 · GOOGLE NUCLEAR DEAL</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:300px">890</div><div class="label">megawatts of new capacity</div><div class="note">from upgrades at 11 nuclear units</div></div><div class="factR" id="m9"><div class="persp"><div class="sph"><i style="transform:translate3d(0.0px,250.0px,0.0px)"></i><i style="transform:translate3d(-30.1px,246.6px,27.6px)"></i><i style="transform:translate3d(5.0px,243.3px,-57.3px)"></i><i style="transform:translate3d(42.7px,239.9px,55.7px)"></i><i style="transform:translate3d(-79.6px,236.6px,-14.1px)"></i><i style="transform:translate3d(76.0px,233.2px,-48.3px)"></i><i style="transform:translate3d(-25.5px,229.9px,94.9px)"></i><i style="transform:translate3d(-48.8px,226.5px,-93.9px)"></i><i style="transform:translate3d(105.9px,223.2px,38.7px)"></i><i style="transform:translate3d(-110.1px,219.8px,45.4px)"></i><i style="transform:translate3d(53.0px,216.4px,-113.3px)"></i><i style="transform:translate3d(39.1px,213.1px,124.8px)"></i><i style="transform:translate3d(-117.7px,209.7px,-68.2px)"></i><i style="transform:translate3d(137.8px,206.4px,-30.3px)"></i><i style="transform:translate3d(-83.9px,203.0px,119.3px)"></i><i style="transform:translate3d(-19.3px,199.7px,-149.2px)"></i><i style="transform:translate3d(118.4px,196.3px,99.8px)"></i><i style="transform:translate3d(-158.8px,193.0px,6.6px)"></i><i style="transform:translate3d(115.5px,189.6px,-114.9px)"></i><i style="transform:translate3d(-7.7px,186.2px,166.6px)"></i><i style="transform:translate3d(-109.2px,182.9px,-130.9px)"></i><i style="transform:translate3d(172.4px,179.5px,23.2px)"></i><i style="transform:translate3d(-145.6px,176.2px,101.3px)"></i><i style="transform:translate3d(39.6px,172.8px,-176.2px)"></i><i style="transform:translate3d(91.4px,169.5px,159.5px)"></i><i style="transform:translate3d(-178.0px,166.1px,-56.8px)"></i><i style="transform:translate3d(172.3px,162.8px,-79.6px)"></i><i style="transform:translate3d(-74.4px,159.4px,177.7px)"></i><i style="transform:translate3d(-66.1px,156.0px,-183.8px)"></i><i style="transform:translate3d(175.2px,152.7px,92.1px)"></i><i style="transform:translate3d(-193.9px,149.3px,51.1px)"></i><i style="transform:translate3d(109.8px,146.0px,-170.7px)"></i><i style="transform:translate3d(34.8px,142.6px,202.4px)"></i><i style="transform:translate3d(-164.2px,139.3px,-127.1px)"></i><i style="transform:translate3d(209.1px,135.9px,-17.3px)"></i><i style="transform:translate3d(-143.9px,132.6px,155.6px)"></i><i style="transform:translate3d(1.0px,129.2px,-214.0px)"></i><i style="transform:translate3d(145.1px,125.8px,160.0px)"></i><i style="transform:translate3d(-217.0px,122.5px,-20.1px)"></i><i style="transform:translate3d(175.1px,119.1px,-132.9px)"></i><i style="transform:translate3d(-39.7px,115.8px,218.0px)"></i><i style="transform:translate3d(-118.9px,112.4px,-189.0px)"></i><i style="transform:translate3d(217.0px,109.1px,59.5px)"></i><i style="transform:translate3d(-201.6px,105.7px,103.4px)"></i><i style="transform:translate3d(79.3px,102.3px,-213.9px)"></i><i style="transform:translate3d(86.6px,99.0px,212.6px)"></i><i style="transform:translate3d(-208.7px,95.6px,-98.9px)"></i><i style="transform:translate3d(222.0px,92.3px,-68.5px)"></i><i style="transform:translate3d(-118.1px,88.9px,201.6px)"></i><i style="transform:translate3d(-49.3px,85.6px,-229.7px)"></i><i style="transform:translate3d(192.5px,82.2px,136.7px)"></i><i style="transform:translate3d(-235.4px,78.9px,29.3px)"></i><i style="transform:translate3d(154.5px,75.5px,-181.5px)"></i><i style="transform:translate3d(8.7px,72.1px,239.2px)"></i><i style="transform:translate3d(-168.7px,68.8px,-171.2px)"></i><i style="transform:translate3d(241.0px,65.4px,12.3px)"></i><i style="transform:translate3d(-186.7px,62.1px,154.3px)"></i><i style="transform:translate3d(33.6px,58.7px,-240.7px)"></i><i style="transform:translate3d(138.3px,55.4px,200.8px)"></i><i style="transform:translate3d(-238.3px,52.0px,-54.8px)"></i><i style="transform:translate3d(213.4px,48.7px,-120.9px)"></i><i style="transform:translate3d(-75.9px,45.3px,233.9px)"></i><i style="transform:translate3d(-102.3px,41.9px,-224.2px)"></i><i style="transform:translate3d(227.4px,38.6px,96.5px)"></i><i style="transform:translate3d(-233.3px,35.2px,82.6px)"></i><i style="transform:translate3d(116.4px,31.9px,-218.9px)"></i><i style="transform:translate3d(62.1px,28.5px,240.5px)"></i><i style="transform:translate3d(-208.6px,25.2px,-135.5px)"></i><i style="transform:translate3d(245.7px,21.8px,-41.0px)"></i><i style="transform:translate3d(-153.6px,18.5px,196.4px)"></i><i style="transform:translate3d(-19.4px,15.1px,-248.8px)"></i><i style="transform:translate3d(182.5px,11.7px,170.5px)"></i><i style="transform:translate3d(-249.8px,8.4px,-2.4px)"></i><i style="transform:translate3d(185.9px,5.0px,-167.0px)"></i><i style="transform:translate3d(-24.3px,1.7px,248.8px)"></i><i style="transform:translate3d(-150.2px,-1.7px,-199.9px)"></i><i style="transform:translate3d(245.7px,-5.0px,45.9px)"></i><i style="transform:translate3d(-212.1px,-8.4px,132.0px)"></i><i style="transform:translate3d(67.2px,-11.7px,-240.5px)"></i><i style="transform:translate3d(112.9px,-15.1px,222.6px)"></i><i style="transform:translate3d(-233.3px,-18.5px,-87.8px)"></i><i style="transform:translate3d(231.1px,-21.8px,-92.8px)"></i><i style="transform:translate3d(-107.6px,-25.2px,224.2px)"></i><i style="transform:translate3d(-72.0px,-28.5px,-237.7px)"></i><i style="transform:translate3d(213.3px,-31.9px,126.4px)"></i><i style="transform:translate3d(-242.2px,-35.2px,50.8px)"></i><i style="transform:translate3d(144.0px,-38.6px,-200.7px)"></i><i style="transform:translate3d(29.3px,-41.9px,244.7px)"></i><i style="transform:translate3d(-186.4px,-45.3px,-160.3px)"></i><i style="transform:translate3d(245.1px,-48.7px,-7.7px)"></i><i style="transform:translate3d(-175.0px,-52.0px,170.8px)"></i><i style="transform:translate3d(13.6px,-55.4px,-243.4px)"></i><i style="transform:translate3d(153.9px,-58.7px,188.1px)"></i><i style="transform:translate3d(-239.7px,-62.1px,-34.6px)"></i><i style="transform:translate3d(199.4px,-65.4px,-135.9px)"></i><i style="transform:translate3d(-55.0px,-68.8px,234.0px)"></i><i style="transform:translate3d(-117.0px,-72.1px,-208.8px)"></i><i style="transform:translate3d(226.3px,-75.5px,74.6px)"></i><i style="transform:translate3d(-216.3px,-78.9px,97.4px)"></i><i style="transform:translate3d(93.3px,-82.2px,-216.9px)"></i><i style="transform:translate3d(77.3px,-85.6px,221.8px)"></i><i style="transform:translate3d(-205.8px,-88.9px,-110.7px)"></i><i style="transform:translate3d(225.2px,-92.3px,-57.0px)"></i><i style="transform:translate3d(-126.8px,-95.6px,193.1px)"></i><i style="transform:translate3d(-36.7px,-99.0px,-226.6px)"></i><i style="transform:translate3d(179.0px,-102.3px,141.4px)"></i><i style="transform:translate3d(-226.0px,-105.7px,16.5px)"></i><i style="transform:translate3d(154.4px,-109.1px,-163.6px)"></i><i style="transform:translate3d(-3.3px,-112.4px,223.3px)"></i><i style="transform:translate3d(-147.3px,-115.8px,-165.6px)"></i><i style="transform:translate3d(218.6px,-119.1px,22.4px)"></i><i style="transform:translate3d(-174.9px,-122.5px,130.1px)"></i><i style="transform:translate3d(40.7px,-125.8px,-212.1px)"></i><i style="transform:translate3d(112.2px,-129.2px,182.2px)"></i><i style="transform:translate3d(-203.9px,-132.6px,-58.0px)"></i><i style="transform:translate3d(187.6px,-135.9px,-94.0px)"></i><i style="transform:translate3d(-74.1px,-139.3px,194.0px)"></i><i style="transform:translate3d(-75.6px,-142.6px,-190.9px)"></i><i style="transform:translate3d(182.5px,-146.0px,88.7px)"></i><i style="transform:translate3d(-192.2px,-149.3px,57.2px)"></i><i style="transform:translate3d(101.7px,-152.7px,-169.8px)"></i><i style="transform:translate3d(39.1px,-156.0px,191.4px)"></i><i style="transform:translate3d(-155.9px,-159.4px,-113.1px)"></i><i style="transform:translate3d(188.5px,-162.8px,-21.6px)"></i><i style="transform:translate3d(-122.5px,-166.1px,141.1px)"></i><i style="transform:translate3d(-4.9px,-169.5px,-183.7px)"></i><i style="transform:translate3d(125.5px,-172.8px,129.9px)"></i><i style="transform:translate3d(-177.0px,-176.2px,-10.8px)"></i><i style="transform:translate3d(135.2px,-179.5px,-109.5px)"></i><i style="transform:translate3d(-25.2px,-182.9px,168.6px)"></i><i style="transform:translate3d(-93.2px,-186.2px,-138.3px)"></i><i style="transform:translate3d(158.4px,-189.6px,38.1px)"></i><i style="transform:translate3d(-139.1px,-193.0px,77.0px)"></i><i style="transform:translate3d(49.2px,-196.3px,-146.8px)"></i><i style="transform:translate3d(61.1px,-199.7px,137.5px)"></i><i style="transform:translate3d(-133.7px,-203.0px,-58.3px)"></i><i style="transform:translate3d(133.5px,-206.4px,-45.8px)"></i><i style="transform:translate3d(-65.1px,-209.7px,119.5px)"></i><i style="transform:translate3d(-31.5px,-213.1px,-126.9px)"></i><i style="transform:translate3d(104.2px,-216.4px,69.2px)"></i><i style="transform:translate3d(-117.7px,-219.8px,18.5px)"></i><i style="transform:translate3d(70.3px,-223.2px,-88.1px)"></i><i style="transform:translate3d(7.2px,-226.5px,105.6px)"></i><i style="transform:translate3d(-71.2px,-229.9px,-67.8px)"></i><i style="transform:translate3d(90.0px,-233.2px,1.8px)"></i><i style="transform:translate3d(-60.6px,-236.6px,53.4px)"></i><i style="transform:translate3d(7.5px,-239.9px,-69.8px)"></i><i style="transform:translate3d(34.1px,-243.3px,46.3px)"></i><i style="transform:translate3d(-40.1px,-246.6px,-7.9px)"></i><i style="transform:translate3d(0.0px,-250.0px,0.0px)"></i></div></div><div class="cdot"></div></div></div>
+<div id="sc10" class="clip scene" data-start="87.835" data-duration="8.997" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">11 / 12</div><div class="lab bl">STORY 3 · 2/2 · GOOGLE NUCLEAR DEAL</div><div class="lab br">7 OCT 2026</div><div class="factL"><div class="big" style="font-size:215px">$4.3B</div><div class="label">investment</div><div class="note">power arrives 2028 to 2032</div></div><div class="factR" id="m10"><div class="grid"><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i></div></div></div>
+<div id="sc11" class="clip scene" data-start="96.832" data-duration="9.667" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">12 / 12</div><div class="lab bl">GYROTEX AI · AI NEWS</div><div class="lab br">7 OCT 2026</div><div class="mid"><div class="shards"><i class="sh sh0" style="width:127px;height:19px;background:#ece6d8"></i><i class="sh sh1" style="width:109px;height:12px;background:#f5c84c"></i><i class="sh sh2" style="width:125px;height:19px;background:#2447f9"></i><i class="sh sh3" style="width:167px;height:12px;background:#ece6d8"></i><i class="sh sh4" style="width:86px;height:15px;background:#f5c84c"></i><i class="sh sh5" style="width:105px;height:36px;background:#2447f9"></i><i class="sh sh6" style="width:98px;height:36px;background:#ece6d8"></i><i class="sh sh7" style="width:111px;height:26px;background:#f5c84c"></i><i class="sh sh8" style="width:122px;height:15px;background:#2447f9"></i><i class="sh sh9" style="width:118px;height:21px;background:#ece6d8"></i><i class="sh sh10" style="width:163px;height:29px;background:#f5c84c"></i><i class="sh sh11" style="width:99px;height:15px;background:#2447f9"></i><i class="sh sh12" style="width:105px;height:34px;background:#ece6d8"></i><i class="sh sh13" style="width:147px;height:31px;background:#f5c84c"></i><i class="sh sh14" style="width:48px;height:17px;background:#2447f9"></i><i class="sh sh15" style="width:156px;height:30px;background:#ece6d8"></i><i class="sh sh16" style="width:31px;height:30px;background:#f5c84c"></i><i class="sh sh17" style="width:53px;height:18px;background:#2447f9"></i><i class="sh sh18" style="width:144px;height:24px;background:#ece6d8"></i><i class="sh sh19" style="width:55px;height:23px;background:#f5c84c"></i><i class="sh sh20" style="width:44px;height:11px;background:#2447f9"></i><i class="sh sh21" style="width:115px;height:22px;background:#ece6d8"></i><i class="sh sh22" style="width:149px;height:34px;background:#f5c84c"></i><i class="sh sh23" style="width:168px;height:20px;background:#2447f9"></i><i class="sh sh24" style="width:141px;height:21px;background:#ece6d8"></i><i class="sh sh25" style="width:144px;height:13px;background:#f5c84c"></i><i class="sh sh26" style="width:141px;height:15px;background:#2447f9"></i><i class="sh sh27" style="width:172px;height:10px;background:#ece6d8"></i></div><div class="wm">GYROTEX AI<span class="pdot"></span></div><div class="line"></div><div class="ask">Which story matters most to you?</div><div class="kick">SUBSCRIBE FOR AI NEWS EVERY DAY</div></div></div>
+<audio id="mix" data-start="0" data-duration="106.499" data-track-index="2" data-volume="1" src="audio/mix.wav"></audio>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#sc0 .dot",{y:-700,scale:.6},{y:0,scale:1,duration:.8,ease:"bounce.out"},0.05);
+tl.fromTo("#sc0 .line",{scaleX:0},{scaleX:1,duration:.5,ease:"power3.out"},0.35);
+tl.fromTo("#sc0 .kick",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},0.600);
+tl.fromTo("#sc0 .host",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},0.900);
+tl.fromTo("#sc0 .ol0",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},2.837);
+tl.fromTo("#sc0 .ol1",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},6.564);
+tl.fromTo("#sc0 .ol2",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},10.292);
+tl.fromTo("#sc1 .lt0",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.065);
+tl.fromTo("#sc1 .lt1",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.155);
+tl.fromTo("#sc1 .lt2",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.245);
+tl.fromTo("#sc1 .lt3",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.335);
+tl.fromTo("#sc1 .lt4",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.425);
+tl.fromTo("#sc1 .lt5",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.515);
+tl.fromTo("#sc1 .lt6",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},15.605);
+tl.fromTo("#sc1 .pdot",{scale:0},{scale:1,duration:.3,ease:"back.out(3)"},15.745);
+tl.fromTo("#sc1 .num",{autoAlpha:0,x:0,y:-20},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},15.015);
+tl.fromTo("#sc1 .hl",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},15.965);
+tl.fromTo("#sc1 .src",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},16.565);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},17.4);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},18);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},18.6);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},19.2);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},19.8);
+tl.fromTo("#sc1 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},20.4);
+tl.fromTo("#sc2 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},20.919);
+tl.fromTo("#sc2 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},21.369);
+tl.fromTo("#sc2 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},22.269);
+tl.fromTo("#m2 .sph",{rotationY:-20,rotationX:-18},{rotationY:280.896,rotationX:14,duration:9.403,ease:"none"},20.869);
+tl.fromTo("#m2 .sph",{scale:.2},{scale:1,duration:.5,ease:"back.out(1.6)"},20.869);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},21.6);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},22.2);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},22.8);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},23.4);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},24);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},24.6);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},25.2);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},25.8);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},26.4);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},27);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},27.6);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},28.2);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},28.8);
+tl.fromTo("#m2 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},29.4);
+tl.fromTo("#sc3 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},30.322);
+tl.fromTo("#sc3 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},30.772);
+tl.fromTo("#sc3 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},31.672);
+tl.fromTo("#m3 .rg0",{rotation:0},{rotation:168,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg0",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.272);
+tl.fromTo("#m3 .rg1",{rotation:25},{rotation:-181,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg1",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.312);
+tl.fromTo("#m3 .rg2",{rotation:50},{rotation:294,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg2",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.352);
+tl.fromTo("#m3 .rg3",{rotation:75},{rotation:-207,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg3",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.392);
+tl.fromTo("#m3 .rg4",{rotation:100},{rotation:421,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg4",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.432);
+tl.fromTo("#m3 .rg5",{rotation:125},{rotation:-234,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg5",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.472);
+tl.fromTo("#m3 .rg6",{rotation:150},{rotation:547,duration:7.632,ease:"none"},30.272);
+tl.fromTo("#m3 .rg6",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},30.512);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},31.2);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},31.8);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},32.4);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},33);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},33.6);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},34.2);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},34.8);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},35.4);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},36);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},36.6);
+tl.fromTo("#m3 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},37.2);
+tl.fromTo("#sc4 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},37.954);
+tl.fromTo("#sc4 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},38.404);
+tl.fromTo("#sc4 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},39.304);
+tl.fromTo("#m4 .b0",{scaleY:0.04},{scaleY:0.45,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b1",{scaleY:0.04},{scaleY:0.54,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b2",{scaleY:0.04},{scaleY:0.94,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b3",{scaleY:0.04},{scaleY:0.69,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b4",{scaleY:0.04},{scaleY:0.81,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b5",{scaleY:0.04},{scaleY:0.52,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b6",{scaleY:0.04},{scaleY:0.98,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b7",{scaleY:0.04},{scaleY:0.38,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b8",{scaleY:0.04},{scaleY:0.65,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b9",{scaleY:0.04},{scaleY:0.46,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b10",{scaleY:0.04},{scaleY:0.47,duration:0.330,ease:"expo.out"},37.954);
+tl.fromTo("#m4 .b0",{scaleY:0.45},{scaleY:0.57,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b1",{scaleY:0.54},{scaleY:0.31,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b2",{scaleY:0.94},{scaleY:0.63,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b3",{scaleY:0.69},{scaleY:0.46,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b4",{scaleY:0.81},{scaleY:0.61,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b5",{scaleY:0.52},{scaleY:0.19,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b6",{scaleY:0.98},{scaleY:0.86,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b7",{scaleY:0.38},{scaleY:0.83,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b8",{scaleY:0.65},{scaleY:0.31,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b9",{scaleY:0.46},{scaleY:0.56,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b10",{scaleY:0.47},{scaleY:0.76,duration:0.330,ease:"expo.out"},38.400);
+tl.fromTo("#m4 .b0",{scaleY:0.57},{scaleY:0.78,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b1",{scaleY:0.31},{scaleY:0.77,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b2",{scaleY:0.63},{scaleY:0.83,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b3",{scaleY:0.46},{scaleY:0.17,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b4",{scaleY:0.61},{scaleY:0.59,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b5",{scaleY:0.19},{scaleY:0.18,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b6",{scaleY:0.86},{scaleY:0.28,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b7",{scaleY:0.83},{scaleY:0.6,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b8",{scaleY:0.31},{scaleY:0.7,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b9",{scaleY:0.56},{scaleY:0.62,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b10",{scaleY:0.76},{scaleY:0.52,duration:0.330,ease:"expo.out"},39.000);
+tl.fromTo("#m4 .b0",{scaleY:0.78},{scaleY:0.53,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b1",{scaleY:0.77},{scaleY:0.49,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b2",{scaleY:0.83},{scaleY:0.54,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b3",{scaleY:0.17},{scaleY:0.59,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b4",{scaleY:0.59},{scaleY:0.92,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b5",{scaleY:0.18},{scaleY:0.59,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b6",{scaleY:0.28},{scaleY:0.54,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b7",{scaleY:0.6},{scaleY:0.71,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b8",{scaleY:0.7},{scaleY:0.85,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b9",{scaleY:0.62},{scaleY:0.78,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b10",{scaleY:0.52},{scaleY:0.96,duration:0.330,ease:"expo.out"},39.600);
+tl.fromTo("#m4 .b0",{scaleY:0.53},{scaleY:0.54,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b1",{scaleY:0.49},{scaleY:0.24,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b2",{scaleY:0.54},{scaleY:0.65,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b3",{scaleY:0.59},{scaleY:0.89,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b4",{scaleY:0.92},{scaleY:0.39,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b5",{scaleY:0.59},{scaleY:0.91,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b6",{scaleY:0.54},{scaleY:0.72,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b7",{scaleY:0.71},{scaleY:0.58,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b8",{scaleY:0.85},{scaleY:0.9,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b9",{scaleY:0.78},{scaleY:0.73,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b10",{scaleY:0.96},{scaleY:0.29,duration:0.330,ease:"expo.out"},40.200);
+tl.fromTo("#m4 .b0",{scaleY:0.54},{scaleY:0.73,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b1",{scaleY:0.24},{scaleY:0.9,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b2",{scaleY:0.65},{scaleY:0.77,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b3",{scaleY:0.89},{scaleY:0.55,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b4",{scaleY:0.39},{scaleY:0.36,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b5",{scaleY:0.91},{scaleY:0.31,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b6",{scaleY:0.72},{scaleY:0.97,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b7",{scaleY:0.58},{scaleY:0.38,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b8",{scaleY:0.9},{scaleY:0.66,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b9",{scaleY:0.73},{scaleY:0.66,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b10",{scaleY:0.29},{scaleY:0.71,duration:0.330,ease:"expo.out"},40.800);
+tl.fromTo("#m4 .b0",{scaleY:0.73},{scaleY:0.17,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b1",{scaleY:0.9},{scaleY:0.68,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b2",{scaleY:0.77},{scaleY:0.32,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b3",{scaleY:0.55},{scaleY:0.89,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b4",{scaleY:0.36},{scaleY:0.3,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b5",{scaleY:0.31},{scaleY:0.5,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b6",{scaleY:0.97},{scaleY:0.3,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b7",{scaleY:0.38},{scaleY:0.47,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b8",{scaleY:0.66},{scaleY:0.92,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b9",{scaleY:0.66},{scaleY:0.88,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b10",{scaleY:0.71},{scaleY:0.53,duration:0.330,ease:"expo.out"},41.400);
+tl.fromTo("#m4 .b0",{scaleY:0.17},{scaleY:0.41,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b1",{scaleY:0.68},{scaleY:0.23,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b2",{scaleY:0.32},{scaleY:0.39,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b3",{scaleY:0.89},{scaleY:0.21,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b4",{scaleY:0.3},{scaleY:0.22,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b5",{scaleY:0.5},{scaleY:0.48,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b6",{scaleY:0.3},{scaleY:0.73,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b7",{scaleY:0.47},{scaleY:0.53,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b8",{scaleY:0.92},{scaleY:0.25,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b9",{scaleY:0.88},{scaleY:0.77,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b10",{scaleY:0.53},{scaleY:0.6,duration:0.330,ease:"expo.out"},42.000);
+tl.fromTo("#m4 .b0",{scaleY:0.41},{scaleY:0.56,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b1",{scaleY:0.23},{scaleY:0.96,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b2",{scaleY:0.39},{scaleY:0.54,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b3",{scaleY:0.21},{scaleY:0.67,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b4",{scaleY:0.22},{scaleY:0.27,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b5",{scaleY:0.48},{scaleY:0.61,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b6",{scaleY:0.73},{scaleY:0.7,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b7",{scaleY:0.53},{scaleY:0.72,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b8",{scaleY:0.25},{scaleY:0.47,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b9",{scaleY:0.77},{scaleY:0.46,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b10",{scaleY:0.6},{scaleY:0.44,duration:0.330,ease:"expo.out"},42.600);
+tl.fromTo("#m4 .b0",{scaleY:0.56},{scaleY:0.35,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b1",{scaleY:0.96},{scaleY:0.59,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b2",{scaleY:0.54},{scaleY:0.73,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b3",{scaleY:0.67},{scaleY:0.23,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b4",{scaleY:0.27},{scaleY:0.3,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b5",{scaleY:0.61},{scaleY:0.72,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b6",{scaleY:0.7},{scaleY:0.29,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b7",{scaleY:0.72},{scaleY:0.53,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b8",{scaleY:0.47},{scaleY:0.35,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b9",{scaleY:0.46},{scaleY:0.69,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b10",{scaleY:0.44},{scaleY:0.73,duration:0.330,ease:"expo.out"},43.200);
+tl.fromTo("#m4 .b0",{scaleY:0.35},{scaleY:0.78,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b1",{scaleY:0.59},{scaleY:0.89,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b2",{scaleY:0.73},{scaleY:0.61,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b3",{scaleY:0.23},{scaleY:0.17,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b4",{scaleY:0.3},{scaleY:0.59,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b5",{scaleY:0.72},{scaleY:0.62,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b6",{scaleY:0.29},{scaleY:0.41,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b7",{scaleY:0.53},{scaleY:0.97,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b8",{scaleY:0.35},{scaleY:0.28,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b9",{scaleY:0.69},{scaleY:0.24,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#m4 .b10",{scaleY:0.73},{scaleY:0.41,duration:0.330,ease:"expo.out"},43.800);
+tl.fromTo("#sc5 .lt0",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.313);
+tl.fromTo("#sc5 .lt1",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.403);
+tl.fromTo("#sc5 .lt2",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.493);
+tl.fromTo("#sc5 .lt3",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.583);
+tl.fromTo("#sc5 .lt4",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.673);
+tl.fromTo("#sc5 .lt5",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},44.763);
+tl.fromTo("#sc5 .pdot",{scale:0},{scale:1,duration:.3,ease:"back.out(3)"},44.903);
+tl.fromTo("#sc5 .num",{autoAlpha:0,x:0,y:-20},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},44.263);
+tl.fromTo("#sc5 .hl",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},45.213);
+tl.fromTo("#sc5 .src",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},45.813);
+tl.fromTo("#sc5 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},46.2);
+tl.fromTo("#sc5 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},46.8);
+tl.fromTo("#sc5 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},47.4);
+tl.fromTo("#sc5 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},48);
+tl.fromTo("#sc5 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},48.6);
+tl.fromTo("#sc6 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},49.058);
+tl.fromTo("#sc6 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},49.508);
+tl.fromTo("#sc6 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},50.408);
+tl.fromTo("#m6 .gd",{scale:0},{scale:1,duration:.35,ease:"back.out(2)",stagger:{each:.012,from:"edges",grid:[7,9]}},49.008);
+tl.fromTo("#m6 .gd",{rotation:0,borderRadius:"50%"},{rotation:45,borderRadius:"0%",scale:2.0,duration:.4,ease:"power3.inOut",stagger:{each:.01,from:"center",grid:[7,9]}},52.008);
+tl.fromTo("#m6 .grid",{scale:1},{scale:1.1,duration:7.640,ease:"sine.inOut"},52.008);
+tl.fromTo("#m6 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},53.4);
+tl.fromTo("#m6 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},54);
+tl.fromTo("#m6 .g2",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},54.6);
+tl.fromTo("#m6 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},55.2);
+tl.fromTo("#m6 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},55.8);
+tl.fromTo("#m6 .g2",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},56.4);
+tl.fromTo("#m6 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},57);
+tl.fromTo("#m6 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},57.6);
+tl.fromTo("#m6 .g2",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},58.2);
+tl.fromTo("#m6 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},58.8);
+tl.fromTo("#sc7 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},59.698);
+tl.fromTo("#sc7 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},60.148);
+tl.fromTo("#sc7 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},61.048);
+tl.fromTo("#m7 .rg0",{rotation:0},{rotation:278,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg0",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.648);
+tl.fromTo("#m7 .rg1",{rotation:25},{rotation:-316,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg1",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.688);
+tl.fromTo("#m7 .rg2",{rotation:50},{rotation:455,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg2",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.728);
+tl.fromTo("#m7 .rg3",{rotation:75},{rotation:-393,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg3",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.768);
+tl.fromTo("#m7 .rg4",{rotation:100},{rotation:631,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg4",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.808);
+tl.fromTo("#m7 .rg5",{rotation:125},{rotation:-469,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg5",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.848);
+tl.fromTo("#m7 .rg6",{rotation:150},{rotation:808,duration:12.645,ease:"none"},59.648);
+tl.fromTo("#m7 .rg6",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},59.888);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},60.6);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},61.2);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},61.8);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},62.4);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},63);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},63.6);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},64.2);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},64.8);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},65.4);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},66);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},66.6);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},67.2);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},67.8);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},68.4);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},69);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},69.6);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},70.2);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},70.8);
+tl.fromTo("#m7 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},71.4);
+tl.fromTo("#sc8 .lt0",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.393);
+tl.fromTo("#sc8 .lt1",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.483);
+tl.fromTo("#sc8 .lt2",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.573);
+tl.fromTo("#sc8 .lt3",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.663);
+tl.fromTo("#sc8 .lt4",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.753);
+tl.fromTo("#sc8 .lt5",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},72.843);
+tl.fromTo("#sc8 .pdot",{scale:0},{scale:1,duration:.3,ease:"back.out(3)"},72.983);
+tl.fromTo("#sc8 .num",{autoAlpha:0,x:0,y:-20},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},72.343);
+tl.fromTo("#sc8 .hl",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},73.293);
+tl.fromTo("#sc8 .src",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},73.893);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},74.4);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},75);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},75.6);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},76.2);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},76.8);
+tl.fromTo("#sc8 .pdot",{scale:1},{scale:1.35,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},77.4);
+tl.fromTo("#sc9 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},78.269);
+tl.fromTo("#sc9 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},78.719);
+tl.fromTo("#sc9 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},79.619);
+tl.fromTo("#m9 .sph",{rotationY:-20,rotationX:-18},{rotationY:287.712,rotationX:14,duration:9.616,ease:"none"},78.219);
+tl.fromTo("#m9 .sph",{scale:.2},{scale:1,duration:.5,ease:"back.out(1.6)"},78.219);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},79.2);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},79.8);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},80.4);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},81);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},81.6);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},82.2);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},82.8);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},83.4);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},84);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},84.6);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},85.2);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},85.8);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},86.4);
+tl.fromTo("#m9 .cdot",{scale:1},{scale:1.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},87);
+tl.fromTo("#sc10 .big",{autoAlpha:0,scale:1.3},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},87.885);
+tl.fromTo("#sc10 .label",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},88.335);
+tl.fromTo("#sc10 .note",{autoAlpha:0,x:-60,y:0},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},89.235);
+tl.fromTo("#m10 .gd",{scale:0},{scale:1,duration:.35,ease:"back.out(2)",stagger:{each:.012,from:"start",grid:[7,9]}},87.835);
+tl.fromTo("#m10 .gd",{rotation:0,borderRadius:"50%"},{rotation:45,borderRadius:"0%",scale:2.0,duration:.4,ease:"power3.inOut",stagger:{each:.01,from:"center",grid:[7,9]}},90.835);
+tl.fromTo("#m10 .grid",{scale:1},{scale:1.1,duration:5.997,ease:"sine.inOut"},90.835);
+tl.fromTo("#m10 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},91.8);
+tl.fromTo("#m10 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},92.4);
+tl.fromTo("#m10 .g2",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},93);
+tl.fromTo("#m10 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},93.6);
+tl.fromTo("#m10 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},94.2);
+tl.fromTo("#m10 .g2",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},94.8);
+tl.fromTo("#m10 .g0",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},95.4);
+tl.fromTo("#m10 .g1",{scale:2.0},{scale:2.5,duration:0.300,ease:"power2.out",yoyo:true,repeat:1},96);
+tl.fromTo("#sc11 .sh0",{x:689,y:42,rotation:78,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh1",{x:340,y:-489,rotation:200,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh2",{x:112,y:-546,rotation:309,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh3",{x:-284,y:519,rotation:277,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh4",{x:422,y:582,rotation:193,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh5",{x:698,y:327,rotation:59,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh6",{x:457,y:718,rotation:65,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh7",{x:-690,y:437,rotation:316,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh8",{x:-860,y:-1,rotation:167,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh9",{x:-913,y:301,rotation:104,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh10",{x:-178,y:1015,rotation:178,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh11",{x:-355,y:710,rotation:7,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh12",{x:648,y:-664,rotation:254,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh13",{x:646,y:-346,rotation:197,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh14",{x:589,y:170,rotation:190,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh15",{x:-289,y:664,rotation:288,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh16",{x:413,y:-422,rotation:104,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh17",{x:-675,y:-253,rotation:237,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh18",{x:-635,y:-469,rotation:87,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh19",{x:-394,y:-437,rotation:218,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh20",{x:499,y:695,rotation:355,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh21",{x:252,y:834,rotation:108,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh22",{x:-553,y:772,rotation:228,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh23",{x:689,y:-773,rotation:343,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh24",{x:-767,y:116,rotation:296,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh25",{x:82,y:478,rotation:228,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh26",{x:549,y:-287,rotation:144,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .sh27",{x:-159,y:-940,rotation:93,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:.6,ease:"expo.in"},96.852);
+tl.fromTo("#sc11 .wm",{autoAlpha:0,scale:1.25},{autoAlpha:1,scale:1,duration:.45,ease:"expo.out"},97.432);
+tl.fromTo("#sc11 .pdot",{scale:0},{scale:1,duration:.35,ease:"back.out(3)"},97.832);
+tl.fromTo("#sc11 .line",{scaleX:0},{scaleX:1,duration:.5,ease:"power3.out"},98.132);
+tl.fromTo("#sc11 .ask",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},98.232);
+tl.fromTo("#sc11 .kick",{autoAlpha:0,x:0,y:30},{autoAlpha:1,x:0,y:0,duration:.35,ease:"power3.out"},99.032);
+window.__timelines["main"] = tl; tl.seek(0);
+</script></body></html>

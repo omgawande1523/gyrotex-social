@@ -1,0 +1,3 @@
+node_modules/
+drafts/**/build/audio/*.wav
+drafts/**/build/node_modules/
