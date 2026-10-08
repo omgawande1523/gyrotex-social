@@ -1,0 +1,9 @@
+Tried GPT-6 yet? Comment YES or NO. OpenAI put it in ChatGPT on 7 Oct, and free users get it from 8 Oct.
+
+Paid tiers went first: Plus, Pro, Business and Enterprise. Free and Go follow a day later, according to OpenAI.
+
+For questions that need web search, OpenAI says GPT-6 Instant starts answering 44% sooner, on average, than GPT-5.6 Instant.
+
+The update also adds Intelligent UI, so ChatGPT can reply with charts, forms and tappable buttons inside the chat. OpenAI says more than 1.2 billion people use ChatGPT each week. Source: openai.com.
+
+#GPT6 #ChatGPT #OpenAI
