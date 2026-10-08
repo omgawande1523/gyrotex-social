@@ -1,0 +1,28 @@
+[0:00] GPT six is now in ChatGPT for everyone, including the free plan.
+[0:05] Anthropic's new small model costs ten cents per million input tokens.
+[0:10] And OpenAI publishes new math results written by an AI model.
+[0:14] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:20] First up, OpenAI.
+[0:22] It says more than one point two billion people use ChatGPT each week.
+[0:26] GPT six started rolling out to the paid plans on October seventh.
+[0:31] The Free and Go plans follow from October eighth.
+[0:34] It comes with something OpenAI calls Intelligent UI.
+[0:38] Answers can include buttons, forms and charts that you use right in the chat.
+[0:42] You can also ask it to build a small tool, like a bill splitter.
+[0:46] On questions that need a web search, GPT six Instant starts answering forty four percent sooner, on average, than the previous Instant model.
+[0:56] That number comes from OpenAI's own testing.
+[0:59] Next, Anthropic. It has released Claude Haiku five point five, its new small model.
+[1:04] For prompts up to a hundred thousand tokens, input costs ten cents per million tokens, and output costs fifty cents.
+[1:12] Haiku four point five costs one dollar for input.
+[1:15] Anthropic says the new model costs around seventy five percent less to run on average.
+[1:21] On the OSWorld computer use benchmark, Anthropic reports a score of seventy two point four percent.
+[1:28] Haiku four point five scored fifteen point seven.
+[1:31] It's available now on Anthropic's platform, and on Amazon, Google and Microsoft's clouds.
+[1:37] Finally, OpenAI again. It has released a set of new mathematical results produced by an internal model.
+[1:44] The results are published on GitHub.
+[1:46] Many of the proofs come with a version in Lean, a language that lets a computer check them.
+[1:52] OpenAI says the average result used roughly three hours of ChatGPT Pro thinking.
+[1:58] The model itself isn't public. OpenAI says it's working to release it responsibly.
+[2:04] That's today's AI news.
+[2:06] Which of these three stories matters most to you? Tell me in the comments.
+[2:10] I'm Jenny, and I'll see you tomorrow.

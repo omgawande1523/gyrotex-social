@@ -1,0 +1,75 @@
+{
+ "date": "8 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Now *free*",
+ "sections": [
+  {"kind": "open", "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 8 OCT", "rows": ["GPT-6 reaches every ChatGPT plan", "Claude Haiku 5.5 cuts prices", "OpenAI publishes AI-made math"]},
+   "beats": [
+    {"say": "GPT six is now in ChatGPT for everyone, including the free plan.", "text": "*GPT-6* in ChatGPT, for everyone."},
+    {"say": "Anthropic's new small model costs ten cents per million input tokens.", "text": "Anthropic's new model: *10 cents* in."},
+    {"say": "And OpenAI publishes new math results written by an AI model.", "text": "New *math results,* written by AI."},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]},
+  {"kind": "story", "label": "gpt-6 for everyone", "chapter": "GPT-6 reaches every ChatGPT plan", "source": "openai.com",
+   "card": {"type": "stat", "title": "CHATGPT", "big": "1.2B", "sub": "people use it each week",
+            "rows": [["paid plans", "from 7 Oct"], ["Free and Go", "from 8 Oct"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "First up, OpenAI.", "text": "First up, *OpenAI.*"},
+    {"say": "It says more than one point two billion people use ChatGPT each week.", "text": "More than *1.2 billion* weekly users."},
+    {"say": "GPT six started rolling out to the paid plans on October seventh.", "text": "Paid plans got GPT-6 on *7 October.*"},
+    {"say": "The Free and Go plans follow from October eighth.", "text": "*Free and Go* follow from 8 October."}
+   ]},
+  {"kind": "story", "label": "intelligent ui", "source": "openai.com",
+   "card": {"type": "list", "mark": "tick", "title": "INTELLIGENT UI", "rows": ["Tappable buttons and forms", "Charts inside the answer", "Small tools, like a bill splitter"], "at": [1, 1, 2]},
+   "beats": [
+    {"say": "It comes with something OpenAI calls Intelligent UI.", "text": "It's called *Intelligent UI.*"},
+    {"say": "Answers can include buttons, forms and charts that you use right in the chat.", "text": "*Buttons, forms and charts* in the chat."},
+    {"say": "You can also ask it to build a small tool, like a bill splitter.", "text": "Ask for a *small tool,* like a bill splitter."}
+   ]},
+  {"kind": "story", "label": "the speed", "source": "openai.com",
+   "card": {"type": "stat", "title": "GPT-6 INSTANT", "big": "44%", "sub": "sooner to start answering",
+            "rows": [["compared with", "GPT-5.6 Instant"], ["on", "web search questions"]], "at": [0, 0, 0]},
+   "beats": [
+    {"say": "On questions that need a web search, GPT six Instant starts answering forty four percent sooner, on average, than the previous Instant model.", "text": "It starts answering *44% sooner.*"},
+    {"say": "That number comes from OpenAI's own testing.", "text": "That's from *OpenAI's own* testing."}
+   ]},
+  {"kind": "story", "label": "claude haiku 5.5", "chapter": "Claude Haiku 5.5 cuts prices", "source": "anthropic.com",
+   "card": {"type": "bars", "title": "INPUT PRICE PER MILLION TOKENS", "rows": [{"k": "Haiku 4.5", "v": "$1.00", "pct": 100}, {"k": "Haiku 5.5", "v": "$0.10", "pct": 10, "hot": true}], "at": [2, 1]},
+   "beats": [
+    {"say": "Next, Anthropic. It has released Claude Haiku five point five, its new small model.", "text": "Anthropic releases *Claude Haiku 5.5.*"},
+    {"say": "For prompts up to a hundred thousand tokens, input costs ten cents per million tokens, and output costs fifty cents.", "text": "*10 cents* in, 50 cents out, per million."},
+    {"say": "Haiku four point five costs one dollar for input.", "text": "Haiku 4.5 costs *$1.00* for input."},
+    {"say": "Anthropic says the new model costs around seventy five percent less to run on average.", "text": "Around *75% less* to run, on average."}
+   ]},
+  {"kind": "story", "label": "the benchmark", "source": "anthropic.com",
+   "card": {"type": "bars", "title": "OSWORLD 2.1 · COMPUTER USE", "rows": [{"k": "Haiku 4.5", "v": "15.7%", "pct": 16}, {"k": "Haiku 5.5", "v": "72.4%", "pct": 72, "hot": true}], "at": [1, 0]},
+   "beats": [
+    {"say": "On the OSWorld computer use benchmark, Anthropic reports a score of seventy two point four percent.", "text": "*72.4%* on the OSWorld benchmark."},
+    {"say": "Haiku four point five scored fifteen point seven.", "text": "Haiku 4.5 scored *15.7%.*"},
+    {"say": "It's available now on Anthropic's platform, and on Amazon, Google and Microsoft's clouds.", "text": "Available *now,* on the big three clouds."}
+   ]},
+  {"kind": "story", "label": "ai-made math", "chapter": "OpenAI publishes AI-made math results", "source": "openai.com",
+   "card": {"type": "list", "mark": "tick", "title": "OPENAI · MATH RESULTS", "rows": ["Made by an internal model", "Published on GitHub", "Many proofs checked in Lean"], "at": [0, 1, 2]},
+   "beats": [
+    {"say": "Finally, OpenAI again. It has released a set of new mathematical results produced by an internal model.", "text": "*New math results* from an internal model."},
+    {"say": "The results are published on GitHub.", "text": "Published on *GitHub.*"},
+    {"say": "Many of the proofs come with a version in Lean, a language that lets a computer check them.", "text": "Many proofs are written in *Lean.*"}
+   ]},
+  {"kind": "story", "label": "the compute", "source": "openai.com",
+   "card": {"type": "stat", "title": "AVERAGE RESULT", "big": "3 hrs", "sub": "of ChatGPT Pro thinking, roughly",
+            "rows": [["the model", "not released yet"]], "at": [0, 1]},
+   "beats": [
+    {"say": "OpenAI says the average result used roughly three hours of ChatGPT Pro thinking.", "text": "About *3 hours* of thinking per result."},
+    {"say": "The model itself isn't public. OpenAI says it's working to release it responsibly.", "text": "The model *isn't public* yet."}
+   ]},
+  {"kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Which of these three stories matters most to you? Tell me in the comments.", "text": "Which story matters *most to you?*"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]}
+ ]
+}

@@ -1,0 +1,16 @@
+Today's AI news in about two minutes: GPT-6 and Intelligent UI roll out to every ChatGPT plan including Free, Anthropic releases Claude Haiku 5.5 at 10 cents per million input tokens, and OpenAI publishes new math results made by an AI model.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:20 GPT-6 reaches every ChatGPT plan
+0:59 Claude Haiku 5.5 cuts prices
+1:37 OpenAI publishes AI-made math results
+
+Sources
+GPT-6 and Intelligent UI: https://openai.com/index/gpt-6-for-everyone/
+Claude Haiku 5.5: https://www.anthropic.com/claude-haiku-5-5
+OpenAI math results: https://openai.com/index/sharing-ai-progress-in-mathematics/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/
