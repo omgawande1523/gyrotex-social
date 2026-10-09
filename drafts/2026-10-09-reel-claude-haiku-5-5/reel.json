@@ -1,0 +1,3 @@
+{"date":"9 OCT 2026","topic":"CLAUDE HAIKU 5.5","word":"CLAUDE",
+"facts":[{"big":"$0.10","label":"per million input tokens","note":"Haiku 4.5 was $1.00"},{"big":"90%","label":"below Haiku 4.5 rates","note":"on prompts up to 100,000 tokens"},{"big":"1M","label":"token context window","note":"Haiku 4.5 had 200,000"}],
+"source":"winbuzzer.com","ask":"Would you switch for price? YES or NO"}
