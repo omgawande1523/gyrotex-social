@@ -1,0 +1,87 @@
+{
+ "date": "9 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Nvidia *inside*",
+ "sections": [
+  {"kind": "open", "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 9 OCT", "rows": ["Microsoft's Surface Laptop Ultra", "Anthropic's Cyber Mission", "TSMC's September revenue"]},
+   "beats": [
+    {"say": "Microsoft's new Surface laptop runs on an Nvidia chip, and it starts at two thousand five hundred and ninety nine dollars.", "text": "A Surface laptop on an *Nvidia chip.*"},
+    {"say": "Anthropic will scan open source code for security bugs, for free.", "text": "*Free* security scans for open source."},
+    {"say": "And TSMC's revenue is up more than fifty percent in a year.", "text": "TSMC revenue up *more than 50%.*"},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]},
+  {"kind": "story", "label": "surface laptop ultra", "chapter": "Surface Laptop Ultra with Nvidia RTX Spark", "source": "Windows Central",
+   "card": {"type": "stat", "title": "SURFACE LAPTOP ULTRA", "big": "$2,599", "sub": "starting price",
+            "rows": [["chip", "Nvidia RTX Spark"], ["ships", "October 16"]], "at": [2, 1, 3]},
+   "beats": [
+    {"say": "First up, Microsoft.", "text": "First up, *Microsoft.*"},
+    {"say": "It has opened preorders for the Surface Laptop Ultra, powered by Nvidia's RTX Spark chip.", "text": "Powered by *Nvidia RTX Spark.*"},
+    {"say": "It starts at two thousand five hundred and ninety nine dollars, according to Windows Central.", "text": "It starts at *$2,599.*"},
+    {"say": "Shipments are expected to begin on October sixteenth.", "text": "Ships from *October 16.*"}
+   ]},
+  {"kind": "story", "label": "the configurations", "source": "Windows Central",
+   "card": {"type": "bars", "title": "BASE VS TOP MODEL",
+            "rows": [{"k": "Base, 24GB memory", "v": "$2,599", "pct": 44}, {"k": "Top, 128GB memory", "v": "$5,899.99", "pct": 100, "hot": true}]},
+   "beats": [
+    {"say": "The base model has twenty four gigabytes of unified memory.", "text": "The base model has *24GB* of memory."},
+    {"say": "The top model has one hundred and twenty eight gigabytes, and costs five thousand eight hundred ninety nine dollars and ninety nine cents.", "text": "The top model: *128GB* for $5,899.99."},
+    {"say": "Microsoft is aiming it at creators, AI builders, scientists and engineers.", "text": "Aimed at *AI builders* and engineers."}
+   ]},
+  {"kind": "story", "label": "windows for agents", "source": "Microsoft",
+   "card": {"type": "list", "mark": "tick", "title": "WINDOWS + AI AGENTS",
+            "rows": ["Microsoft Execution Containers", "Now generally available"], "at": [0, 0]},
+   "beats": [
+    {"say": "On the software side, Microsoft Execution Containers are now generally available on Windows.", "text": "*Execution Containers* are now available."},
+    {"say": "Microsoft says Windows has built in controls for what AI agents can access.", "text": "Controls for what *AI agents* can access."}
+   ]},
+  {"kind": "story", "label": "cyber mission", "chapter": "Anthropic launches its Cyber Mission", "source": "anthropic.com",
+   "card": {"type": "list", "mark": "num", "title": "ANTHROPIC CYBER MISSION",
+            "rows": ["Critical infrastructure", "Open source software"], "at": [2, 2]},
+   "beats": [
+    {"say": "Next, Anthropic.", "text": "Next, *Anthropic.*"},
+    {"say": "It has launched the Anthropic Cyber Mission, a long term effort to help defenders secure software and systems.", "text": "A mission to help *defenders.*"},
+    {"say": "It starts with two areas, critical infrastructure and open source software.", "text": "*Critical infrastructure* and open source."}
+   ]},
+  {"kind": "story", "label": "the partners", "source": "anthropic.com",
+   "card": {"type": "stat", "title": "INFRASTRUCTURE DEFENSE PROGRAM", "big": "11", "sub": "founding partners",
+            "rows": [["includes", "CrowdStrike, Deloitte"], ["protects", "power, water, transport"]], "at": [0, 1, 2]},
+   "beats": [
+    {"say": "The Critical Infrastructure Defense Program starts with eleven founding partners.", "text": "*11* founding partners."},
+    {"say": "They include CrowdStrike, Deloitte and Palo Alto Networks.", "text": "CrowdStrike, Deloitte, *Palo Alto Networks.*"},
+    {"say": "They get Claude models, on site engineers and threat research, to protect power grids, water systems and transport networks.", "text": "Protecting *power grids* and water systems."}
+   ]},
+  {"kind": "story", "label": "oss scanner", "source": "anthropic.com",
+   "card": {"type": "list", "mark": "tick", "title": "OSS SCANNER",
+            "rows": ["Opt-in, at no cost", "Reports sent without human review", "Expected true positives: above 90%"]},
+   "beats": [
+    {"say": "For open source, there's OSS Scanner, an opt in service that scans enrolled projects at no cost.", "text": "*OSS Scanner* scans projects at no cost."},
+    {"say": "The reports are written by the model and sent without human review, so they may contain errors.", "text": "Reports come *without human review.*"},
+    {"say": "Anthropic says it expects a true positive rate above ninety percent.", "text": "Expected true positives: *above 90%.*"}
+   ]},
+  {"kind": "story", "label": "tsmc september", "chapter": "TSMC's September revenue jumps 54.6%", "source": "tsmc.com",
+   "card": {"type": "stat", "title": "TSMC · SEPTEMBER 2026", "big": "+54.6%", "sub": "revenue vs September 2025",
+            "rows": [["revenue", "NT$511.86 billion"], ["vs August 2026", "-0.6%"]], "at": [2, 1, 3]},
+   "beats": [
+    {"say": "Finally, TSMC, the Taiwanese chip maker.", "text": "Finally, *TSMC.*"},
+    {"say": "Its September revenue was about five hundred and eleven point eight six billion New Taiwan dollars.", "text": "*NT$511.86 billion* in September."},
+    {"say": "That's up fifty four point six percent from September last year.", "text": "Up *54.6%* from a year ago."},
+    {"say": "It's a small dip from August, down zero point six percent.", "text": "Down *0.6%* from August."}
+   ]},
+  {"kind": "story", "label": "the year so far", "source": "tsmc.com",
+   "card": {"type": "stat", "title": "JANUARY TO SEPTEMBER", "big": "+41.1%", "sub": "vs the same period in 2025",
+            "rows": [["revenue", "NT$3,898.73 billion"]], "at": [1, 0]},
+   "beats": [
+    {"say": "For January through September, revenue totaled three thousand eight hundred ninety eight point seven three billion New Taiwan dollars.", "text": "*NT$3,898.73 billion* so far this year."},
+    {"say": "That's forty one point one percent more than the same period last year.", "text": "*41.1%* more than last year."}
+   ]},
+  {"kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Would you run AI models on a laptop, or keep them in the cloud? Tell me in the comments.", "text": "AI on a *laptop,* or in the cloud?"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]}
+ ]
+}

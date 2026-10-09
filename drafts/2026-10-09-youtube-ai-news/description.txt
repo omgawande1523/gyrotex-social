@@ -1,0 +1,17 @@
+Today's AI news in about two and a half minutes: Microsoft opens preorders for the Surface Laptop Ultra with Nvidia RTX Spark from $2,599, Anthropic launches its Cyber Mission with a free OSS Scanner for open source projects, and TSMC's September revenue rises 54.6% from a year ago.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:21 Surface Laptop Ultra with Nvidia RTX Spark
+1:06 Anthropic launches its Cyber Mission
+1:52 TSMC's September revenue jumps 54.6%
+
+Sources
+Surface Laptop Ultra: https://www.windowscentral.com/hardware/surface/surface-laptop-ultra-preorders-live
+Windows and AI agents: https://news.microsoft.com/source/emea/2026/10/building-windows-for-hybrid-intelligence/
+Anthropic Cyber Mission: https://www.anthropic.com/news/anthropic-cyber-mission
+TSMC September revenue: https://pr.tsmc.com/english/news/3343
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

@@ -1,0 +1,31 @@
+[0:00] Microsoft's new Surface laptop runs on an Nvidia chip, and it starts at two thousand five hundred and ninety nine dollars.
+[0:08] Anthropic will scan open source code for security bugs, for free.
+[0:12] And TSMC's revenue is up more than fifty percent in a year.
+[0:16] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:22] First up, Microsoft.
+[0:23] It has opened preorders for the Surface Laptop Ultra, powered by Nvidia's RTX Spark chip.
+[0:29] It starts at two thousand five hundred and ninety nine dollars, according to Windows Central.
+[0:34] Shipments are expected to begin on October sixteenth.
+[0:38] The base model has twenty four gigabytes of unified memory.
+[0:42] The top model has one hundred and twenty eight gigabytes, and costs five thousand eight hundred ninety nine dollars and ninety nine cents.
+[0:49] Microsoft is aiming it at creators, AI builders, scientists and engineers.
+[0:55] On the software side, Microsoft Execution Containers are now generally available on Windows.
+[1:01] Microsoft says Windows has built in controls for what AI agents can access.
+[1:06] Next, Anthropic.
+[1:08] It has launched the Anthropic Cyber Mission, a long term effort to help defenders secure software and systems.
+[1:14] It starts with two areas, critical infrastructure and open source software.
+[1:19] The Critical Infrastructure Defense Program starts with eleven founding partners.
+[1:24] They include CrowdStrike, Deloitte and Palo Alto Networks.
+[1:28] They get Claude models, on site engineers and threat research, to protect power grids, water systems and transport networks.
+[1:35] For open source, there's OSS Scanner, an opt in service that scans enrolled projects at no cost.
+[1:42] The reports are written by the model and sent without human review, so they may contain errors.
+[1:47] Anthropic says it expects a true positive rate above ninety percent.
+[1:52] Finally, TSMC, the Taiwanese chip maker.
+[1:55] Its September revenue was about five hundred and eleven point eight six billion New Taiwan dollars.
+[2:02] That's up fifty four point six percent from September last year.
+[2:05] It's a small dip from August, down zero point six percent.
+[2:09] For January through September, revenue totaled three thousand eight hundred ninety eight point seven three billion New Taiwan dollars.
+[2:17] That's forty one point one percent more than the same period last year.
+[2:22] That's today's AI news.
+[2:23] Would you run AI models on a laptop, or keep them in the cloud? Tell me in the comments.
+[2:29] I'm Jenny, and I'll see you tomorrow.
