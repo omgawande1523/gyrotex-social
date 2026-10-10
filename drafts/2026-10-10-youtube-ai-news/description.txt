@@ -1,0 +1,16 @@
+Today's AI news in under two and a half minutes: Anthropic launches Claude Dashboards and Claude Motion in beta, Jev maker TypeSafe raises $870 million at a $7.5 billion valuation led by Andreessen Horowitz, and AI agent maker Manus raises more than $500 million.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:19 Claude Dashboards and Claude Motion
+1:00 TypeSafe raises $870 million for Jev
+1:40 Manus raises over $500 million
+
+Sources
+Claude Dashboards and Motion: https://www.unite.ai/anthropic-launches-claude-dashboards-and-motion-takes-docs-out-of-beta/
+TypeSafe funding: https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation/
+Manus funding: https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

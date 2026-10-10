@@ -1,0 +1,33 @@
+[0:00] Claude can now build live dashboards straight from your company's data.
+[0:04] A startup hits a seven point five billion dollar valuation, less than a month after launching its model.
+[0:10] And Manus raises more than five hundred million dollars.
+[0:14] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:19] First up, Anthropic.
+[0:21] It has launched two new Claude tools in beta, according to Unite AI.
+[0:25] Claude Dashboards builds dashboards from plain-language questions, and keeps them current as the data changes.
+[0:32] Each chart shows the query behind it, and when its data was last refreshed.
+[0:37] It connects to five data platforms, including BigQuery, Databricks and Snowflake.
+[0:42] Dashboards is in beta on paid plans.
+[0:45] The second tool is Claude Motion.
+[0:47] It turns a prompt into a short animation that you can download as a video file.
+[0:52] It writes code instead of using a video generation model, so there's no generated footage.
+[0:57] Motion is in beta on Team and Enterprise plans.
+[1:01] Next, TypeSafe.
+[1:02] The startup behind the Jev AI model has raised eight hundred and seventy million dollars.
+[1:08] That values it at seven point five billion dollars, according to Silicon Angle.
+[1:13] Andreessen Horowitz led the round, which closed less than a month after Jev launched.
+[1:18] Jev doesn't write text. It outputs structured data.
+[1:22] It answers yes or no, picks from a list, or produces a score.
+[1:26] TypeSafe says Jev handles a request in under seven hundred milliseconds.
+[1:30] It claims that's up to two hundred times faster than some frontier language models.
+[1:35] And up to a hundred times more cost-efficient. Those are the company's own numbers.
+[1:40] Finally, Manus.
+[1:41] The AI agent maker's parent company says it has raised more than five hundred million dollars.
+[1:47] Boyu Capital and IDG Capital led the round, according to TechCrunch.
+[1:52] It's the company's first funding round since its split with Meta.
+[1:56] Manus has also launched Manus two point oh, which it describes as a new architecture.
+[2:01] And a new app called Cue gives personal AI agents their own email addresses, phone numbers and digital wallets.
+[2:08] Agents can make payments within limits the user sets.
+[2:12] That's today's AI news.
+[2:14] Which of these three stories matters most to you? Tell me in the comments.
+[2:17] I'm Jenny, and I'll see you tomorrow.

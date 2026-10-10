@@ -1,0 +1,81 @@
+{
+ "date": "10 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "$870 *million*",
+ "sections": [
+  {"kind": "open", "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 10 OCT", "rows": ["Claude Dashboards and Motion", "TypeSafe's $7.5 billion valuation", "Manus raises over $500 million"]},
+   "beats": [
+    {"say": "Claude can now build live dashboards straight from your company's data.", "text": "Claude builds *live dashboards.*"},
+    {"say": "A startup hits a seven point five billion dollar valuation, less than a month after launching its model.", "text": "A *$7.5 billion* startup valuation."},
+    {"say": "And Manus raises more than five hundred million dollars.", "text": "Manus raises over *$500 million.*"},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]},
+  {"kind": "story", "label": "claude dashboards", "chapter": "Claude Dashboards and Claude Motion", "source": "Unite.AI",
+   "card": {"type": "list", "mark": "tick", "title": "CLAUDE DASHBOARDS", "rows": ["Built from plain-language questions", "Shows the query behind each chart", "Shows when data was last refreshed"], "at": [2, 3, 3]},
+   "beats": [
+    {"say": "First up, Anthropic.", "text": "First up, *Anthropic.*"},
+    {"say": "It has launched two new Claude tools in beta, according to Unite AI.", "text": "*Two new* Claude tools, in beta."},
+    {"say": "Claude Dashboards builds dashboards from plain-language questions, and keeps them current as the data changes.", "text": "*Dashboards* from plain-language questions."},
+    {"say": "Each chart shows the query behind it, and when its data was last refreshed.", "text": "Every chart shows *its query.*"}
+   ]},
+  {"kind": "story", "label": "the data", "source": "Unite.AI",
+   "card": {"type": "stat", "title": "CLAUDE DASHBOARDS", "big": "5", "sub": "data platforms", "rows": [["includes", "BigQuery, Databricks, Snowflake"], ["beta on", "paid plans"]], "at": [0, 0, 1]},
+   "beats": [
+    {"say": "It connects to five data platforms, including BigQuery, Databricks and Snowflake.", "text": "Connects to *5 data platforms.*"},
+    {"say": "Dashboards is in beta on paid plans.", "text": "In beta on *paid plans.*"}
+   ]},
+  {"kind": "story", "label": "claude motion", "source": "Unite.AI",
+   "card": {"type": "list", "mark": "tick", "title": "CLAUDE MOTION", "rows": ["Prompt to short animation", "Downloads as MP4", "No video generation model", "Beta: Team and Enterprise"], "at": [1, 1, 2, 3]},
+   "beats": [
+    {"say": "The second tool is Claude Motion.", "text": "The second tool: *Claude Motion.*"},
+    {"say": "It turns a prompt into a short animation that you can download as a video file.", "text": "A prompt becomes a *short animation.*"},
+    {"say": "It writes code instead of using a video generation model, so there's no generated footage.", "text": "It writes code. *No video model.*"},
+    {"say": "Motion is in beta on Team and Enterprise plans.", "text": "Beta on *Team and Enterprise.*"}
+   ]},
+  {"kind": "story", "label": "typesafe", "chapter": "TypeSafe raises $870 million for Jev", "source": "SiliconANGLE",
+   "card": {"type": "stat", "title": "TYPESAFE · MAKER OF JEV", "big": "$870M", "sub": "raised", "rows": [["valuation", "$7.5 billion"], ["led by", "Andreessen Horowitz"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "Next, TypeSafe.", "text": "Next, *TypeSafe.*"},
+    {"say": "The startup behind the Jev AI model has raised eight hundred and seventy million dollars.", "text": "The maker of Jev raises *$870 million.*"},
+    {"say": "That values it at seven point five billion dollars, according to Silicon Angle.", "text": "Valued at *$7.5 billion.*"},
+    {"say": "Andreessen Horowitz led the round, which closed less than a month after Jev launched.", "text": "Led by *Andreessen Horowitz.*"}
+   ]},
+  {"kind": "story", "label": "what jev does", "source": "SiliconANGLE",
+   "card": {"type": "list", "mark": "num", "title": "WHAT JEV RETURNS", "rows": ["A yes or no answer", "A choice from a list", "A score"], "at": [1, 1, 1]},
+   "beats": [
+    {"say": "Jev doesn't write text. It outputs structured data.", "text": "No text. Just *structured data.*"},
+    {"say": "It answers yes or no, picks from a list, or produces a score.", "text": "*Yes or no,* a pick, or a score."}
+   ]},
+  {"kind": "story", "label": "the speed claim", "source": "SiliconANGLE",
+   "card": {"type": "stat", "title": "TYPESAFE'S OWN CLAIMS", "big": "200x", "sub": "faster than some frontier LLMs, at most", "rows": [["response time", "under 700 ms"], ["cost efficiency", "up to 100x"]], "at": [1, 0, 2]},
+   "beats": [
+    {"say": "TypeSafe says Jev handles a request in under seven hundred milliseconds.", "text": "Under *700 milliseconds* per request."},
+    {"say": "It claims that's up to two hundred times faster than some frontier language models.", "text": "Up to *200 times faster,* it claims."},
+    {"say": "And up to a hundred times more cost-efficient. Those are the company's own numbers.", "text": "The *company's own* numbers."}
+   ]},
+  {"kind": "story", "label": "manus", "chapter": "Manus raises over $500 million", "source": "TechCrunch",
+   "card": {"type": "stat", "title": "MANUS · NEW FUNDING", "big": "$500M+", "sub": "raised", "rows": [["led by", "Boyu Capital, IDG Capital"], ["also in", "Tencent, HSG, ZhenFund"]], "at": [1, 2, 2]},
+   "beats": [
+    {"say": "Finally, Manus.", "text": "Finally, *Manus.*"},
+    {"say": "The AI agent maker's parent company says it has raised more than five hundred million dollars.", "text": "More than *$500 million* raised."},
+    {"say": "Boyu Capital and IDG Capital led the round, according to TechCrunch.", "text": "Led by *Boyu Capital* and IDG Capital."},
+    {"say": "It's the company's first funding round since its split with Meta.", "text": "Its first round since the *Meta split.*"}
+   ]},
+  {"kind": "story", "label": "what's new at manus", "source": "TechCrunch",
+   "card": {"type": "list", "mark": "tick", "title": "ALSO FROM MANUS", "rows": ["Manus 2.0, on a new architecture", "Cue: agents get email, phone, wallet", "Payments within limits you set"]},
+   "beats": [
+    {"say": "Manus has also launched Manus two point oh, which it describes as a new architecture.", "text": "*Manus 2.0,* on a new architecture."},
+    {"say": "And a new app called Cue gives personal AI agents their own email addresses, phone numbers and digital wallets.", "text": "*Cue* gives agents email, phone and wallet."},
+    {"say": "Agents can make payments within limits the user sets.", "text": "Payments within *limits you set.*"}
+   ]},
+  {"kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Which of these three stories matters most to you? Tell me in the comments.", "text": "Which story matters *most to you?*"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]}
+ ]
+}
