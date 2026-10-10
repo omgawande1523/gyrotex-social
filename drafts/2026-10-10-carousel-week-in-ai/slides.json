@@ -1,0 +1,7 @@
+[{"k":"cover","kicker":"WEEK OF 5 TO 9 OCT","h":"5 AI stories <em>this week</em>","p":"Two model launches, one open preview, a laptop and a new agent standard."},
+{"k":"stat","big":"GPT-6","h":"1. Now in ChatGPT <em>for everyone</em>","p":"OpenAI opened GPT-6 to all ChatGPT users. A September test was limited to paying subscribers. Source: NewsBytes, 8 Oct."},
+{"k":"stat","big":"$0.10","h":"2. Claude Haiku 5.5 <em>input price</em>","p":"Per million input tokens, on prompts up to 100,000 tokens. Haiku 4.5 was $1. Source: Let's Data Science, 7 Oct."},
+{"k":"stat","big":"1T","h":"3. Mistral Large 4 <em>parameters</em>","p":"Public preview is open: 1 trillion total parameters, 49 billion active. Weights planned by end of October. Source: VKTR, 6 Oct."},
+{"k":"stat","big":"<span style=\"font-size:230px\">$2,599.99</span>","h":"4. Surface Laptop Ultra <em>starts here</em>","p":"Microsoft built it on Nvidia's RTX Spark to run large AI models on the device. On sale 16 Oct. Source: TechRepublic, 7 Oct."},
+{"k":"stat","big":"v0.1","h":"5. Personal Agent <em>Protocol</em>","p":"Sierra and Meta's open standard for how personal AI agents sign in to businesses. Spec due this month. Source: The Next Web, 6 Oct."},
+{"k":"cta","h":"Which story <em>matters most</em>?","p":"Comment the number, 1 to 5."}]

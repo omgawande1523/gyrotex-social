@@ -1,0 +1,11 @@
+GPT-6 reached every ChatGPT user this week, and Claude Haiku 5.5 launched at $0.10 per million input tokens.
+
+OpenAI opened GPT-6 to all ChatGPT users after a September test for paying subscribers, NewsBytes reports. Anthropic's Claude Haiku 5.5 costs $0.10 per million input tokens on prompts up to 100,000 tokens, according to Let's Data Science. Haiku 4.5 was $1.
+
+Mistral opened a public preview of Mistral Large 4 with 1 trillion total parameters, VKTR reports. Microsoft's Surface Laptop Ultra, built on Nvidia's RTX Spark, starts at $2,599.99 and goes on sale 16 Oct, per TechRepublic.
+
+Sierra and Meta announced the Personal Agent Protocol, an open standard for how personal AI agents sign in to businesses, The Next Web reports.
+
+Which story matters most to your work? Comment the number, 1 to 5.
+
+#AINews #GPT6 #ClaudeHaiku
