@@ -1,0 +1,16 @@
+Today's AI news in under two and a half minutes: Microsoft launches Microsoft-Decision-1, a decision model priced from $0.042 per million input tokens, Cloudflare buys Deno and will shut down Deno Deploy in six months, and a 1,222-person study finds people solve fewer problems once AI help is taken away.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:18 Microsoft-Decision-1: a model that only decides
+1:02 Cloudflare buys Deno
+1:38 Study: AI help and giving up
+
+Sources
+Microsoft-Decision-1: https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/
+Cloudflare buys Deno: https://www.forbes.com/sites/janakirammsv/2026/10/10/cloudflare-buys-deno-to-run-its-workers-platform-on-your-own-servers/
+AI and persistence study: https://www.eurekalert.org/news-releases/1147258 and the paper at https://arxiv.org/abs/2604.04721
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

@@ -1,0 +1,79 @@
+{
+ "date": "11 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "10 *minutes*",
+ "sections": [
+  {"kind": "open", "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 11 OCT", "rows": ["Microsoft's Decision-1 model", "Cloudflare buys Deno", "A study on AI and persistence"]},
+   "beats": [
+    {"say": "Microsoft has a new AI model that doesn't write a single word.", "text": "A model that *doesn't write* a word."},
+    {"say": "Cloudflare buys Deno, the JavaScript runtime company.", "text": "Cloudflare *buys Deno.*"},
+    {"say": "And a study finds ten minutes with a chatbot can make people give up sooner.", "text": "*10 minutes* with a chatbot."},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]},
+  {"kind": "story", "label": "microsoft decision-1", "chapter": "Microsoft-Decision-1: a model that only decides", "source": "TestingCatalog",
+   "card": {"type": "list", "mark": "tick", "title": "MICROSOFT-DECISION-1", "rows": ["Picks from a fixed set of options", "Gives a probability for each one", "Built for routing and classification"], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "First up, Microsoft.", "text": "First up, *Microsoft.*"},
+    {"say": "It's released Microsoft Decision One, a model that picks from a fixed set of options instead of writing text.", "text": "It *picks an option* instead of writing."},
+    {"say": "It returns a probability for each option, according to Testing Catalog.", "text": "A *probability* for each option."},
+    {"say": "Microsoft built it for jobs like routing and classification inside AI agents.", "text": "Built for *routing* and *classification.*"}
+   ]},
+  {"kind": "story", "label": "the price", "source": "TestingCatalog",
+   "card": {"type": "stat", "title": "PRICE", "big": "$0.042", "sub": "per million input tokens", "rows": [["output tokens", "free"], ["built on", "Qwen3.5-9B"]], "at": [0, 1, 2]},
+   "beats": [
+    {"say": "The price starts at four point two cents per million input tokens.", "text": "*$0.042* per million input tokens."},
+    {"say": "Output tokens are free.", "text": "Output tokens are *free.*"},
+    {"say": "It is built on an existing open model, Qwen three point five.", "text": "Built on *Qwen3.5-9B.*"}
+   ]},
+  {"kind": "story", "label": "the speed claim", "source": "TestingCatalog",
+   "card": {"type": "stat", "title": "MICROSOFT'S CLAIM", "big": "35x", "sub": "faster than GPT-6 Sol", "rows": [["benchmarks", "36"], ["test questions", "nearly 150,000"]], "at": [0, 1, 1]},
+   "beats": [
+    {"say": "Microsoft says it's thirty five times faster than G P T six Sol.", "text": "*35 times faster* than GPT-6 Sol."},
+    {"say": "And it says the model scored highest across thirty six benchmarks, with nearly one hundred and fifty thousand questions.", "text": "Top across *36 benchmarks.*"},
+    {"say": "It's available now in Microsoft Foundry.", "text": "Available now in *Microsoft Foundry.*"}
+   ]},
+  {"kind": "story", "label": "cloudflare + deno", "chapter": "Cloudflare buys Deno", "source": "Forbes",
+   "card": {"type": "list", "mark": "tick", "title": "CLOUDFLARE + DENO", "rows": ["Cloudflare has acquired Deno", "The whole Deno team joins", "Price not disclosed"], "at": [0, 1, 2]},
+   "beats": [
+    {"say": "Next, Cloudflare. It has acquired Deno, the company behind the JavaScript runtime created by Ryan Dahl.", "text": "Cloudflare has *acquired Deno.*"},
+    {"say": "The whole Deno team is joining Cloudflare, according to Forbes.", "text": "The *whole team* joins Cloudflare."},
+    {"say": "The price wasn't disclosed.", "text": "The price *wasn't disclosed.*"}
+   ]},
+  {"kind": "story", "label": "what changes", "source": "Forbes",
+   "card": {"type": "stat", "title": "DENO DEPLOY", "big": "6", "sub": "months until it shuts down", "rows": [["runtime fixes", "1 year"], ["licence", "open source"]], "at": [0, 1, 2]},
+   "beats": [
+    {"say": "Deno's hosting service, Deno Deploy, shuts down in six months.", "text": "Deno Deploy shuts down in *6 months.*"},
+    {"say": "The Deno runtime gets bug fixes and security updates for one year. Then development ends.", "text": "*One year* of fixes, then it ends."},
+    {"say": "It stays open source.", "text": "It stays *open source.*"}
+   ]},
+  {"kind": "story", "label": "why", "source": "Forbes",
+   "card": {"type": "list", "mark": "tick", "title": "THE PLAN", "rows": ["Run Workers on your own servers", "Merge Deno's celld into workerd", "Target workload: AI agents"], "at": [0, 0, 1]},
+   "beats": [
+    {"say": "Cloudflare wants companies to be able to run its Workers platform on their own servers, using a tool the Deno team built.", "text": "Run Workers on *your own servers.*"},
+    {"say": "And Forbes reports the target workload is AI agents.", "text": "The target: *AI agents.*"}
+   ]},
+  {"kind": "story", "label": "the study", "chapter": "Study: AI help and giving up", "source": "UC Berkeley",
+   "card": {"type": "stat", "title": "THE STUDY", "big": "1,222", "sub": "participants", "rows": [["experiments", "3"], ["tasks", "fractions, SAT reading"]], "at": [1, 1, 2]},
+   "beats": [
+    {"say": "Finally, a study on what AI help does to us.", "text": "Finally, a *study.*"},
+    {"say": "Researchers ran three experiments with one thousand two hundred and twenty two people, according to UC Berkeley.", "text": "*1,222 people,* three experiments."},
+    {"say": "Some people solved fraction or reading problems with a chatbot. Then the chatbot was taken away.", "text": "Then the chatbot was *taken away.*"}
+   ]},
+  {"kind": "story", "label": "the result", "source": "arXiv 2604.04721",
+   "card": {"type": "bars", "title": "EXPERIMENT 1 · SOLVE RATE WITHOUT AI", "rows": [{"k": "Had AI first", "v": "0.57", "pct": 57}, {"k": "Never had AI", "v": "0.73", "pct": 73, "hot": true}], "at": [0, 1]},
+   "beats": [
+    {"say": "In the first experiment, the group that had used AI solved fifty seven percent of the final problems.", "text": "After AI: *57%* solved."},
+    {"say": "The group that never had AI solved seventy three percent.", "text": "Never had AI: *73%* solved."},
+    {"say": "The AI group also skipped more questions.", "text": "They also *skipped more.*"}
+   ]},
+  {"kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Which of these three stories matters most to you? Tell me in the comments.", "text": "Which story matters *most to you?*"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]}
+ ]
+}
