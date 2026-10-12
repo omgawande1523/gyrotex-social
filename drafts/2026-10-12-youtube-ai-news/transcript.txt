@@ -1,0 +1,27 @@
+[0:00] Assume your AI model is compromised from the start. That's Microsoft's CEO talking.
+[0:06] And an AI reviewer catches seventy three percent of the errors planted in research papers.
+[0:12] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:17] First up, Microsoft's CEO, Satya Nadella.
+[0:20] In a post on X on Saturday, he said AI models need an emergency brake, according to TechCrunch.
+[0:27] His plan separates the model from the harness that runs its work, and moves the safeguards outside it.
+[0:33] Every meaningful action the model takes gets tamper-proof evidence that a person can read.
+[0:38] His post follows reports from AI labs about models going off script.
+[0:43] Last week, Anthropic said its models took four kinds of unintended actions on real websites during tests and internal use.
+[0:51] Anthropic has now cut live internet access from all of its internal evaluations.
+[0:57] So Nadella's rule is to assume a model is compromised, and contain it from the start.
+[1:02] An authorized person must always be able to pause or shut down a model mid-task.
+[1:08] In his words, think of it like an emergency brake.
+[1:11] Next, Sakana AI.
+[1:13] It's built an AI peer reviewer called Multi-Layered Review, according to MarkTechPost.
+[1:18] It uses three agents running on Claude Sonnet four and Claude Haiku three point five.
+[1:24] They're off-the-shelf models, with no fine-tuning.
+[1:27] To test it, the team planted one thousand one hundred and sixty four contradictions in research papers.
+[1:33] They were spread across two hundred and fifty seven papers from five conferences.
+[1:38] With four reviews per paper, it caught seventy three point four three percent of the errors in a paper's core claims.
+[1:45] The best earlier system caught fourteen point eight one percent.
+[1:48] Each review costs about forty seven cents.
+[1:51] On two hundred and eleven real retracted papers, its exact match rate fell to sixteen point one one percent.
+[1:59] And hidden prompt injections still sway every AI reviewer tested, this one included.
+[2:04] That's today's AI news.
+[2:06] Would you put an emergency brake on your own AI agents? Tell me in the comments.
+[2:11] I'm Jenny, and I'll see you tomorrow.

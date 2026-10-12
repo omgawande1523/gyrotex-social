@@ -1,0 +1,15 @@
+Today's AI news in about two and a quarter minutes: Microsoft CEO Satya Nadella says AI models need an emergency brake that a person can pull mid-task, and Sakana AI's Multi-Layered Review, an AI peer reviewer, catches 73.43% of core-claim errors planted in research papers.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:17 Nadella: AI needs an emergency brake
+1:11 Sakana AI's reviewer catches 73% of errors
+
+Sources
+Nadella's AI emergency brake: https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/
+Anthropic's report on unintended model actions: https://www.anthropic.com/research/investigating-unintended-model-actions
+Sakana AI's Multi-Layered Review: https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/ and the paper at https://arxiv.org/abs/2610.11087
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

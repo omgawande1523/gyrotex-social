@@ -1,0 +1,71 @@
+{
+ "date": "12 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Assume *compromised*",
+ "sections": [
+  {"kind": "open", "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 12 OCT", "rows": ["Nadella's AI emergency brake", "Sakana's AI peer reviewer"]},
+   "beats": [
+    {"say": "Assume your AI model is compromised from the start. That's Microsoft's CEO talking.", "text": "Assume your model is *compromised.*"},
+    {"say": "And an AI reviewer catches seventy three percent of the errors planted in research papers.", "text": "An AI reviewer catches *73%* of errors."},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]},
+  {"kind": "story", "label": "nadella's plan", "chapter": "Nadella: AI needs an emergency brake", "source": "TechCrunch",
+   "card": {"type": "list", "mark": "tick", "title": "NADELLA'S PLAN", "rows": ["Separate the model from its harness", "Move the safeguards outside it", "Tamper-proof records of every action"], "at": [2, 2, 3]},
+   "beats": [
+    {"say": "First up, Microsoft's CEO, Satya Nadella.", "text": "First up, *Satya Nadella.*"},
+    {"say": "In a post on X on Saturday, he said AI models need an emergency brake, according to TechCrunch.", "text": "AI needs an *emergency brake.*"},
+    {"say": "His plan separates the model from the harness that runs its work, and moves the safeguards outside it.", "text": "Safeguards *outside* the model."},
+    {"say": "Every meaningful action the model takes gets tamper-proof evidence that a person can read.", "text": "*Tamper-proof* records of every action."}
+   ]},
+  {"kind": "story", "label": "the backdrop", "source": "Anthropic",
+   "card": {"type": "stat", "title": "ANTHROPIC'S REPORT", "big": "4", "sub": "kinds of unintended actions", "rows": [["seen in", "tests and internal use"], ["now", "no live internet in evals"]], "at": [1, 1, 2]},
+   "beats": [
+    {"say": "His post follows reports from AI labs about models going off script.", "text": "Models going *off script.*"},
+    {"say": "Last week, Anthropic said its models took four kinds of unintended actions on real websites during tests and internal use.", "text": "*Four kinds* of unintended actions."},
+    {"say": "Anthropic has now cut live internet access from all of its internal evaluations.", "text": "*No live internet* in its evaluations."}
+   ]},
+  {"kind": "story", "label": "the brake", "source": "TechCrunch",
+   "card": {"type": "list", "mark": "num", "title": "THE RULE", "rows": ["Assume the model is compromised", "Contain it from the start", "A person can stop it mid-task"], "at": [0, 0, 1]},
+   "beats": [
+    {"say": "So Nadella's rule is to assume a model is compromised, and contain it from the start.", "text": "Assume it's *compromised.* Contain it."},
+    {"say": "An authorized person must always be able to pause or shut down a model mid-task.", "text": "A person can *pause it mid-task.*"},
+    {"say": "In his words, think of it like an emergency brake.", "text": "Like an *emergency brake.*"}
+   ]},
+  {"kind": "story", "label": "sakana's reviewer", "chapter": "Sakana AI's reviewer catches 73% of errors", "source": "MarkTechPost",
+   "card": {"type": "list", "mark": "tick", "title": "MULTI-LAYERED REVIEW", "rows": ["Three agents", "Claude Sonnet 4 and Haiku 3.5", "No fine-tuning"], "at": [2, 2, 3]},
+   "beats": [
+    {"say": "Next, Sakana AI.", "text": "Next, *Sakana AI.*"},
+    {"say": "It's built an AI peer reviewer called Multi-Layered Review, according to MarkTechPost.", "text": "An AI *peer reviewer.*"},
+    {"say": "It uses three agents running on Claude Sonnet four and Claude Haiku three point five.", "text": "*Three agents* on Claude models."},
+    {"say": "They're off-the-shelf models, with no fine-tuning.", "text": "Off the shelf, *no fine-tuning.*"}
+   ]},
+  {"kind": "story", "label": "the test", "source": "MarkTechPost",
+   "card": {"type": "stat", "title": "THE BENCHMARK", "big": "1,164", "sub": "planted contradictions", "rows": [["papers", "257"], ["conferences", "5"]], "at": [0, 1, 1]},
+   "beats": [
+    {"say": "To test it, the team planted one thousand one hundred and sixty four contradictions in research papers.", "text": "*1,164* planted contradictions."},
+    {"say": "They were spread across two hundred and fifty seven papers from five conferences.", "text": "Across *257 papers.*"}
+   ]},
+  {"kind": "story", "label": "the result", "source": "MarkTechPost",
+   "card": {"type": "bars", "title": "CORE-CLAIM ERRORS CAUGHT", "rows": [{"k": "Multi-Layered Review", "v": "73.43%", "pct": 73, "hot": true}, {"k": "Best earlier system", "v": "14.81%", "pct": 15}], "at": [0, 1]},
+   "beats": [
+    {"say": "With four reviews per paper, it caught seventy three point four three percent of the errors in a paper's core claims.", "text": "Caught *73.43%* of core-claim errors."},
+    {"say": "The best earlier system caught fourteen point eight one percent.", "text": "Best earlier system: *14.81%.*"},
+    {"say": "Each review costs about forty seven cents.", "text": "About *$0.47* per review."}
+   ]},
+  {"kind": "story", "label": "the limits", "source": "MarkTechPost",
+   "card": {"type": "list", "mark": "num", "title": "THE LIMITS", "rows": ["Real papers: 16.11% exact matches", "Prompt injection still sways it"], "at": [0, 1]},
+   "beats": [
+    {"say": "On two hundred and eleven real retracted papers, its exact match rate fell to sixteen point one one percent.", "text": "Real papers: *16.11%* exact matches."},
+    {"say": "And hidden prompt injections still sway every AI reviewer tested, this one included.", "text": "Prompt injection *still works* on it."}
+   ]},
+  {"kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Would you put an emergency brake on your own AI agents? Tell me in the comments.", "text": "Would you add an *emergency brake?*"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]}
+ ]
+}
