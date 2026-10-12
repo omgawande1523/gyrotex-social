@@ -1,0 +1,3 @@
+Sakana AI's reviewer caught 73.43% of core-claim errors. The best earlier system caught 14.81%.
+Sakana AI planted 1,164 errors in 257 papers to test its AI peer reviewer.
+Sakana AI's three-agent reviewer costs about $0.47 per paper review.

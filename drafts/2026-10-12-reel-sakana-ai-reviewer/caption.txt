@@ -1,0 +1,9 @@
+Would you trust an AI peer reviewer? Comment YES or NO. Sakana AI's reviewer caught 73.43% of core-claim errors in a test.
+
+Sakana AI calls the system Multi-Layered Review. It uses three agents built on Claude models: one reads the appendix, one checks related literature, and one writes the review, MarkTechPost reports.
+
+To test it, the team planted 1,164 contradictions in 257 papers from five venues, including ICML and NeurIPS. On errors in a paper's core claims, the best earlier system caught 14.81%.
+
+Each review costs about $0.47, not counting the optional literature agent. MarkTechPost also notes a limit: hidden prompt injection still sways every AI reviewer tested. Source: MarkTechPost.
+
+#SakanaAI #PeerReview #AIResearch
