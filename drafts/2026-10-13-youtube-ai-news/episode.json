@@ -1,0 +1,358 @@
+{
+ "date": "13 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Built to *remember*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 13 OCT",
+    "rows": [
+     "Meta's Muse Wonder",
+     "Microsoft's Maia 300 chip",
+     "HCLTech teams up with Anthropic"
+    ]
+   },
+   "beats": [
+    {
+     "say": "An AI model built to remember you. That's Meta's first frontier model.",
+     "text": "Meta's first *frontier model.*"
+    },
+    {
+     "say": "Microsoft says its new chip gets forty percent more out of every megawatt.",
+     "text": "Microsoft's chip: *40% more* per megawatt."
+    },
+    {
+     "say": "And India's HCLTech builds a whole business unit around Anthropic's Claude.",
+     "text": "HCLTech's *Anthropic* business unit."
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "muse wonder",
+   "chapter": "Meta's Muse Wonder: its first frontier model",
+   "source": "TechCrunch",
+   "card": {
+    "type": "stat",
+    "title": "META MUSE WONDER",
+    "big": "1st",
+    "sub": "frontier model from Meta",
+    "rows": [
+     [
+      "models",
+      "Wonder, Wonder Full"
+     ],
+     [
+      "trained at",
+      "Prometheus, Ohio"
+     ]
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, Meta.",
+     "text": "First up, *Meta.*"
+    },
+    {
+     "say": "On Monday it released Muse Wonder and Muse Wonder Full, its first frontier model, according to TechCrunch.",
+     "text": "*Muse Wonder* and Wonder Full."
+    },
+    {
+     "say": "They were trained at Meta's Prometheus data center in central Ohio.",
+     "text": "Trained at *Prometheus* in Ohio."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the price",
+   "source": "TechCrunch",
+   "card": {
+    "type": "bars",
+    "title": "MUSE WONDER · PER MILLION TOKENS",
+    "rows": [
+     {
+      "k": "Input",
+      "v": "$4",
+      "pct": 20
+     },
+     {
+      "k": "Output",
+      "v": "$20",
+      "pct": 100,
+      "hot": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "say": "On Meta's Model API, Muse Wonder costs four dollars per million input tokens.",
+     "text": "*$4* per million input tokens."
+    },
+    {
+     "say": "Output is twenty dollars per million.",
+     "text": "*$20* per million output tokens."
+    },
+    {
+     "say": "Wonder Full isn't on the API. It's only for Muse Code subscribers.",
+     "text": "Wonder Full: *Muse Code* only."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "built for memory",
+   "source": "Axios",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "WHAT META CLAIMS",
+    "rows": [
+     "Active Memory",
+     "Active Focus",
+     "Matches OpenAI and Anthropic"
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "The big idea is memory, according to Axios.",
+     "text": "The big idea is *memory.*"
+    },
+    {
+     "say": "Active Memory keeps what matters about you across conversations.",
+     "text": "*Active Memory* across conversations."
+    },
+    {
+     "say": "Active Focus keeps an agent working toward its goal when it hits obstacles.",
+     "text": "*Active Focus* keeps agents on task."
+    },
+    {
+     "say": "Meta says it matches or beats OpenAI and Anthropic on the benchmarks it published, but nobody has tested that independently yet.",
+     "text": "Meta's benchmarks, *not yet verified.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "maia 300",
+   "chapter": "Microsoft's Maia 300 AI chip",
+   "source": "The Next Web",
+   "card": {
+    "type": "stat",
+    "title": "MICROSOFT MAIA 300",
+    "big": "40%",
+    "sub": "more tokens per megawatt",
+    "rows": [
+     [
+      "compared with",
+      "top GPU systems"
+     ],
+     [
+      "built for",
+      "inference"
+     ]
+    ],
+    "at": [
+     3,
+     3,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, Microsoft.",
+     "text": "Next, *Microsoft.*"
+    },
+    {
+     "say": "It's unveiled Maia three hundred, the third generation of its own AI chip, according to The Next Web.",
+     "text": "*Maia 300,* its third-gen AI chip."
+    },
+    {
+     "say": "It's built for inference, which means running AI models, not training them.",
+     "text": "Built for *inference.*"
+    },
+    {
+     "say": "Microsoft says it gets forty percent more tokens per megawatt than top GPU systems, though it didn't name them.",
+     "text": "*40% more* tokens per megawatt."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the rack",
+   "source": "The Next Web",
+   "card": {
+    "type": "bars",
+    "title": "RACK OUTPUT",
+    "rows": [
+     {
+      "k": "Maia 200",
+      "v": "1x",
+      "pct": 14
+     },
+     {
+      "k": "Maia 300",
+      "v": "up to 7x",
+      "pct": 100,
+      "hot": true
+     }
+    ],
+    "at": [
+     1,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "A full rack holds ninety six chips.",
+     "text": "*96 chips* in a full rack."
+    },
+    {
+     "say": "And Microsoft says it delivers up to seven times the output of the Maia two hundred.",
+     "text": "Up to *7x* the Maia 200."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the rollout",
+   "source": "The Next Web",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "THE ROLLOUT",
+    "rows": [
+     "Main AI system from 2027",
+     "Deployments in gigawatts",
+     "More at Ignite next month"
+    ]
+   },
+   "beats": [
+    {
+     "say": "From twenty twenty seven, Maia chips become the main system running AI in Microsoft's products.",
+     "text": "The main system from *2027.*"
+    },
+    {
+     "say": "Those deployments will be measured in gigawatts.",
+     "text": "Measured in *gigawatts.*"
+    },
+    {
+     "say": "Microsoft will share more at its Ignite conference next month.",
+     "text": "More at *Ignite* next month."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "hcltech + anthropic",
+   "chapter": "HCLTech's Anthropic partnership",
+   "source": "HCLTech",
+   "card": {
+    "type": "stat",
+    "title": "HCLTECH",
+    "big": "223K+",
+    "sub": "people",
+    "rows": [
+     [
+      "countries",
+      "60"
+     ],
+     [
+      "revenue, 12 months to June",
+      "$14.8B"
+     ]
+    ],
+    "at": [
+     2,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, HCLTech, India's third largest IT services firm, according to Reuters.",
+     "text": "Finally, *HCLTech.*"
+    },
+    {
+     "say": "It's signed a Global Premier Partnership with Anthropic.",
+     "text": "A *Global Premier Partnership.*"
+    },
+    {
+     "say": "HCLTech has more than two hundred and twenty three thousand people in sixty countries.",
+     "text": "*223,000+* people in 60 countries."
+    },
+    {
+     "say": "Its revenue was fourteen point eight billion dollars over the twelve months to June.",
+     "text": "*$14.8 billion* in revenue."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the deal",
+   "source": "HCLTech",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "THE DEAL",
+    "rows": [
+     "A dedicated Anthropic business unit",
+     "Claude, Cowork and Claude Code",
+     "Claude inside BigFix and AppScan"
+    ]
+   },
+   "beats": [
+    {
+     "say": "HCLTech will set up a dedicated Anthropic business unit, with a center of excellence.",
+     "text": "A dedicated *Anthropic unit.*"
+    },
+    {
+     "say": "Its teams will build industry solutions with Claude, Cowork and Claude Code.",
+     "text": "Built with *Claude, Cowork* and Claude Code."
+    },
+    {
+     "say": "And HCLSoftware will build Claude into products like BigFix and AppScan.",
+     "text": "Claude inside *BigFix* and *AppScan.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Which of these three stories matters most to you? Tell me in the comments.",
+     "text": "Which story matters *most to you?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}
