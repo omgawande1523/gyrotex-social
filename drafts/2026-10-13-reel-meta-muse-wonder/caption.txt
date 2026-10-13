@@ -1,0 +1,9 @@
+Do you trust Meta's benchmark claims? Comment YES or NO. Meta launched Muse Wonder, a model it says competes with OpenAI.
+
+Meta launched Muse Wonder and Muse Wonder Full on Monday, Axios reports. Meta posted benchmarks showing the models topping or matching the latest offerings from OpenAI and Anthropic. Axios notes it is not yet clear whether those claims hold up in independent testing.
+
+Two features stand out. Active Memory keeps important information about a user across conversations. Active Focus keeps an agent working toward a goal and tries different approaches when it hits obstacles.
+
+Muse Wonder is available through the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers. Meta has not said whether it will open source either model. Source: Axios.
+
+#MetaAI #MuseWonder #AIAgents
