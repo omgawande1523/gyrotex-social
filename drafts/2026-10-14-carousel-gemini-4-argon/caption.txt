@@ -1,0 +1,11 @@
+Google released Gemini 4 Argon, its new flagship AI model, with API prices starting at $2 per million input tokens.
+
+Argon is open to developers and businesses worldwide, Reuters reports. Google says the model is built for complex, multi-step work in coding, finance, law, cybersecurity and science.
+
+The API costs $2 per million input tokens and $10 per million output tokens. Those rates double after November 30. Google AI Pro and Ultra subscribers can use Argon in the Gemini app and in AI Mode in Search.
+
+Google says teams using Argon in its Antigravity coding tool raised agentic code submissions by more than 35 percent. It will also give 10,000 scientists six months of free access to Antigravity's highest usage tier.
+
+Would you switch to Gemini 4 Argon for your work? Tell me yes or no in the comments.
+
+#Gemini4Argon #GoogleGemini #AINews
