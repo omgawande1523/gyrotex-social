@@ -1,0 +1,16 @@
+Today's AI news in about two and a half minutes: Google releases Gemini 4 Argon at $2 per million input tokens, with rates doubling after November 30; Anthropic explains Scion, the in-house source control it built after merges grew to over 30,000 a day; and Intel launches the GPU D270, an AI inference card with up to 480GB of memory.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:23 Google's Gemini 4 Argon is out
+1:08 Anthropic's Scion source control
+1:44 Intel's GPU D270 for AI inference
+
+Sources
+Google's Gemini 4 Argon: https://tech.yahoo.com/ai/gemini/articles/google-launches-flagship-ai-model-160147613.html (Reuters) and https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/
+Anthropic's Scion: https://www.anthropic.com/engineering/redesigning-source-control
+Intel's GPU D270: https://www.guru3d.com/story/intel-gpu-d270-targets-300bparameter-models-with-480gb-of-lpddr5x/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:23 Google's Gemini 4 Argon is out
+1:08 Anthropic's Scion source control
+1:44 Intel's GPU D270 for AI inference

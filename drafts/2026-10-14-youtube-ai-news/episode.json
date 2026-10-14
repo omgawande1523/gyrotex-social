@@ -1,0 +1,124 @@
+{
+ "date": "14 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*$2* a million",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 14 OCT", "rows": ["Google's Gemini 4 Argon", "Anthropic's Scion", "Intel's GPU D270"] },
+   "beats": [
+    { "say": "If you build on Gemini, Google's new flagship costs two dollars per million tokens, and that doubles after November thirtieth.", "text": "Gemini 4 Argon: *$2* per million tokens." },
+    { "say": "Anthropic's code merges grew more than tenfold, so it built its own source control.", "text": "Anthropic built its *own source control.*" },
+    { "say": "And Intel's new AI card carries four hundred and eighty gigabytes of memory.", "text": "Intel's card: *480GB* of memory." },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "gemini 4 argon",
+   "chapter": "Google's Gemini 4 Argon is out",
+   "source": "Reuters",
+   "card": { "type": "list", "mark": "tick", "title": "WHO GETS ARGON", "rows": ["Gemini API, paid tier", "Gemini app: AI Pro and Ultra", "Antigravity: Ultra only"], "at": [2, 3, 3] },
+   "beats": [
+    { "say": "First up, Google.", "text": "First up, *Google.*" },
+    { "say": "It's released Gemini four Argon, its new flagship model, to developers and businesses worldwide, according to Reuters.", "text": "*Gemini 4 Argon* is out worldwide." },
+    { "say": "Developers get it on the paid tier of the Gemini API.", "text": "On the *paid tier* of the Gemini API." },
+    { "say": "AI Pro and Ultra subscribers can use it in the Gemini app, and the Antigravity coding tool is for Ultra only.", "text": "Gemini app for *Pro and Ultra.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the price",
+   "source": "Reuters",
+   "card": { "type": "bars", "title": "ARGON · PER MILLION TOKENS", "rows": [ { "k": "Input", "v": "$2", "pct": 20 }, { "k": "Output", "v": "$10", "pct": 100, "hot": true } ] },
+   "beats": [
+    { "say": "It costs two dollars per million input tokens.", "text": "*$2* per million input tokens." },
+    { "say": "Output is ten dollars per million.", "text": "*$10* per million output tokens." },
+    { "say": "And Reuters says those rates double after November thirtieth.", "text": "Rates *double* after November 30." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what google claims",
+   "source": "Reuters",
+   "card": { "type": "stat", "title": "ARGON IN ANTIGRAVITY", "big": "35%+", "sub": "more agentic code submissions", "rows": [["code rollbacks", "cut by nearly a third"], ["scientists, 6 months free", "10,000"]] },
+   "beats": [
+    { "say": "Google says teams using Argon in Antigravity made over thirty five percent more agentic code submissions.", "text": "*35%+* more agentic code submissions." },
+    { "say": "And they cut code rollbacks by nearly a third.", "text": "Rollbacks cut by *nearly a third.*" },
+    { "say": "Ten thousand scientists also get six months of free access to Antigravity's highest tier.", "text": "*10,000 scientists* get six months free." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "scion",
+   "chapter": "Anthropic's Scion source control",
+   "source": "Anthropic",
+   "card": { "type": "bars", "title": "ANTHROPIC · MERGES PER DAY", "rows": [ { "k": "May 2026", "v": "~2,500", "pct": 8 }, { "k": "Sept 2026", "v": "30,000+", "pct": 100, "hot": true } ], "at": [1, 2] },
+   "beats": [
+    { "say": "Next, Anthropic.", "text": "Next, *Anthropic.*" },
+    { "say": "In May, it merged around twenty five hundred code changes a day.", "text": "May: *~2,500* merges a day." },
+    { "say": "By September, it was merging over thirty thousand a day.", "text": "September: *30,000+* a day." },
+    { "say": "Anthropic says that made source control its biggest bottleneck.", "text": "Its *biggest bottleneck.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the build",
+   "source": "Anthropic",
+   "card": { "type": "stat", "title": "SCION", "big": "5 mo", "sub": "to move the monorepo off git", "rows": [["team", "7 people"], ["built with", "Claude"]], "at": [2, 1, 1] },
+   "beats": [
+    { "say": "So it built Scion, its own in-house version control system.", "text": "*Scion,* its own version control." },
+    { "say": "A team of seven built it, with help from Claude.", "text": "*Seven people,* with help from Claude." },
+    { "say": "It moved its whole monorepo off git in five months.", "text": "Off git in *five months.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what changed",
+   "source": "Anthropic",
+   "card": { "type": "list", "mark": "num", "title": "WHAT CHANGED", "rows": ["Infrastructure 200x smaller", "Checkouts in seconds, not minutes", "Not a git replacement for everyone"] },
+   "beats": [
+    { "say": "Anthropic says the new system is two hundred times smaller than its old git mirroring setup.", "text": "*200x smaller* infrastructure." },
+    { "say": "Checkouts now take seconds instead of minutes.", "text": "Checkouts in *seconds,* not minutes." },
+    { "say": "But it says Scion isn't a replacement for git for general use.", "text": "Not a git replacement *for everyone.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "intel gpu d270",
+   "chapter": "Intel's GPU D270 for AI inference",
+   "source": "Guru3D",
+   "card": { "type": "stat", "title": "INTEL GPU D270", "big": "480GB", "sub": "memory per card", "rows": [["FP8 compute", "up to 1.3 PFLOPS"], ["power", "350W"]], "at": [2, 3, 3] },
+   "beats": [
+    { "say": "Finally, Intel.", "text": "Finally, *Intel.*" },
+    { "say": "It's launched the GPU D two seventy, a data center card for AI inference, according to Guru three D.", "text": "The *GPU D270,* built for inference." },
+    { "say": "Each card holds up to four hundred and eighty gigabytes of memory.", "text": "Up to *480GB* per card." },
+    { "say": "It's rated at three hundred and fifty watts, with up to one point three petaflops of F P eight compute.", "text": "*350W,* up to 1.3 petaflops FP8." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what it's for",
+   "source": "Guru3D",
+   "card": { "type": "list", "mark": "tick", "title": "WHAT IT'S FOR", "rows": ["About 300B parameters on one card", "Over 1T parameters on eight", "Sampling now, no launch date"] },
+   "beats": [
+    { "say": "One card targets models of about three hundred billion parameters.", "text": "About *300 billion* parameters per card." },
+    { "say": "Eight cards together can run models over one trillion parameters.", "text": "Eight cards: *over 1 trillion.*" },
+    { "say": "Selected customers are sampling it now. There's no launch date or price yet.", "text": "Sampling now, *no launch date* yet." }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Which of these three stories matters most to you? Tell me in the comments.", "text": "Which story matters *most to you?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
