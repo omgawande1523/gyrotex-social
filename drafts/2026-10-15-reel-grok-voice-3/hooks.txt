@@ -1,0 +1,3 @@
+Grok Voice 3.0 now ranks first on the Speech-to-Speech Index with a score of 86.9.
+Grok Voice resolves roughly 70% of 20,000 Starlink calls a day with no human involved.
+Grok Voice 3.0 costs $0.08 a minute, the same price as the model it replaces.

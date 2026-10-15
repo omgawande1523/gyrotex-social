@@ -1,0 +1,9 @@
+Would you be happy to talk to an AI agent on a support call? Comment YES or NO. Grok Voice 3.0 is out.
+
+Grok Voice 3.0 is a new speech-to-speech model for voice agents, announced on x.ai on 14 October. It scores 86.9 on the Artificial Analysis Speech-to-Speech Index, which puts it first on that ranking.
+
+The price stays the same. It costs $0.08 per minute ($4.80 per hour) in the Voice Agent API, the same as Grok Voice 2.0, and agents on grok-voice-latest move to it with no changes.
+
+It is already in use. Starlink call centres handle 20,000 customer calls a day with Grok Voice, and roughly 70% are resolved with no human involved, according to the announcement.
+
+#GrokVoice #VoiceAgents #SpeechToSpeech
