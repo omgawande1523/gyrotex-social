@@ -1,0 +1,355 @@
+{
+ "date": "15 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*85x* faster",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 15 OCT",
+    "rows": [
+     "xAI's Grok Voice 3.0",
+     "Nvidia's AI-defined fabs",
+     "ASML's third quarter"
+    ]
+   },
+   "beats": [
+    {
+     "say": "If you run a voice agent on Grok, you just got a better model for the same eight cents a minute.",
+     "text": "Grok Voice 3.0: same *8 cents* a minute."
+    },
+    {
+     "say": "Nvidia says one chip inspection tool now runs fifty times faster on its GPUs.",
+     "text": "Nvidia: chip inspection *50x faster.*"
+    },
+    {
+     "say": "And if you're waiting on AI chips, ASML says its supply won't fully meet demand in twenty twenty seven or twenty twenty eight.",
+     "text": "ASML: supply *won't fully meet* demand."
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "grok voice 3.0",
+   "chapter": "xAI's Grok Voice 3.0",
+   "source": "x.ai",
+   "card": {
+    "type": "bars",
+    "title": "SPEECH-TO-SPEECH INDEX",
+    "rows": [
+     {
+      "k": "Grok Voice 3.0",
+      "v": "86.9",
+      "pct": 100,
+      "hot": true
+     },
+     {
+      "k": "GPT-Live-1",
+      "v": "83.2",
+      "pct": 96
+     },
+     {
+      "k": "Gemini 3.8 Live",
+      "v": "82.6",
+      "pct": 95
+     },
+     {
+      "k": "Grok Voice 2.0",
+      "v": "81.3",
+      "pct": 94
+     }
+    ],
+    "at": [
+     2,
+     3,
+     3,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, xAI.",
+     "text": "First up, *xAI.*"
+    },
+    {
+     "say": "It's released Grok Voice three point oh, a speech to speech model.",
+     "text": "*Grok Voice 3.0* is out."
+    },
+    {
+     "say": "It scores eighty six point nine on the Artificial Analysis speech to speech index, the top score there.",
+     "text": "*86.9,* the top score on the index."
+    },
+    {
+     "say": "GPT Live one scores eighty three point two, and Gemini three point eight Live scores eighty two point six.",
+     "text": "Ahead of *GPT-Live-1* and *Gemini 3.8 Live.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the price",
+   "source": "x.ai",
+   "card": {
+    "type": "stat",
+    "title": "GROK VOICE 3.0",
+    "big": "$0.08",
+    "sub": "per minute",
+    "rows": [
+     [
+      "per hour",
+      "$4.80"
+     ],
+     [
+      "vs Grok Voice 2.0",
+      "same price"
+     ],
+     [
+      "latency",
+      "under 1 second"
+     ]
+    ]
+   },
+   "beats": [
+    {
+     "say": "It costs eight cents a minute.",
+     "text": "*8 cents* a minute."
+    },
+    {
+     "say": "That's four dollars eighty an hour, the same price as Grok Voice two point oh.",
+     "text": "*$4.80* an hour, same as 2.0."
+    },
+    {
+     "say": "And xAI says it answers in under one second.",
+     "text": "Answers in *under one second.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "where it runs",
+   "source": "x.ai",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "WHERE IT RUNS",
+    "rows": [
+     "Starlink: 20,000 calls a day",
+     "About 70% with no human",
+     "Voice Agent API, live now"
+    ]
+   },
+   "beats": [
+    {
+     "say": "Starlink's call centers use it for twenty thousand customer calls a day.",
+     "text": "Starlink: *20,000 calls* a day."
+    },
+    {
+     "say": "xAI says about seventy percent are resolved with no human involved.",
+     "text": "About *70%* with no human."
+    },
+    {
+     "say": "It's live now in the Voice Agent API, and agents on the latest version moved over automatically.",
+     "text": "Live in the *Voice Agent API* now."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "ai-defined fabs",
+   "chapter": "Nvidia's AI-defined fabs",
+   "source": "NVIDIA",
+   "card": {
+    "type": "stat",
+    "title": "CUPOTENTIAL",
+    "big": "2-3x",
+    "sub": "on GPU-optimized workflows",
+    "rows": [
+     [
+      "what it is",
+      "new CUDA-X library"
+     ],
+     [
+      "status",
+      "early access"
+     ]
+    ],
+    "at": [
+     3,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, Nvidia.",
+     "text": "Next, *Nvidia.*"
+    },
+    {
+     "say": "At Semicon West, it showed how chipmakers are using its software to design and build chips.",
+     "text": "AI for *chip design and manufacturing.*"
+    },
+    {
+     "say": "It announced cue potential, a new library for simulating how atoms and molecules interact.",
+     "text": "*cuPotential* simulates atoms and molecules."
+    },
+    {
+     "say": "It's in early access, and Nvidia says it adds two to three times speed to workflows already on GPUs.",
+     "text": "*2 to 3x* faster, in early access."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the speedups",
+   "source": "NVIDIA",
+   "card": {
+    "type": "bars",
+    "title": "PARTNER SPEEDUPS · UP TO",
+    "rows": [
+     {
+      "k": "Teradyne",
+      "v": "~85x",
+      "pct": 100,
+      "hot": true
+     },
+     {
+      "k": "KLA",
+      "v": "50x",
+      "pct": 59
+     },
+     {
+      "k": "Applied Materials",
+      "v": "35x",
+      "pct": 41
+     },
+     {
+      "k": "Lam Research",
+      "v": "30x",
+      "pct": 35
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Teradyne says probe maintenance inference runs about eighty five times faster.",
+     "text": "Teradyne: about *85x* faster."
+    },
+    {
+     "say": "KLA got a chip inspection kernel running fifty times faster than its earlier CPU version.",
+     "text": "KLA: *50x* faster than on CPUs."
+    },
+    {
+     "say": "Applied Materials reports chamber simulations up to thirty five times faster, and Lam Research expects up to thirty times on some etch modeling.",
+     "text": "Applied *35x,* Lam Research *30x.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "asml q3",
+   "chapter": "ASML's third quarter",
+   "source": "ASML",
+   "card": {
+    "type": "stat",
+    "title": "ASML · Q3 2026",
+    "big": "€11.7B",
+    "sub": "net sales",
+    "rows": [
+     [
+      "net income",
+      "€5.0B"
+     ],
+     [
+      "gross margin",
+      "57.5%"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, ASML, which makes the machines that print chips.",
+     "text": "Finally, *ASML.*"
+    },
+    {
+     "say": "It reported eleven point seven billion euros in third quarter sales.",
+     "text": "*€11.7 billion* in Q3 sales."
+    },
+    {
+     "say": "Net income was five billion euros.",
+     "text": "Net income: *€5.0 billion.*"
+    },
+    {
+     "say": "And its gross margin was fifty seven point five percent.",
+     "text": "Gross margin: *57.5%.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the outlook",
+   "source": "ASML",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "ASML OUTLOOK",
+    "rows": [
+     "Q4 sales: €14.2B to €15.2B",
+     "2026 sales: €44B to €45B",
+     "2027 and 2028 supply short of demand"
+    ]
+   },
+   "beats": [
+    {
+     "say": "It expects fourth quarter sales of fourteen point two to fifteen point two billion euros.",
+     "text": "Q4: *€14.2B to €15.2B.*"
+    },
+    {
+     "say": "For the full year, it expects forty four to forty five billion.",
+     "text": "2026: *€44B to €45B.*"
+    },
+    {
+     "say": "And its CEO says the supply it plans for twenty twenty seven and twenty twenty eight won't fully meet customer demand.",
+     "text": "2027 and 2028: supply *short of demand.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Which of these three stories matters most to you? Tell me in the comments.",
+     "text": "Which story matters *most to you?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}

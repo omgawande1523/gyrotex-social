@@ -1,0 +1,31 @@
+[0:00] If you run a voice agent on Grok, you just got a better model for the same eight cents a minute.
+[0:06] Nvidia says one chip inspection tool now runs fifty times faster on its GPUs.
+[0:12] And if you're waiting on AI chips, ASML says its supply won't fully meet demand in twenty twenty seven or twenty twenty eight.
+[0:20] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:25] First up, xAI.
+[0:27] It's released Grok Voice three point oh, a speech to speech model.
+[0:31] It scores eighty six point nine on the Artificial Analysis speech to speech index, the top score there.
+[0:37] GPT Live one scores eighty three point two, and Gemini three point eight Live scores eighty two point six.
+[0:44] It costs eight cents a minute.
+[0:46] That's four dollars eighty an hour, the same price as Grok Voice two point oh.
+[0:50] And xAI says it answers in under one second.
+[0:54] Starlink's call centers use it for twenty thousand customer calls a day.
+[0:58] xAI says about seventy percent are resolved with no human involved.
+[1:03] It's live now in the Voice Agent API, and agents on the latest version moved over automatically.
+[1:10] Next, Nvidia.
+[1:12] At Semicon West, it showed how chipmakers are using its software to design and build chips.
+[1:17] It announced cue potential, a new library for simulating how atoms and molecules interact.
+[1:23] It's in early access, and Nvidia says it adds two to three times speed to workflows already on GPUs.
+[1:30] Teradyne says probe maintenance inference runs about eighty five times faster.
+[1:35] KLA got a chip inspection kernel running fifty times faster than its earlier CPU version.
+[1:41] Applied Materials reports chamber simulations up to thirty five times faster, and Lam Research expects up to thirty times on some etch modeling.
+[1:51] Finally, ASML, which makes the machines that print chips.
+[1:55] It reported eleven point seven billion euros in third quarter sales.
+[1:59] Net income was five billion euros.
+[2:02] And its gross margin was fifty seven point five percent.
+[2:05] It expects fourth quarter sales of fourteen point two to fifteen point two billion euros.
+[2:11] For the full year, it expects forty four to forty five billion.
+[2:15] And its CEO says the supply it plans for twenty twenty seven and twenty twenty eight won't fully meet customer demand.
+[2:22] That's today's AI news.
+[2:24] Which of these three stories matters most to you? Tell me in the comments.
+[2:28] I'm Jenny, and I'll see you tomorrow.
