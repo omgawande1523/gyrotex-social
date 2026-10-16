@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "historyId": "83735193-9a79-49c4-ae37-4c7278acb0ad",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "audio/plan.json": {
+      "hash": "a3ce0dcd9d78de84e2dff94134494ee5b8268e18432710eab6a8d42232937a48",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/a3/a3ce0dcd9d78de84e2dff94134494ee5b8268e18432710eab6a8d42232937a48"
+    },
+    "fonts/archivo-latin-wdth-normal.woff2": {
+      "hash": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/e3/e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    "fonts/jetbrains-mono-latin-500-normal.woff2": {
+      "hash": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/cb/cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    "gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/44/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "index.html": {
+      "hash": "c1c235906c058ea0b5a12417b4e826960882090f5478738448d0d71ec0b120b0",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/c1/c1c235906c058ea0b5a12417b4e826960882090f5478738448d0d71ec0b120b0"
+    },
+    "meta.json": {
+      "hash": "cb0961d97b73e953244acfb011e0cd64a876c1284f0cd6c1189311202067dc0f",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/cb/cb0961d97b73e953244acfb011e0cd64a876c1284f0cd6c1189311202067dc0f"
+    },
+    "audio/score.wav": {
+      "hash": "ba7227b0a4dbce41da5fc948c6515901cd6d33fd967b57799afeda65260f3ccc",
+      "content": "/root/.cache/hyperframes/history/83735193-9a79-49c4-ae37-4c7278acb0ad/blobs/ba/ba7227b0a4dbce41da5fc948c6515901cd6d33fd967b57799afeda65260f3ccc"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "959b7880-22b6-429b-85c2-5715e973cdf4"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "15a6e298-138e-423b-bf7e-decf5f4d0359",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-16-reel-muse-spark-open/build/.hyperframes/artifacts/checks/15a6e298-138e-423b-bf7e-decf5f4d0359.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792118894655,
+        "contentHash": "226bdc01154f02514ea918ce0bf68437049a396d6fc15312d8d9dabb44dc7a08",
+        "revision": null,
+        "inputFingerprint": "3b2ce4ba173d9b3118f71dcb6c20eb339d888071866bdd979d72833984796f04",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "4e89fca5-e172-4b86-935f-d8b20609bc20",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-16-reel-muse-spark-open/build/.hyperframes/artifacts/checks/4e89fca5-e172-4b86-935f-d8b20609bc20.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": true,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792118955372,
+        "contentHash": "5837e5596e79ad60ab3094ae3ddb54704f6af96d7fcc6c5b30407c7f6a061fc4",
+        "revision": null,
+        "inputFingerprint": "3b2ce4ba173d9b3118f71dcb6c20eb339d888071866bdd979d72833984796f04",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "959b7880-22b6-429b-85c2-5715e973cdf4",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-16-reel-muse-spark-open/build/.hyperframes/artifacts/checks/959b7880-22b6-429b-85c2-5715e973cdf4.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792118981061,
+        "contentHash": "226bdc01154f02514ea918ce0bf68437049a396d6fc15312d8d9dabb44dc7a08",
+        "revision": null,
+        "inputFingerprint": "3b2ce4ba173d9b3118f71dcb6c20eb339d888071866bdd979d72833984796f04",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d7f53705-7e74-452b-b864-c08d444b300f",
+      "completedAt": 1792118945907,
+      "output": "/home/claude/gyrotex-social/drafts/2026-10-16-reel-muse-spark-open/reel.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

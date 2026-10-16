@@ -1,0 +1,9 @@
+Would you run an 816B-parameter AI model at home? Comment YES or NO. Meta just released Muse Spark Open.
+
+Muse Spark Open is an open-weight model from Meta Superintelligence Labs, released on 15 October. It has 816B parameters, with 42B active per token, and a context window of 1M tokens. It takes text, image, video and audio as input.
+
+It can run on desktop hardware. According to MarkTechPost, the model runs on two Apple M5 Ultra Mac Studios with 512 GB each, linked over Thunderbolt 5.
+
+The weights are on Hugging Face under the Muse Model License, which allows use, fine-tuning and redistribution. Hosted APIs are also available through providers such as OpenRouter and Together AI.
+
+#MuseSparkOpen #OpenWeights #MetaAI
