@@ -1,0 +1,113 @@
+{
+ "date": "16 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*816B* on Macs",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 16 OCT", "rows": ["Meta's Muse Spark Open", "Nvidia's Nemotron 3.5 Super VL", "FLUX 3 Image Klein"]},
+   "beats": [
+    {"say": "If you're paying for every token, you can now run Meta's newest open model yourself, on two Mac Studios.", "text": "Meta's new open model runs on *two Mac Studios.*"},
+    {"say": "Nvidia says a tuned version of its new open model beat Claude Opus five on one specialist test.", "text": "Nvidia's open model beats *Opus 5* on one test."},
+    {"say": "And a new open image model makes a picture in about four seconds on one graphics card.", "text": "An image in about *4 seconds.*"},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "muse spark open",
+   "chapter": "Meta's Muse Spark Open: 816B open weights",
+   "source": "MarkTechPost",
+   "card": {"type": "stat", "title": "MUSE SPARK OPEN", "big": "816B", "sub": "parameters", "rows": [["active per token", "42B"], ["context window", "1M tokens"]], "at": [2, 2, 3]},
+   "beats": [
+    {"say": "First up, Meta.", "text": "First up, *Meta.*"},
+    {"say": "It's released Muse Spark Open, with the weights on Hugging Face.", "text": "*Muse Spark Open,* weights on Hugging Face."},
+    {"say": "It has eight hundred and sixteen billion parameters, with forty two billion active per token, according to MarkTechPost.", "text": "*816 billion* parameters. 42 billion active."},
+    {"say": "And it can read up to one million tokens at a time.", "text": "A *1 million* token context."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "where it runs",
+   "source": "MarkTechPost",
+   "card": {"type": "list", "mark": "tick", "title": "WHERE IT RUNS", "rows": ["2 Mac Studios, 512 GB each", "4 Blackwell Ultra GPUs", "Or 8 H200s"], "at": [0, 1, 1]},
+   "beats": [
+    {"say": "The desktop setup is two M5 Ultra Mac Studios, each with five hundred and twelve gigabytes of memory.", "text": "Two *M5 Ultra* Mac Studios."},
+    {"say": "In a data center, it runs on four Blackwell Ultra GPUs, or eight H two hundreds.", "text": "Or *4 Blackwell Ultra* GPUs."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the price",
+   "source": "MarkTechPost",
+   "card": {"type": "bars", "title": "OPENROUTER, PER MILLION TOKENS", "rows": [{"k": "Input", "v": "$1.25", "pct": 29}, {"k": "Output", "v": "$4.25", "pct": 100, "hot": true}]},
+   "beats": [
+    {"say": "If you'd rather not host it, input costs one dollar twenty five per million tokens on OpenRouter.", "text": "*$1.25* per million input tokens."},
+    {"say": "Output is four dollars twenty five.", "text": "*$4.25* for output."},
+    {"say": "And products built on it have to say Built with Muse Spark Open.", "text": "Label it *Built with Muse Spark Open.*"}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "nemotron 3.5",
+   "chapter": "Nvidia's Nemotron 3.5 Super VL",
+   "source": "VentureBeat",
+   "card": {"type": "stat", "title": "NEMOTRON 3.5 SUPER VL", "big": "120B", "sub": "parameters", "rows": [["license", "OpenMDW"], ["speed", "up to 5x"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "Next, Nvidia.", "text": "Next, *Nvidia.*"},
+    {"say": "It's released Nemotron three point five Super VL, a one hundred and twenty billion parameter open model, according to VentureBeat.", "text": "*Nemotron 3.5 Super VL:* 120 billion parameters."},
+    {"say": "The license allows commercial use, fine-tuning and redistribution.", "text": "Free to *use, tune and share.*"},
+    {"say": "And Nvidia says it's up to five times faster than a comparable open model.", "text": "Up to *5x faster,* says Nvidia."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the claims test",
+   "source": "VentureBeat",
+   "card": {"type": "bars", "title": "MEDICAL CLAIMS ACCURACY", "rows": [{"k": "Base model", "v": "~28%", "pct": 28}, {"k": "Tuned model", "v": "~72%", "pct": 72, "hot": true}, {"k": "Claude Opus 5", "v": "~38%", "pct": 38}], "at": [1, 1, 2]},
+   "beats": [
+    {"say": "Nvidia tuned it on five specialist tasks.", "text": "Tuned on *5 specialist tasks.*"},
+    {"say": "On a medical insurance claims test, accuracy rose from about twenty eight percent to about seventy two.", "text": "Claims accuracy: *28% to 72%.*"},
+    {"say": "Claude Opus five scores about thirty eight percent on that test.", "text": "Claude Opus 5: about *38%.*"},
+    {"say": "VentureBeat notes these are narrow tasks, and Nvidia hasn't published the test details.", "text": "Narrow tasks, *no test details* yet."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "flux 3 image klein",
+   "chapter": "FLUX 3 Image Klein: open image model",
+   "source": "bfl.ai",
+   "card": {"type": "stat", "title": "FLUX 3 IMAGE KLEIN", "big": "5.6B", "sub": "parameters", "rows": [["reference images", "up to 10"], ["1 MP on RTX 5090", "~4 sec"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "Finally, Black Forest Labs.", "text": "Finally, *Black Forest Labs.*"},
+    {"say": "It's released FLUX three Image Klein, an open image model with five point six billion parameters.", "text": "*FLUX 3 Image Klein:* 5.6 billion parameters."},
+    {"say": "It makes and edits images, and can work from up to ten reference images.", "text": "Up to *10 reference images.*"},
+    {"say": "On an RTX fifty ninety, a one megapixel image takes about four seconds.", "text": "About *4 seconds* on an RTX 5090."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "who it's free for",
+   "source": "bfl.ai",
+   "card": {"type": "list", "mark": "tick", "title": "FLUX 3 IMAGE KLEIN", "rows": ["Free under $5M yearly revenue", "Runs on 8 GB graphics cards", "Weights out now"]},
+   "beats": [
+    {"say": "It's free for commercial use if your company makes under five million dollars a year.", "text": "Free if revenue is *under $5 million.*"},
+    {"say": "A compressed version runs on GeForce cards with as little as eight gigabytes of memory.", "text": "Runs on *8 GB* graphics cards."},
+    {"say": "And the weights are out now.", "text": "Weights are *out now.*"}
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Which of these three open models would you try first? Tell me in the comments.", "text": "Which would you *try first?*"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]
+  }
+ ]
+}

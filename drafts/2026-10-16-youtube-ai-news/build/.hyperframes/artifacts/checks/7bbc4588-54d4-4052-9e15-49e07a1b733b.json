@@ -1,0 +1,3940 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 237,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 0.73s and 0.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 1.53s and 1.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 2.13s and 2.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 2.53s and 2.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 2.93s and 2.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 3.13s and 3.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 3.53s and 3.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 3.93s and 3.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 4.13s and 4.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 4.33s and 4.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 4.73s and 4.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 4.93s and 4.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 5.13s and 5.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 5.33s and 5.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 5.93s and 5.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 6.13s and 6.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 6.33s and 6.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 6.73s and 6.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 6.93s and 6.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 7.13s and 7.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 7.73s and 7.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 7.93s and 7.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 8.13s and 8.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 8.93s and 8.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 9.13s and 9.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 9.53s and 9.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 9.93s and 9.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 10.13s and 10.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 10.53s and 10.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 10.93s and 10.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 11.13s and 11.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 11.53s and 11.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 12.13s and 12.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 12.93s and 12.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 13.13s and 13.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 13.53s and 13.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 13.93s and 13.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 14.13s and 14.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 14.53s and 14.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 14.93s and 14.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 15.13s and 15.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 15.53s and 15.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 15.93s and 15.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 16.13s and 16.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 16.33s and 16.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 16.73s and 16.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 16.93s and 16.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 17.13s and 17.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 17.33s and 17.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 17.73s and 17.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 17.93s and 17.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 18.13s and 18.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 18.33s and 18.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 18.73s and 18.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 18.93s and 18.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 19.13s and 19.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 19.33s and 19.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 20.33s and 20.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 20.73s and 20.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 20.93s and 20.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 21.13s and 21.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 21.33s and 21.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 21.93s and 21.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 22.13s and 22.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 22.33s and 22.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 22.73s and 22.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 23.13s and 23.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 23.33s and 23.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 23.73s and 23.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 23.93s and 23.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 24.13s and 24.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 24.33s and 24.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 25.33s and 25.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 25.73s and 25.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 25.93s and 25.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 26.13s and 26.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 26.33s and 26.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 26.73s and 26.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 26.93s and 26.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 27.13s and 27.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 27.33s and 27.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 27.73s and 27.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 27.93s and 27.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 28.13s and 28.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 28.73s and 28.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 28.93s and 28.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 29.13s and 29.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 29.33s and 29.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 29.73s and 29.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 29.93s and 29.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 30.33s and 30.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 30.73s and 30.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 30.93s and 30.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 31.13s and 31.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 31.33s and 31.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 31.73s and 31.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 31.93s and 31.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 32.33s and 32.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 32.73s and 32.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 33.33s and 33.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 33.73s and 33.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 34.33s and 34.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 34.73s and 34.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 35.33s and 35.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 35.73s and 35.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 36.33s and 36.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 36.73s and 36.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 37.33s and 37.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 38.33s and 38.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 38.73s and 38.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 39.33s and 39.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 39.73s and 39.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 40.33s and 40.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 41.33s and 41.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 41.73s and 41.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 42.73s and 42.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 43.33s and 43.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 43.73s and 43.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 44.33s and 44.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 45.33s and 45.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 45.73s and 45.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 46.33s and 46.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 46.73s and 46.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 47.33s and 47.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 47.73s and 47.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 48.33s and 48.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 49.33s and 49.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 49.73s and 49.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 50.33s and 50.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 50.73s and 50.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 51.33s and 51.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 51.73s and 51.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 52.33s and 52.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 52.73s and 52.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 53.33s and 53.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 54.33s and 54.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 54.73s and 54.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 55.33s and 55.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 55.73s and 55.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 56.33s and 56.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 56.73s and 56.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 57.33s and 57.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 57.73s and 57.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 58.33s and 58.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 58.73s and 58.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 59.33s and 59.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 59.73s and 59.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 60.73s and 60.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 61.33s and 61.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 61.73s and 61.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 62.33s and 62.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 62.73s and 62.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 63.33s and 63.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 63.73s and 63.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 128.13s and 128.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 128.33s and 128.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 128.53s and 128.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 128.73s and 128.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 128.93s and 128.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 129.13s and 129.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 129.33s and 129.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 129.53s and 129.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 129.73s and 129.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 129.93s and 129.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 130.13s and 130.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 130.33s and 130.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 130.53s and 130.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 130.73s and 130.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 130.93s and 130.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 131.13s and 131.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 131.33s and 131.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 131.53s and 131.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 131.73s and 131.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 131.93s and 131.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 132.13s and 132.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 132.33s and 132.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 132.53s and 132.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 132.73s and 132.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 132.93s and 132.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 133.33s and 133.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 133.53s and 133.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 133.73s and 133.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 133.93s and 133.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 134.13s and 134.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 134.33s and 134.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 134.53s and 134.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 135.13s and 135.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 135.33s and 135.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 135.53s and 135.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 135.73s and 135.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 135.93s and 135.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 136.13s and 136.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 136.33s and 136.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 136.53s and 136.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 136.73s and 136.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 137.13s and 137.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 137.33s and 137.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 137.53s and 137.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 137.73s and 137.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 137.93s and 137.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 138.13s and 138.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 138.33s and 138.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 138.73s and 138.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 138.93s and 138.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 139.13s and 139.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 139.33s and 139.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 139.53s and 139.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 139.73s and 139.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 139.93s and 139.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 140.33s and 140.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 140.53s and 140.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 140.73s and 140.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 140.93s and 140.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 141.33s and 141.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 141.53s and 141.53s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 141.73s and 141.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 141.93s and 141.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 142.13s and 142.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 142.33s and 142.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 142.73s and 142.73s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 142.93s and 142.93s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 143.13s and 143.13s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#host\" for --lv between 143.33s and 143.33s.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "1957 tl.fromTo() calls target \"#host\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": "#host",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.15s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 2233 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split coherent scenes or layers into separate .html files under compositions/, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 1 has 5 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 2 has 4 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc0\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc0",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc0\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc1\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc1",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc1\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc2\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc2",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc2\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc3\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc3",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc3\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc4\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc4",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc4\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc5\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc5",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc5\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc6\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc6",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc6\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc7\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc7",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc7\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"sc8\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#sc8",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"sc8\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"over\"> is a timeline element that contains nested <div id=\"tc\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#over",
+        "dataAttributes": {},
+        "sourceFile": "/home/claude/gyrotex-social/drafts/2026-10-16-youtube-ai-news/build/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"over\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 40.981,
+        "selector": "#sc2 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1268.91,
+          "top": 126,
+          "right": 1591.47,
+          "bottom": 157,
+          "width": 322.56,
+          "height": 31
+        },
+        "containerSelector": "#tc",
+        "text": "// 03 · where it runs",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1268.91,
+          "y": 126,
+          "width": 322.56,
+          "height": 31
+        },
+        "firstSeen": 40.981,
+        "lastSeen": 40.981,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          40.981
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 85.841,
+        "selector": "#sc5 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1646.67,
+          "top": 126,
+          "right": 1920,
+          "bottom": 157,
+          "width": 273.33,
+          "height": 31
+        },
+        "containerSelector": "#tcv",
+        "text": "// 06 · the claims test",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1646.67,
+          "y": 126,
+          "width": 273.33,
+          "height": 31
+        },
+        "firstSeen": 85.841,
+        "lastSeen": 85.841,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          85.841
+        ]
+      }
+    ],
+    "duration": 145.251,
+    "samples": [
+      8.07,
+      24.209,
+      40.348,
+      56.487,
+      72.626,
+      88.765,
+      104.904,
+      121.043,
+      137.182
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      8.07,
+      40.348,
+      72.626,
+      104.904,
+      137.182
+    ],
+    "checked": 51,
+    "passed": 51
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

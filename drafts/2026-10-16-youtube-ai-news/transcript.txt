@@ -1,0 +1,31 @@
+[0:00] If you're paying for every token, you can now run Meta's newest open model yourself, on two Mac Studios.
+[0:07] Nvidia says a tuned version of its new open model beat Claude Opus five on one specialist test.
+[0:14] And a new open image model makes a picture in about four seconds on one graphics card.
+[0:19] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:25] First up, Meta.
+[0:26] It's released Muse Spark Open, with the weights on Hugging Face.
+[0:30] It has eight hundred and sixteen billion parameters, with forty two billion active per token, according to MarkTechPost.
+[0:37] And it can read up to one million tokens at a time.
+[0:41] The desktop setup is two M5 Ultra Mac Studios, each with five hundred and twelve gigabytes of memory.
+[0:47] In a data center, it runs on four Blackwell Ultra GPUs, or eight H two hundreds.
+[0:54] If you'd rather not host it, input costs one dollar twenty five per million tokens on OpenRouter.
+[1:00] Output is four dollars twenty five.
+[1:02] And products built on it have to say Built with Muse Spark Open.
+[1:06] Next, Nvidia.
+[1:07] It's released Nemotron three point five Super VL, a one hundred and twenty billion parameter open model, according to VentureBeat.
+[1:16] The license allows commercial use, fine-tuning and redistribution.
+[1:20] And Nvidia says it's up to five times faster than a comparable open model.
+[1:26] Nvidia tuned it on five specialist tasks.
+[1:28] On a medical insurance claims test, accuracy rose from about twenty eight percent to about seventy two.
+[1:35] Claude Opus five scores about thirty eight percent on that test.
+[1:38] VentureBeat notes these are narrow tasks, and Nvidia hasn't published the test details.
+[1:44] Finally, Black Forest Labs.
+[1:46] It's released FLUX three Image Klein, an open image model with five point six billion parameters.
+[1:52] It makes and edits images, and can work from up to ten reference images.
+[1:57] On an RTX fifty ninety, a one megapixel image takes about four seconds.
+[2:02] It's free for commercial use if your company makes under five million dollars a year.
+[2:07] A compressed version runs on GeForce cards with as little as eight gigabytes of memory.
+[2:13] And the weights are out now.
+[2:15] That's today's AI news.
+[2:16] Which of these three open models would you try first? Tell me in the comments.
+[2:21] I'm Jenny, and I'll see you tomorrow.
