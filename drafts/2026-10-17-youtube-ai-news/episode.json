@@ -1,0 +1,114 @@
+{
+ "date": "17 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*$6.3B* deal",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {"type": "list", "title": "AI NEWS · 17 OCT", "rows": ["Proofpoint buys Varonis", "Microsoft's MAI-Base-2", "Claude's quantum circuits"]},
+   "beats": [
+    {"say": "Your AI agents can read your sensitive data, and that's why Proofpoint is buying Varonis for six point three billion dollars.", "text": "Proofpoint buys Varonis for *$6.3 billion.*"},
+    {"say": "Microsoft has finished training a two point eight trillion parameter model of its own.", "text": "Microsoft's own *2.8 trillion* parameter model."},
+    {"say": "And Claude redesigned a quantum circuit to use seventeen times fewer gates.", "text": "Claude cuts a quantum circuit *17x.*"},
+    {"say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "proofpoint + varonis",
+   "chapter": "Proofpoint buys Varonis for $6.3B",
+   "source": "CyberScoop",
+   "card": {"type": "stat", "title": "PROOFPOINT + VARONIS", "big": "$6.3B", "sub": "cash deal", "rows": [["Proofpoint's owner", "Thoma Bravo"], ["expected close", "H1 2027"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "First up, Proofpoint.", "text": "First up, *Proofpoint.*"},
+    {"say": "It's agreed to buy the data security company Varonis, in a cash deal worth about six point three billion dollars, according to CyberScoop.", "text": "Varonis, for about *$6.3 billion* in cash."},
+    {"say": "Proofpoint is owned by the private equity firm Thoma Bravo.", "text": "Proofpoint is owned by *Thoma Bravo.*"},
+    {"say": "And the deal is expected to close in the first half of twenty twenty seven.", "text": "Closing in the *first half of 2027.*"}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the ai angle",
+   "source": "CyberScoop",
+   "card": {"type": "list", "mark": "tick", "title": "THE AI ANGLE", "rows": ["Agents with broad data access", "Attackers using AI to move faster", "Varonis: secure AI and its data"], "at": [0, 2, 3]},
+   "beats": [
+    {"say": "Proofpoint's CEO, Sumit Dhawan, says companies are giving AI agents broad access to sensitive data.", "text": "AI agents get *broad access* to sensitive data."},
+    {"say": "He says that creates new insider risks.", "text": "That's a new *insider risk.*"},
+    {"say": "And attackers are using AI to run faster campaigns.", "text": "Attackers use AI to *move faster.*"},
+    {"say": "Varonis says its mission is to secure AI and the data that powers it.", "text": "*Secure AI* and the data behind it."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "mai-base-2",
+   "chapter": "Microsoft's MAI-Base-2: 2.8T parameters",
+   "source": "microsoft.ai",
+   "card": {"type": "stat", "title": "MAI-BASE-2", "big": "2.8T", "sub": "parameters", "rows": [["active at a time", "80B"], ["training data", "50T tokens"]], "at": [1, 2, 3]},
+   "beats": [
+    {"say": "Next, Microsoft.", "text": "Next, *Microsoft.*"},
+    {"say": "Its AI team has finished pre-training MAI Base two, a model with two point eight trillion parameters.", "text": "*MAI-Base-2:* 2.8 trillion parameters."},
+    {"say": "Eighty billion of them are active at a time.", "text": "*80 billion* active at a time."},
+    {"say": "It was trained on fifty trillion tokens, using sixteen thousand G B two hundred GPUs over thirty eight days.", "text": "*50 trillion* tokens, 16,000 GPUs, 38 days."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the efficiency claim",
+   "source": "microsoft.ai",
+   "card": {"type": "bars", "title": "FLOPS EFFICIENCY VS DEEPSEEK", "rows": [{"k": "Low end", "v": "4.2x", "pct": 34}, {"k": "High end", "v": "12.3x", "pct": 100, "hot": true}], "at": [0, 0]},
+   "beats": [
+    {"say": "Microsoft says it was between four point two and twelve point three times more efficient to pre-train than DeepSeek V four Pro Base.", "text": "*4.2x to 12.3x* more efficient than DeepSeek."},
+    {"say": "It calls that DeepSeek model the strongest open base model.", "text": "Against the *strongest open base* model."},
+    {"say": "Microsoft also says it beat every open weight model it tested, on its own held-out evaluations.", "text": "Beat every open model *it tested.*"}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "who gets it",
+   "source": "microsoft.ai",
+   "card": {"type": "list", "mark": "tick", "title": "MAI-BASE-2", "rows": ["In post-training now", "Licensed to trusted partners", "Through Microsoft Foundry"], "at": [0, 1, 1]},
+   "beats": [
+    {"say": "It's in post-training now.", "text": "In *post-training* now."},
+    {"say": "Microsoft plans to license the weights to trusted partners through Foundry.", "text": "Weights for *trusted partners,* via Foundry."},
+    {"say": "And it says the model wasn't distilled from anyone else's.", "text": "*No distillation* from other models."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "claude + quantum",
+   "chapter": "Claude designs leaner quantum circuits",
+   "source": "anthropic.com",
+   "card": {"type": "stat", "title": "CLAUDE MYTHOS 5", "big": "17x", "sub": "fewer gates", "rows": [["more qubits", "12%"], ["circuits improved", "8 of 8"]], "at": [2, 2, 3]},
+   "beats": [
+    {"say": "Finally, Anthropic.", "text": "Finally, *Anthropic.*"},
+    {"say": "It had Claude Mythos five design eight quantum circuits, working in a closed loop with an automated checker.", "text": "*Claude Mythos 5* designs 8 quantum circuits."},
+    {"say": "One, for elliptic curve point addition, uses seventeen times fewer gates, with twelve percent more qubits.", "text": "*17x fewer gates,* 12% more qubits."},
+    {"say": "Across all eight, Claude's designs used fewer qubits and fewer gates than the best published ones.", "text": "Fewer *qubits and gates* on all eight."}
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "how it worked",
+   "source": "anthropic.com",
+   "card": {"type": "list", "mark": "tick", "title": "HOW IT WORKED", "rows": ["53-hour run, minimal human input", "Decoder: 12x fewer gates", "Every circuit checked by a program"]},
+   "beats": [
+    {"say": "The elliptic curve design came out of a fifty three hour run, with minimal human input.", "text": "A *53 hour* run, minimal human input."},
+    {"say": "On another circuit, a decoder, Claude cut the gates twelve times compared with Google's previous design.", "text": "A decoder with *12x fewer gates* than Google's."},
+    {"say": "An outside program checked every circuit for correctness.", "text": "Every circuit *checked* by a program."}
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {"say": "That's today's AI news.", "text": "That's today's *AI news.*"},
+    {"say": "Which of these three stories matters most for your business? Tell me in the comments.", "text": "Which story *matters most* to you?"},
+    {"say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*"}
+   ]
+  }
+ ]
+}

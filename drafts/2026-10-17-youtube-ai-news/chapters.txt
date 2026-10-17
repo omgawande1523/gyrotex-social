@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:23 Proofpoint buys Varonis for $6.3B
+0:59 Microsoft's MAI-Base-2: 2.8T parameters
+1:47 Claude designs leaner quantum circuits

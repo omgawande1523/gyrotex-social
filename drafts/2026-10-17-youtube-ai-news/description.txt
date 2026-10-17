@@ -1,0 +1,15 @@
+Today's AI news in about two and a half minutes: Proofpoint agrees to buy data security company Varonis for about $6.3 billion in cash; Microsoft AI finishes pre-training MAI-Base-2, a 2.8-trillion-parameter model; and Anthropic's Claude Mythos 5 designs quantum circuits with up to 17x fewer gates.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:23 Proofpoint buys Varonis for $6.3B
+0:59 Microsoft's MAI-Base-2: 2.8T parameters
+1:47 Claude designs leaner quantum circuits
+
+Sources
+Proofpoint to buy Varonis (CyberScoop): https://cyberscoop.com/proofpoint-acquires-varonis-systems-data-security/
+Microsoft AI's MAI-Base-2: https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/
+Claude designs quantum circuits (Anthropic): https://www.anthropic.com/research/designing-efficient-quantum-circuits
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/
