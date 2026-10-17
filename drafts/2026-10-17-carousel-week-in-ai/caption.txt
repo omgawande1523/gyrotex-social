@@ -1,0 +1,11 @@
+Google opened Gemini 4 Argon to developers and Meta launched Muse Wonder this week, at $2 and $4 per million input tokens.
+
+Gemini 4 Argon costs $2 per million input tokens and $10 per million output through 30 Nov, Let's Data Science reports. Meta's first frontier model, Muse Wonder, costs $4 per million input tokens and $20 per million output on the Meta Model API, according to TechCrunch.
+
+Microsoft says its Maia 300 chip gets 40% more tokens per megawatt than leading GPU-based systems, per Data Center Knowledge. It goes into production in 2027.
+
+Workday launched Sana as the new Workday Home, where you ask in plain language and Sana coordinates Workday agents to complete the work. YouTube Music now labels songs as Fully Gen AI, Partly Gen AI or No Gen AI, Music Business Worldwide reports.
+
+Which story matters most to your work? Comment the number, 1 to 5.
+
+#AINews #Gemini4 #MuseWonder

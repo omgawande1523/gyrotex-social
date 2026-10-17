@@ -1,0 +1,7 @@
+[{"k":"cover","kicker":"WEEK OF 12 TO 16 OCT","h":"5 AI stories <em>this week</em>","p":"Two flagship models, a new chip, an agent home screen and labels for AI music."},
+{"k":"stat","big":"$2","h":"1. Gemini 4 Argon <em>input price</em>","p":"Google's new flagship costs $2 per million input tokens and $10 per million output, through 30 Nov. Source: Let's Data Science, 13 Oct."},
+{"k":"stat","big":"$4","h":"2. Meta Muse Wonder <em>input price</em>","p":"Meta's first frontier model costs $4 per million input tokens and $20 per million output on its API. Source: TechCrunch, 12 Oct."},
+{"k":"stat","big":"40%","h":"3. Microsoft Maia 300 <em>chip</em>","p":"Microsoft says it gets 40% more tokens per megawatt than leading GPU-based systems. In production in 2027. Source: Data Center Knowledge, 13 Oct."},
+{"k":"stat","big":"Sana","h":"4. The new <em>Workday Home</em>","p":"Workday's agent experience: you ask in plain language and Sana coordinates Workday agents to do the task. Available now. Source: Workday, 13 Oct."},
+{"k":"stat","big":"3","h":"5. YouTube Music <em>AI labels</em>","p":"Fully Gen AI, Partly Gen AI or No Gen AI, set by partners and YouTube's own detection. Source: Music Business Worldwide, 14 Oct."},
+{"k":"cta","h":"Which story <em>matters most</em>?","p":"Comment the number, 1 to 5."}]
