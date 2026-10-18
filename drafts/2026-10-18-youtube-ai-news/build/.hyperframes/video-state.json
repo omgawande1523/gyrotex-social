@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "historyId": "f2633b7f-3ee6-4e1d-abd8-f251da47483d",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "fonts/archivo-latin-wdth-normal.woff2": {
+      "hash": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/e3/e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    "fonts/jetbrains-mono-latin-500-normal.woff2": {
+      "hash": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/cb/cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    "gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/44/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "index.html": {
+      "hash": "b171c97362aca129eb594d035a58a6a3dd8dcec53e886cc4e27d695c543d836a",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/b1/b171c97362aca129eb594d035a58a6a3dd8dcec53e886cc4e27d695c543d836a"
+    },
+    "meta.json": {
+      "hash": "b89608c22ca688d759f35aa459cf63b2e606e8efe6679d27da551810356166d8",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/b8/b89608c22ca688d759f35aa459cf63b2e606e8efe6679d27da551810356166d8"
+    },
+    "thumb.html": {
+      "hash": "436fe9f85e4c4fd96cb888224b097220b4d36da2eb2862bda057575d154b0d48",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/43/436fe9f85e4c4fd96cb888224b097220b4d36da2eb2862bda057575d154b0d48"
+    },
+    "audio/mix.wav": {
+      "hash": "c74917e6623cc93ab62c231bc7810743ba55d1d8790eac54b74d61551b95539e",
+      "content": "/root/.cache/hyperframes/history/f2633b7f-3ee6-4e1d-abd8-f251da47483d/blobs/c7/c74917e6623cc93ab62c231bc7810743ba55d1d8790eac54b74d61551b95539e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "dcee3b64-c18c-40f9-a063-36216ea5f31e"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "dcee3b64-c18c-40f9-a063-36216ea5f31e",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-18-youtube-ai-news/build/.hyperframes/artifacts/checks/dcee3b64-c18c-40f9-a063-36216ea5f31e.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792294666310,
+        "contentHash": "c0982658b12eb70c73e94494741cec1e0ddf48761d18825d0609a52b33433dfd",
+        "revision": null,
+        "inputFingerprint": "bd65261dd6c93d86f955daa7a0b2df3bae813c39ac9d026c357d96b0feec0a6a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "c54a5421-f28f-4788-b1de-bfa8fc9007e7",
+      "completedAt": 1792295184450,
+      "output": "/home/claude/gyrotex-social/drafts/2026-10-18-youtube-ai-news/video-full.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

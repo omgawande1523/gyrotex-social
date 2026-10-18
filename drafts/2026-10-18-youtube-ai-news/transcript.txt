@@ -1,0 +1,28 @@
+[0:00] ChatGPT can now build your slide deck, and your team can edit it with you.
+[0:05] Anthropic signs its first data center deal in Canada.
+[0:08] And DeepSeek ships a faster, leaner model, plus a web search API.
+[0:13] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:18] First up, OpenAI. ChatGPT can now make slide decks.
+[0:22] You can start from a conversation, your files, or an outline.
+[0:26] Or share an example deck, and it follows that style and layout.
+[0:30] You can edit the text, images, shapes and charts yourself, or ask ChatGPT to do it.
+[0:36] Teammates can edit the same deck in real time, and leave comments.
+[0:40] And on the web, you can export to PowerPoint, PDF or Google Slides.
+[0:45] It's rolling out to eligible Pro, Business and Enterprise users who have Space access.
+[0:50] It works on the web and in the desktop app.
+[0:53] Next, Anthropic. It has signed its first data center deal in Canada, according to Reuters.
+[0:59] It's a lease with EverWind, at Point Tupper in Nova Scotia.
+[1:03] EverWind plans to invest more than ten billion Canadian dollars in the campus and in wind power projects.
+[1:10] Reuters says that's the largest privately funded investment in the province's history.
+[1:15] Anthropic spent seven point three three billion dollars on computing and infrastructure last year.
+[1:21] That's three times what it spent in twenty twenty four.
+[1:24] Its head of public policy for Canada, Jacob Glick, says it'll protect ratepayers and water resources.
+[1:31] Finally, DeepSeek. It has released an update to its Flash model, called V four point one Flash, ten seventeen.
+[1:38] DeepSeek says it scores higher on benchmarks, finishes tasks faster, and gives shorter outputs.
+[1:44] It's live now on DeepSeek's website, app and API.
+[1:48] On the API, the deepseek flash model name now runs the update, and the calling method stays the same.
+[1:55] The older V four Flash names are retired, and they're billed at the Flash price.
+[1:59] And there's a new Search and Fetch API, powered by DeepSeek's own search engine.
+[2:05] That's today's AI news.
+[2:06] Would you build your next deck inside ChatGPT? Tell me in the comments.
+[2:11] I'm Jenny, and I'll see you tomorrow.

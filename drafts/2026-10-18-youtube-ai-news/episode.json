@@ -1,0 +1,99 @@
+{
+ "date": "18 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "AI builds *decks*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 18 OCT",
+     "rows": ["ChatGPT Slides is here", "Anthropic's first Canadian data center", "A faster DeepSeek Flash"] },
+   "beats": [
+    { "say": "ChatGPT can now build your slide deck, and your team can edit it with you.", "text": "ChatGPT builds your *slide deck.*" },
+    { "say": "Anthropic signs its first data center deal in Canada.", "text": "Anthropic's first *Canadian* data center." },
+    { "say": "And DeepSeek ships a faster, leaner model, plus a web search API.", "text": "A leaner *DeepSeek,* plus web search." },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story", "label": "chatgpt slides", "chapter": "ChatGPT Slides: decks inside ChatGPT", "source": "OpenAI",
+   "card": { "type": "list", "mark": "tick", "title": "START A DECK FROM",
+     "rows": ["A conversation", "Your files or an outline", "An example deck to copy the style"], "at": [1, 1, 2] },
+   "beats": [
+    { "say": "First up, OpenAI. ChatGPT can now make slide decks.", "text": "First up, *ChatGPT Slides.*" },
+    { "say": "You can start from a conversation, your files, or an outline.", "text": "Start from a *chat, files* or an *outline.*" },
+    { "say": "Or share an example deck, and it follows that style and layout.", "text": "Share an *example deck* for the style." }
+   ]
+  },
+  {
+   "kind": "story", "label": "edit together", "source": "OpenAI",
+   "card": { "type": "stat", "title": "EXPORT ON THE WEB", "big": "3", "sub": "export formats",
+     "rows": [["export to", "PowerPoint"], ["or", "PDF"], ["or", "Google Slides"]], "at": [2, 2, 2, 2] },
+   "beats": [
+    { "say": "You can edit the text, images, shapes and charts yourself, or ask ChatGPT to do it.", "text": "Edit it yourself, or *ask ChatGPT.*" },
+    { "say": "Teammates can edit the same deck in real time, and leave comments.", "text": "Teammates edit in *real time.*" },
+    { "say": "And on the web, you can export to PowerPoint, PDF or Google Slides.", "text": "Export to *PowerPoint, PDF* or *Google Slides.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "who gets it", "source": "OpenAI",
+   "card": { "type": "list", "mark": "tick", "title": "ROLLING OUT TO",
+     "rows": ["Pro", "Business", "Enterprise"], "at": [0, 0, 0] },
+   "beats": [
+    { "say": "It's rolling out to eligible Pro, Business and Enterprise users who have Space access.", "text": "For *Pro, Business* and *Enterprise.*" },
+    { "say": "It works on the web and in the desktop app.", "text": "On the *web* and the *desktop app.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "anthropic in canada", "chapter": "Anthropic's first Canadian data center", "source": "Reuters",
+   "card": { "type": "stat", "title": "EVERWIND · NOVA SCOTIA", "big": "C$10B+", "sub": "planned investment",
+     "rows": [["site", "Point Tupper"], ["partner", "EverWind"]], "at": [2, 1, 1] },
+   "beats": [
+    { "say": "Next, Anthropic. It has signed its first data center deal in Canada, according to Reuters.", "text": "Next, *Anthropic* comes to *Canada.*" },
+    { "say": "It's a lease with EverWind, at Point Tupper in Nova Scotia.", "text": "A lease with *EverWind* in *Nova Scotia.*" },
+    { "say": "EverWind plans to invest more than ten billion Canadian dollars in the campus and in wind power projects.", "text": "Over *C$10 billion* for the campus and wind power." },
+    { "say": "Reuters says that's the largest privately funded investment in the province's history.", "text": "The province's *largest* private investment." }
+   ]
+  },
+  {
+   "kind": "story", "label": "the compute bill", "source": "Reuters",
+   "card": { "type": "stat", "title": "ANTHROPIC COMPUTE SPEND", "big": "$7.33B", "sub": "computing and infrastructure, last year",
+     "rows": [["vs 2024", "3x"]], "at": [0, 1] },
+   "beats": [
+    { "say": "Anthropic spent seven point three three billion dollars on computing and infrastructure last year.", "text": "*$7.33 billion* on compute last year." },
+    { "say": "That's three times what it spent in twenty twenty four.", "text": "*Three times* its 2024 spend." },
+    { "say": "Its head of public policy for Canada, Jacob Glick, says it'll protect ratepayers and water resources.", "text": "A pledge to protect *ratepayers* and *water.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "deepseek flash", "chapter": "DeepSeek V4.1-Flash-1017", "source": "DeepSeek",
+   "card": { "type": "list", "mark": "tick", "title": "V4.1-FLASH-1017",
+     "rows": ["Higher benchmark scores", "Faster tasks, shorter outputs", "Live on web, app and API"], "at": [1, 1, 2] },
+   "beats": [
+    { "say": "Finally, DeepSeek. It has released an update to its Flash model, called V four point one Flash, ten seventeen.", "text": "Finally, a new *DeepSeek Flash.*" },
+    { "say": "DeepSeek says it scores higher on benchmarks, finishes tasks faster, and gives shorter outputs.", "text": "*Faster* tasks. *Shorter* outputs." },
+    { "say": "It's live now on DeepSeek's website, app and API.", "text": "Live on the *web, app* and *API.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "for developers", "source": "DeepSeek",
+   "card": { "type": "list", "mark": "num", "title": "ON THE API",
+     "rows": ["deepseek-flash runs the update", "Old V4 Flash names retired", "New Search and Fetch API"], "at": [0, 1, 2] },
+   "beats": [
+    { "say": "On the API, the deepseek flash model name now runs the update, and the calling method stays the same.", "text": "*deepseek-flash* now runs the update." },
+    { "say": "The older V four Flash names are retired, and they're billed at the Flash price.", "text": "Old V4 Flash names are *retired.*" },
+    { "say": "And there's a new Search and Fetch API, powered by DeepSeek's own search engine.", "text": "A new *Search and Fetch* API." }
+   ]
+  },
+  {
+   "kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Would you build your next deck inside ChatGPT? Tell me in the comments.", "text": "Your next deck *in ChatGPT?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
