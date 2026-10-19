@@ -1,0 +1,100 @@
+{
+ "date": "19 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*5%* public fund",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 19 OCT",
+     "rows": ["Anthropic's public benefit fund", "OpenAI will build a humanoid", "MIT's AI reads crystals"] },
+   "beats": [
+    { "say": "If you build on Claude, the company behind it just pledged five percent of its shares to a public benefit fund.", "text": "Anthropic pledges *5% of its shares.*" },
+    { "say": "OpenAI's Sam Altman says it will build a humanoid robot.", "text": "OpenAI will build a *humanoid robot.*" },
+    { "say": "And MIT researchers teach an AI model to read crystals.", "text": "An AI model that *reads crystals.*" },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story", "label": "anthropic's fund", "chapter": "Anthropic's 5% public benefit fund", "source": "Anthropic",
+   "card": { "type": "stat", "title": "ANTHROPIC PUBLIC BENEFIT FUND", "big": "5%", "sub": "of Anthropic's shares",
+     "rows": [["still needs", "stockholder approval"], ["can grow by", "2% per 50% rise"]], "at": [0, 1, 2] },
+   "beats": [
+    { "say": "First up, Anthropic. It's committing five percent of its shares to a new Anthropic Public Benefit Fund.", "text": "First up, *5%* of Anthropic's shares." },
+    { "say": "That still needs stockholder approval.", "text": "It still needs *stockholder approval.*" },
+    { "say": "And the board may add two percent more for every fifty percent rise in the company's value, above a set baseline.", "text": "*+2%* for every *50%* rise in value." }
+   ]
+  },
+  {
+   "kind": "story", "label": "what it can fund", "source": "Anthropic",
+   "card": { "type": "list", "mark": "tick", "title": "WHAT THE FUND CAN DO",
+     "rows": ["Large donations to nonprofits", "Direct payments to specific groups", "Work on AI and jobs"], "at": [1, 1, 2] },
+   "beats": [
+    { "say": "Anthropic says the fund can do things that don't fit inside the company.", "text": "Giving that doesn't fit *inside the company.*" },
+    { "say": "Like large donations to nonprofits, or direct payments to specific groups of people.", "text": "*Big donations,* or *direct payments.*" },
+    { "say": "One example is AI's effect on jobs, where Anthropic has already committed two hundred million dollars.", "text": "*$200 million* already set for AI and jobs." }
+   ]
+  },
+  {
+   "kind": "story", "label": "the bigger picture", "source": "Anthropic",
+   "card": { "type": "stat", "title": "SHARES FOR THE PUBLIC GOOD", "big": "~20%", "sub": "with existing pledges",
+     "rows": [["co-founders pledged", "80% of equity"], ["lobbying or politics", "none"]], "at": [0, 0, 2] },
+   "beats": [
+    { "say": "Add the co-founders' pledge of eighty percent of their equity, and the employee giving match.", "text": "Plus the *co-founders' 80%* pledge." },
+    { "say": "Anthropic says that's roughly twenty percent of its shares for the public good.", "text": "About *20%* of shares for the *public good.*" },
+    { "say": "And it says the fund's shares won't be used for lobbying or political giving.", "text": "*No lobbying* or political giving." }
+   ]
+  },
+  {
+   "kind": "story", "label": "openai's humanoid", "chapter": "OpenAI will build a humanoid robot", "source": "Engadget",
+   "card": { "type": "list", "mark": "num", "title": "ALTMAN ON THE ROBOT",
+     "rows": ["\"We will\"", "A world designed for people", "The brain comes first"], "at": [0, 1, 2] },
+   "beats": [
+    { "say": "Next, OpenAI. Sam Altman says it will build a humanoid robot, according to Engadget.", "text": "Next, an *OpenAI humanoid.*" },
+    { "say": "On the Sources podcast, he said the world is very much designed for people.", "text": "The world is *designed for people.*" },
+    { "say": "But he says the robot's body matters less than the brain that makes it work.", "text": "The *brain* matters more than the *body.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "the timeline", "source": "Engadget",
+   "card": { "type": "stat", "title": "OPENAI ROBOTICS", "big": "2027", "sub": "a \"cool demo\", says Altman",
+     "rows": [["robotics openings", "27"], ["price or release date", "not announced"]], "at": [0, 2, 3] },
+   "beats": [
+    { "say": "He told Fortune he thinks OpenAI will have a cool demo in twenty twenty seven.", "text": "A *cool demo* in *2027.*" },
+    { "say": "He said robots walking the streets will take a few years longer.", "text": "Robots on the street: *a few years* more." },
+    { "say": "Engadget counts twenty seven robotics openings on OpenAI's careers page.", "text": "*27 robotics jobs* open at OpenAI." },
+    { "say": "There's no price or release date yet.", "text": "No *price* or *release date* yet." }
+   ]
+  },
+  {
+   "kind": "story", "label": "mit's crystal ai", "chapter": "MIT's AI model reads crystals", "source": "Scientific Frontline",
+   "card": { "type": "stat", "title": "MIT · NATURE COMMUNICATIONS", "big": "90%+", "sub": "of Earth's solid materials are crystals",
+     "rows": [["reads", "3D structure and text"]], "at": [2, 1] },
+   "beats": [
+    { "say": "Finally, a study from MIT researchers, published in Nature Communications, as Scientific Frontline reports.", "text": "Finally, *MIT* in *Nature Communications.*" },
+    { "say": "They built an AI model that learns from a crystal's three D atomic structure and from text together.", "text": "It reads *3D structure* and *text* together." },
+    { "say": "That matters, because crystals make up more than ninety percent of solid materials on Earth.", "text": "Crystals are *90%+* of solid materials." }
+   ]
+  },
+  {
+   "kind": "story", "label": "what it found", "source": "Scientific Frontline",
+   "card": { "type": "list", "mark": "tick", "title": "WHAT THE MODEL DOES",
+     "rows": ["Searches by plain-language property", "Beats text-only models", "Found known battery candidates"], "at": [0, 1, 2] },
+   "beats": [
+    { "say": "You describe a property in plain language, and it finds crystals that match.", "text": "Describe a *property,* find the *crystal.*" },
+    { "say": "The team says it finds better material designs than text only models.", "text": "Better than *text-only* models." },
+    { "say": "Asked for solid state battery electrolytes, its top results included materials already flagged as promising.", "text": "Top picks for *battery electrolytes.*" }
+   ]
+  },
+  {
+   "kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Should AI companies set aside shares for the public? Tell me in the comments.", "text": "Shares *for the public?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}

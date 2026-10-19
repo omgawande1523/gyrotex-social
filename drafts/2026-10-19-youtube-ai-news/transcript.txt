@@ -1,0 +1,29 @@
+[0:00] If you build on Claude, the company behind it just pledged five percent of its shares to a public benefit fund.
+[0:07] OpenAI's Sam Altman says it will build a humanoid robot.
+[0:11] And MIT researchers teach an AI model to read crystals.
+[0:15] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:21] First up, Anthropic. It's committing five percent of its shares to a new Anthropic Public Benefit Fund.
+[0:28] That still needs stockholder approval.
+[0:30] And the board may add two percent more for every fifty percent rise in the company's value, above a set baseline.
+[0:36] Anthropic says the fund can do things that don't fit inside the company.
+[0:41] Like large donations to nonprofits, or direct payments to specific groups of people.
+[0:46] One example is AI's effect on jobs, where Anthropic has already committed two hundred million dollars.
+[0:53] Add the co-founders' pledge of eighty percent of their equity, and the employee giving match.
+[0:58] Anthropic says that's roughly twenty percent of its shares for the public good.
+[1:02] And it says the fund's shares won't be used for lobbying or political giving.
+[1:07] Next, OpenAI. Sam Altman says it will build a humanoid robot, according to Engadget.
+[1:13] On the Sources podcast, he said the world is very much designed for people.
+[1:18] But he says the robot's body matters less than the brain that makes it work.
+[1:23] He told Fortune he thinks OpenAI will have a cool demo in twenty twenty seven.
+[1:28] He said robots walking the streets will take a few years longer.
+[1:32] Engadget counts twenty seven robotics openings on OpenAI's careers page.
+[1:37] There's no price or release date yet.
+[1:39] Finally, a study from MIT researchers, published in Nature Communications, as Scientific Frontline reports.
+[1:47] They built an AI model that learns from a crystal's three D atomic structure and from text together.
+[1:53] That matters, because crystals make up more than ninety percent of solid materials on Earth.
+[1:59] You describe a property in plain language, and it finds crystals that match.
+[2:03] The team says it finds better material designs than text only models.
+[2:08] Asked for solid state battery electrolytes, its top results included materials already flagged as promising.
+[2:15] That's today's AI news.
+[2:17] Should AI companies set aside shares for the public? Tell me in the comments.
+[2:21] I'm Jenny, and I'll see you tomorrow.
