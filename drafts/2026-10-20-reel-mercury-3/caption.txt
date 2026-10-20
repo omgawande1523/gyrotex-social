@@ -1,0 +1,9 @@
+Would you switch models for speed? Comment YES or NO. Inception's Mercury 3 runs at 1,068 tokens per second.
+
+Inception released Mercury 3, its flagship diffusion language model, on 19 October. According to Unite.AI, it runs four to eight times faster at more than 1,000 tokens per second, with 1,068 tokens per second measured on NVIDIA GPUs.
+
+The context window is now one million tokens, up from 260,000 in Mercury 2.5. Inception says it outperforms GPT-6 Luna and Claude Haiku 5.5 on a range of benchmarks, though no benchmark scores were published.
+
+Pricing is $0.10 per million input tokens and $0.35 per million output tokens during a 50% launch discount. The list price is $0.20 and $0.70. Mercury 3 is on the Inception API Platform, OpenRouter, Baseten and Vercel, and new accounts get 100 million free tokens.
+
+#Mercury3 #DiffusionLLM #InceptionAI

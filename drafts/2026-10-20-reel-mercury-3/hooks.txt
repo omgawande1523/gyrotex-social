@@ -1,0 +1,3 @@
+Mercury 3 writes 1,068 tokens per second, and you get 100 million tokens free to try it.
+Inception's Mercury 3 runs four to eight times faster than other models at $0.10 per million input tokens.
+Most AI models write one word at a time. Mercury 3 does 1,068 tokens per second another way.

@@ -1,0 +1,3 @@
+{"date":"20 OCT 2026","topic":"INCEPTION MERCURY 3","word":"MERCURY",
+"facts":[{"big":"1,068","label":"tokens per second","note":"on NVIDIA GPUs, per Inception"},{"big":"1M","label":"token context window","note":"up from 260,000 in Mercury 2.5"},{"big":"$0.10","label":"per million input tokens","note":"launch price, 50% off the $0.20 list"}],
+"source":"unite.ai","ask":"Would you switch for speed? YES or NO"}
