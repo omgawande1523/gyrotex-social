@@ -1,0 +1,15 @@
+Today's AI news in under two minutes: Meta details Prometheus, its gigawatt-scale AI supercluster in Ohio headed for about 1 million GPUs; AI chip startup Tenstorrent raises $1.5 billion at a $6.2 billion valuation; and Cloudflare releases Clairic, an extraction model on Workers AI.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:19 Meta's Prometheus: 1 million GPUs
+0:52 Tenstorrent raises $1.5 billion
+1:17 Cloudflare's Clairic extraction model
+
+Sources
+Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster (Engineering at Meta, 19 Oct): https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/
+Tenstorrent hits $6.2B valuation to scale open-weight AI chips (TechCrunch, 19 Oct): https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/
+Introducing Clairic, a new System One class of extraction models (Cloudflare, 19 Oct): https://blog.cloudflare.com/clairic-extraction-model
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

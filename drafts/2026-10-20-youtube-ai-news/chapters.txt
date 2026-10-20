@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:19 Meta's Prometheus: 1 million GPUs
+0:52 Tenstorrent raises $1.5 billion
+1:17 Cloudflare's Clairic extraction model

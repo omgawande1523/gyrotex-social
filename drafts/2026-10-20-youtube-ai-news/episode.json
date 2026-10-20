@@ -1,0 +1,115 @@
+{
+ "date": "20 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Inside *Prometheus*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 20 OCT", "rows": [
+     "Meta's million-GPU supercluster",
+     "Tenstorrent's $1.5B raise",
+     "Cloudflare's new extraction model" ] },
+   "beats": [
+    { "say": "One million GPUs, one site in Ohio, and Meta says the first phase already trained its Muse models.", "text": "*1 million GPUs,* one site in Ohio." },
+    { "say": "A chip startup more than doubles its value.", "text": "A chip startup *doubles its value.*" },
+    { "say": "And Cloudflare releases a model built just to pull numbers out of messy data.", "text": "A model that *pulls numbers* from messy data." },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "meta prometheus",
+   "chapter": "Meta's Prometheus: 1 million GPUs",
+   "source": "engineering.fb.com",
+   "card": { "type": "stat", "title": "META PROMETHEUS", "big": "1M", "sub": "GPUs at full scale",
+     "rows": [["site", "New Albany, Ohio"], ["first phase", "trained Muse"]], "at": [2, 2, 3] },
+   "beats": [
+    { "say": "First up, Meta.", "text": "First up, *Meta.*" },
+    { "say": "It's shown the inside of Prometheus, its gigawatt-scale supercluster in New Albany, Ohio.", "text": "*Prometheus:* a gigawatt-scale supercluster." },
+    { "say": "Right now it runs hundreds of thousands of GPUs, and at full scale it'll have about one million.", "text": "About *1 million GPUs* at full scale." },
+    { "say": "Meta says the first phase is finished, and it trained the Muse models.", "text": "The first phase trained *Muse.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "keeping it running",
+   "source": "engineering.fb.com",
+   "card": { "type": "bars", "title": "USEFUL TRAINING TIME", "rows": [
+     { "k": "Pre-training", "v": "85%+", "pct": 85 },
+     { "k": "RL (Muse Wonder)", "v": "90%+", "pct": 90, "hot": true } ], "at": [1, 2] },
+   "beats": [
+    { "say": "At this size, things break all the time.", "text": "At this size, *things break.*" },
+    { "say": "Meta says a year of work cut training interruptions by ninety nine percent, and pre-training runs got more than eighty five percent useful time.", "text": "Interruptions *down 99%.* Pre-training: *85%+*" },
+    { "say": "Reinforcement learning runs topped ninety percent.", "text": "RL runs topped *90%.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "tenstorrent",
+   "chapter": "Tenstorrent raises $1.5 billion",
+   "source": "TechCrunch",
+   "card": { "type": "stat", "title": "TENSTORRENT", "big": "$6.2B", "sub": "valuation",
+     "rows": [["raised", "$1.5B"], ["late 2024", "$2.6B"]], "at": [1, 1, 2] },
+   "beats": [
+    { "say": "Next, Tenstorrent, the chip startup focused on inference.", "text": "Next, *Tenstorrent.*" },
+    { "say": "According to TechCrunch, it's raised one point five billion dollars at a six point two billion dollar valuation.", "text": "*$1.5 billion* raised at *$6.2 billion.*" },
+    { "say": "That's more than double the two point six billion it was valued at in late twenty twenty four.", "text": "More than *double* its late 2024 value." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the money",
+   "source": "TechCrunch",
+   "card": { "type": "list", "mark": "tick", "title": "WHERE IT GOES", "rows": [
+     "Led by Trace Capital and Innovation X",
+     "Chips for open-weight models",
+     "And for video generation" ], "at": [0, 1, 1] },
+   "beats": [
+    { "say": "The round was led by Trace Capital and Innovation X.", "text": "Led by *Trace Capital* and *Innovation X.*" },
+    { "say": "And the money goes to chips for serving open-weight models and video generation.", "text": "Chips for *open-weight models* and *video.*" }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "cloudflare clairic",
+   "chapter": "Cloudflare's Clairic extraction model",
+   "source": "blog.cloudflare.com",
+   "card": { "type": "list", "mark": "tick", "title": "CLAIRIC", "rows": [
+     "Pulls values out of unstructured input",
+     "Charges only for input",
+     "Preview on Workers AI" ], "at": [1, 2, 3] },
+   "beats": [
+    { "say": "Finally, Cloudflare has released Clairic.", "text": "Finally, Cloudflare's *Clairic.*" },
+    { "say": "It's an extraction model. It pulls values out of unstructured input, instead of writing text.", "text": "It *extracts values* instead of writing text." },
+    { "say": "It charges only for input, and usually answers in under a second.", "text": "Input-only pricing. *Under a second.*" },
+    { "say": "It's out now as a preview on Workers AI.", "text": "A *preview* on Workers AI." }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the test",
+   "source": "blog.cloudflare.com",
+   "card": { "type": "bars", "title": "CLOUDFLARE'S PIPELINE TEST", "rows": [
+     { "k": "With Clairic", "v": "19.3s", "pct": 31, "hot": true },
+     { "k": "All-LLM", "v": "61.7s", "pct": 100 } ], "at": [1, 1] },
+   "beats": [
+    { "say": "In Cloudflare's own test, a pipeline using Clairic beat one built only on language models.", "text": "Cloudflare's *own test.*" },
+    { "say": "It finished in nineteen point three seconds, against sixty one point seven.", "text": "*19.3 seconds* against 61.7." },
+    { "say": "And Cloudflare says it cost forty nine percent less.", "text": "*49% cheaper,* says Cloudflare." }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Would you swap part of your AI pipeline for a model like Clairic? Tell me in the comments.", "text": "Would you use a model like *Clairic?*" },
+    { "say": "I'm Jenny, from Gyrotex AI. See you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
