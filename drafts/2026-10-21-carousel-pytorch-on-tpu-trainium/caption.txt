@@ -1,0 +1,11 @@
+Google and Amazon both opened their own AI chips to PyTorch apps this week, a direct move on Nvidia's lead with developers.
+
+Google says TorchTPU, its version of PyTorch for its TPU chips, is now open source. Existing PyTorch apps can move to TPUs with a simple configuration change instead of a rewrite, TechCrunch reports.
+
+A day earlier, Amazon announced TorchNeuron, an open source PyTorch backend for its Trainium chips, in public beta from 20 October. In eager mode, moving a model to Trainium takes one line of code, according to the PyTorch blog.
+
+By some accounts PyTorch is used by 85% of AI apps, and most of them are written to run on Nvidia chips by default.
+
+Would you switch chips for your AI apps? Tell me yes or no in the comments.
+
+#PyTorch #GoogleTPU #AWSTrainium

@@ -1,0 +1,7 @@
+[{"k":"cover","kicker":"GOOGLE · AMAZON · 20 OCT","h":"PyTorch now runs on <em>their chips</em>","p":"Google and Amazon both opened their own AI chips to PyTorch apps this week."},
+{"k":"text","h":"Why it <em>matters</em>","p":"Most AI apps are written to run on Nvidia chips by default. These new tools let them move without a rewrite."},
+{"k":"stat","big":"85%","h":"Of AI apps use <em>PyTorch</em>","p":"By some accounts, TechCrunch reports. Meta built PyTorch in 2016 and handed it to the Linux Foundation in 2022."},
+{"k":"text","h":"Google's <em>TorchTPU</em>","p":"Now open source under Apache 2.0. Existing PyTorch apps move to Google's TPU chips with a simple configuration change."},
+{"k":"text","h":"Amazon's <em>TorchNeuron</em>","p":"Open source under Apache 2.0, in public beta from 20 October. In eager mode, moving a model to Trainium takes one line of code."},
+{"k":"list","h":"The <em>recap</em>","items":[["Google","TorchTPU is now open source"],["Amazon","TorchNeuron is in public beta"],["1 line","moves a PyTorch model to Trainium"],["85%","of AI apps use PyTorch, by some accounts"]],"p":"Sources: TechCrunch, 20 Oct 2026; PyTorch blog; TorchTPU on GitHub."},
+{"k":"cta","h":"Would you <em>switch chips</em>?","p":"Yes or no, in the comments."}]
