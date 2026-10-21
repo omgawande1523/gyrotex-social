@@ -1,0 +1,313 @@
+{
+ "date": "21 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*155T* tokens",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 21 OCT",
+    "rows": [
+     "DeepSeek open-sources DeepInfer",
+     "Eka Robotics raises $150 million",
+     "Notion agents run past 24 hours"
+    ]
+   },
+   "beats": [
+    {
+     "say": "DeepSeek has open sourced the engine that runs its own models.",
+     "text": "DeepSeek opens its *inference engine.*"
+    },
+    {
+     "say": "A robot startup is worth one point four five billion dollars.",
+     "text": "A robot startup worth *$1.45 billion.*"
+    },
+    {
+     "say": "And Notion's agents can now work for more than a day.",
+     "text": "Notion agents work *over a day.*"
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "deepinfer",
+   "chapter": "DeepSeek open-sources DeepInfer",
+   "source": "SiliconANGLE",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "DEEPINFER",
+    "rows": [
+     "Apache 2.0 licence",
+     "Nvidia SM100 Blackwell GPUs",
+     "Huawei Ascend 950 NPUs"
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, DeepSeek.",
+     "text": "First up, *DeepSeek.*"
+    },
+    {
+     "say": "The Chinese lab has open sourced DeepInfer, the software it uses to serve its own models, under the Apache two point zero licence.",
+     "text": "Its serving engine, now *open source.*"
+    },
+    {
+     "say": "It runs on Nvidia's Blackwell chips and on Huawei's Ascend nine fifty processors, according to Silicon Angle.",
+     "text": "Runs on *Nvidia* and *Huawei* chips."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the scale",
+   "source": "SiliconANGLE",
+   "card": {
+    "type": "stat",
+    "title": "ONE DEEPSEEK CLUSTER",
+    "big": "155T",
+    "sub": "tokens served a day",
+    "rows": [
+     [
+      "figures",
+      "DeepSeek's own"
+     ],
+     [
+      "smallest setup",
+      "128 GPUs"
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "DeepSeek says one of its clusters serves a hundred and fifty five trillion tokens a day.",
+     "text": "*155 trillion* tokens a day."
+    },
+    {
+     "say": "Those are the lab's own figures, measured on Nvidia hardware.",
+     "text": "The lab's *own figures.*"
+    },
+    {
+     "say": "And the smallest setup it describes is sixty four chips for prefill and sixty four more for decoding.",
+     "text": "*128 chips* in the smallest setup."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what is inside",
+   "source": "SiliconANGLE",
+   "card": {
+    "type": "list",
+    "title": "INSIDE THE RELEASE",
+    "rows": [
+     "Only the last 128 tokens hit the decoder",
+     "Prefill compute nearly halved",
+     "KV cache code stays in house"
+    ]
+   },
+   "beats": [
+    {
+     "say": "One trick sends only the last hundred and twenty eight tokens of a prompt through the decoder layers.",
+     "text": "Only the *last 128 tokens.*"
+    },
+    {
+     "say": "DeepSeek says that nearly halves the prefill work.",
+     "text": "Prefill work *nearly halved.*"
+    },
+    {
+     "say": "The cache and load balancing code stay in house for now.",
+     "text": "Some code *stays in house.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "eka robotics",
+   "chapter": "Eka Robotics raises $150 million",
+   "source": "TechCrunch",
+   "card": {
+    "type": "stat",
+    "title": "EKA ROBOTICS",
+    "big": "$150M",
+    "sub": "Series A",
+    "rows": [
+     [
+      "valuation",
+      "$1.45B"
+     ],
+     [
+      "led by",
+      "a16z and F-Prime"
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, robots. Eka Robotics has raised a hundred and fifty million dollars.",
+     "text": "Eka raises *$150 million.*"
+    },
+    {
+     "say": "TechCrunch reports it's a Series A at a one point four five billion dollar valuation, led by a sixteen z and F Prime.",
+     "text": "A *$1.45 billion* valuation."
+    },
+    {
+     "say": "The company was started by an M I T professor and a former Google DeepMind researcher.",
+     "text": "Founded by an *MIT professor.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the picking rate",
+   "source": "TechCrunch",
+   "card": {
+    "type": "bars",
+    "title": "OBJECTS PICKED AN HOUR",
+    "rows": [
+     {
+      "k": "Eka's robot",
+      "v": "1,500",
+      "pct": 100,
+      "hot": true
+     },
+     {
+      "k": "A person",
+      "v": "600",
+      "pct": 40
+     }
+    ],
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Its robot pairs a force sensing gripper with a model trained on vision, force and action.",
+     "text": "A *force-sensing* gripper."
+    },
+    {
+     "say": "Eka says it picks about fifteen hundred objects an hour, each up to one kilogram.",
+     "text": "About *1,500* objects an hour."
+    },
+    {
+     "say": "A person does about six hundred, and the gripper costs under a thousand dollars.",
+     "text": "A person does about *600.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "notion agents",
+   "chapter": "Notion agents run past 24 hours",
+   "source": "notion.com",
+   "card": {
+    "type": "stat",
+    "title": "ONE NOTION TASK",
+    "big": "24h+",
+    "sub": "an agent can work on it",
+    "rows": [
+     [
+      "old limit",
+      "5 minutes"
+     ],
+     [
+      "harness",
+      "sixth generation"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, Notion.",
+     "text": "Finally, *Notion.*"
+    },
+    {
+     "say": "Its agents can now work on a single task for more than twenty four hours.",
+     "text": "One task, *over 24 hours.*"
+    },
+    {
+     "say": "The old limit was five minutes, and this is the sixth version of the agent harness.",
+     "text": "The old limit was *five minutes.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the cost",
+   "source": "notion.com",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "WHAT ELSE CHANGED",
+    "rows": [
+     "Auto picks the model per task",
+     "About 90% lower average cost",
+     "Existing customers move 2 November"
+    ]
+   },
+   "beats": [
+    {
+     "say": "A router called Auto now picks the model for each task.",
+     "text": "*Auto* picks the model for you."
+    },
+    {
+     "say": "Across more than twenty common jobs, Notion says that costs about ninety percent less on average.",
+     "text": "About *90% less* on average."
+    },
+    {
+     "say": "Existing customers move to the new credits on the second of November.",
+     "text": "New credits from *2 November.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Which of these three matters most to you? Tell me in the comments.",
+     "text": "Which story matters *most to you?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}

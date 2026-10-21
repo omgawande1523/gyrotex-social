@@ -1,0 +1,15 @@
+Today's AI news in about two minutes: DeepSeek open-sources DeepInfer, the inference engine behind its own production services; robotics startup Eka raises a $150 million Series A at a $1.45 billion valuation; and Notion rebuilds its AI agents so one task can run for more than 24 hours.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:17 DeepSeek open-sources DeepInfer
+1:03 Eka Robotics raises $150 million
+1:37 Notion agents run past 24 hours
+
+Sources
+DeepSeek open-sources DeepInfer, the inference framework behind its production services (SiliconANGLE, 20 Oct): https://siliconangle.com/2026/10/20/deepseek-open-sources-deepinfer-the-inference-framework-behind-its-production-services/
+Eka is worth $1.45B thanks to a physical AI model that has experts raving (TechCrunch, 20 Oct): https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/
+Agents, rebuilt to do more for less (Notion, 19 Oct): https://www.notion.com/blog/notion-ai-more-for-less
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

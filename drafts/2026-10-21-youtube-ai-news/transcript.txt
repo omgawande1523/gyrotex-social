@@ -1,0 +1,28 @@
+[0:00] DeepSeek has open sourced the engine that runs its own models.
+[0:04] A robot startup is worth one point four five billion dollars.
+[0:08] And Notion's agents can now work for more than a day.
+[0:11] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:17] First up, DeepSeek.
+[0:18] The Chinese lab has open sourced DeepInfer, the software it uses to serve its own models, under the Apache two point zero licence.
+[0:27] It runs on Nvidia's Blackwell chips and on Huawei's Ascend nine fifty processors, according to Silicon Angle.
+[0:35] DeepSeek says one of its clusters serves a hundred and fifty five trillion tokens a day.
+[0:40] Those are the lab's own figures, measured on Nvidia hardware.
+[0:44] And the smallest setup it describes is sixty four chips for prefill and sixty four more for decoding.
+[0:51] One trick sends only the last hundred and twenty eight tokens of a prompt through the decoder layers.
+[0:57] DeepSeek says that nearly halves the prefill work.
+[1:00] The cache and load balancing code stay in house for now.
+[1:03] Next, robots. Eka Robotics has raised a hundred and fifty million dollars.
+[1:08] TechCrunch reports it's a Series A at a one point four five billion dollar valuation, led by a sixteen z and F Prime.
+[1:16] The company was started by an M I T professor and a former Google DeepMind researcher.
+[1:22] Its robot pairs a force sensing gripper with a model trained on vision, force and action.
+[1:28] Eka says it picks about fifteen hundred objects an hour, each up to one kilogram.
+[1:33] A person does about six hundred, and the gripper costs under a thousand dollars.
+[1:37] Finally, Notion.
+[1:39] Its agents can now work on a single task for more than twenty four hours.
+[1:43] The old limit was five minutes, and this is the sixth version of the agent harness.
+[1:49] A router called Auto now picks the model for each task.
+[1:52] Across more than twenty common jobs, Notion says that costs about ninety percent less on average.
+[1:58] Existing customers move to the new credits on the second of November.
+[2:03] That's today's AI news.
+[2:04] Which of these three matters most to you? Tell me in the comments.
+[2:08] I'm Jenny, and I'll see you tomorrow.
