@@ -1,0 +1,9 @@
+Anthropic's Claude designed 17 proteins that bound scorpion toxins in labs. Should AI design antivenom? Comment YES or NO.
+
+According to Interesting Engineering, an internal Claude research model spent 64 hours generating 318,484 candidate proteins with 12 protein design tools, aimed at five scorpion neurotoxins.
+
+Two labs, Adaptyv Bio and Twist Bioscience, tested 211 of the designs. 17 bound their target toxin, seven of them against Cn2 from a Mexican scorpion. Anthropic is releasing all 211 designs and the lab results.
+
+This is an early step, not a treatment. The tests used lab-made toxins rather than real venom, the results sit in a technical report that has not been peer reviewed, and it is not yet known whether the proteins protect cells or animals.
+
+#Anthropic #ProteinDesign #Antivenom
