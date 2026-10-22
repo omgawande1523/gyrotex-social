@@ -1,0 +1,27 @@
+[0:00] Claude's new agent messages you before you ask.
+[0:03] OpenAI's models are coming to Google Cloud.
+[0:06] And Meta lifts the low end of its spending plan to one hundred and thirty five billion dollars.
+[0:12] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:18] First up, Anthropic.
+[0:19] It's launched Claude Duet, an AI agent that reaches out before you ask, according to MacRumors.
+[0:25] It connects to your apps and sends you a short morning brief.
+[0:29] Then it checks your apps every few hours and alerts you when something needs attention.
+[0:34] Duet is built around Claude Opus five point five.
+[0:37] It asks for your approval before it sends a message, makes a payment, or deletes a file.
+[0:42] It's a research preview for Pro and Max subscribers in the United States, with a waitlist.
+[0:47] And it runs on the web and in its own iOS app.
+[0:51] Next, OpenAI.
+[0:52] Its frontier models and Codex are coming to Google Cloud's Model Garden.
+[0:57] Companies can buy them through Google Cloud Marketplace, and count it against their Google Cloud commitments.
+[1:03] General availability is planned in the coming weeks.
+[1:07] OpenAI says its models will soon be in Google Antigravity and the Gemini Agent too.
+[1:13] And Microsoft remains OpenAI's primary cloud partner.
+[1:17] Finally, Meta.
+[1:18] It made sixty four point six billion dollars in revenue last quarter, up twenty six percent.
+[1:24] Its capital spending in the quarter was thirty four point nine one billion dollars.
+[1:29] Meta now expects to spend one hundred and thirty five to one hundred and forty five billion dollars this year.
+[1:35] Its earlier forecast started at one hundred and thirty billion.
+[1:39] It's also creating a new class of shares with no voting rights, from January.
+[1:44] That's today's AI news.
+[1:46] Would you let an agent like Duet message you first? Tell me in the comments.
+[1:50] I'm Jenny, and I'll see you tomorrow.

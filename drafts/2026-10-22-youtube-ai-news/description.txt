@@ -1,0 +1,15 @@
+Today's AI news in under two minutes: Anthropic launches Claude Duet, a proactive AI agent that reaches out before you ask; OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden; and Meta now plans $135 to $145 billion in capital spending for 2026 after a $64.6 billion quarter.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:17 Claude Duet: an agent that reaches out first
+0:50 OpenAI's models come to Google Cloud
+1:16 Meta's $135-145B spending plan
+
+Sources
+Anthropic Launches Claude Duet, a Proactive AI Agent (MacRumors, 21 Oct): https://www.macrumors.com/2026/10/21/anthropic-claude-duet/
+OpenAI models coming to Google Cloud (OpenAI, 21 Oct): https://openai.com/index/openai-models-google-cloud/
+Meta Reports Third Quarter 2026 Results (Meta via PR Newswire, 21 Oct): https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

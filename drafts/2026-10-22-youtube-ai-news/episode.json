@@ -1,0 +1,298 @@
+{
+ "date": "22 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Before *you ask*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 22 OCT",
+    "rows": [
+     "Claude Duet, a proactive agent",
+     "OpenAI models on Google Cloud",
+     "Meta's spending plan goes up"
+    ]
+   },
+   "beats": [
+    {
+     "say": "Claude's new agent messages you before you ask.",
+     "text": "Claude messages you *before you ask.*"
+    },
+    {
+     "say": "OpenAI's models are coming to Google Cloud.",
+     "text": "OpenAI comes to *Google Cloud.*"
+    },
+    {
+     "say": "And Meta lifts the low end of its spending plan to one hundred and thirty five billion dollars.",
+     "text": "Meta's plan starts at *$135 billion.*"
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "claude duet",
+   "chapter": "Claude Duet: an agent that reaches out first",
+   "source": "MacRumors",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "CLAUDE DUET",
+    "rows": [
+     "Connects to your apps",
+     "Short morning brief",
+     "Checks in every few hours"
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, Anthropic.",
+     "text": "First up, *Anthropic.*"
+    },
+    {
+     "say": "It's launched Claude Duet, an AI agent that reaches out before you ask, according to MacRumors.",
+     "text": "*Claude Duet* reaches out first."
+    },
+    {
+     "say": "It connects to your apps and sends you a short morning brief.",
+     "text": "A short *morning brief.*"
+    },
+    {
+     "say": "Then it checks your apps every few hours and alerts you when something needs attention.",
+     "text": "Checks your apps *every few hours.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "who gets it",
+   "source": "MacRumors",
+   "card": {
+    "type": "stat",
+    "title": "CLAUDE DUET",
+    "big": "5.5",
+    "sub": "built around Claude Opus 5.5",
+    "rows": [
+     [
+      "approval",
+      "before it pays or sends"
+     ],
+     [
+      "plans",
+      "Pro and Max, US"
+     ],
+     [
+      "where",
+      "web and iOS app"
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "Duet is built around Claude Opus five point five.",
+     "text": "Built on *Opus 5.5.*"
+    },
+    {
+     "say": "It asks for your approval before it sends a message, makes a payment, or deletes a file.",
+     "text": "It *asks first* before it pays or sends."
+    },
+    {
+     "say": "It's a research preview for Pro and Max subscribers in the United States, with a waitlist.",
+     "text": "*Pro and Max* in the US, via waitlist."
+    },
+    {
+     "say": "And it runs on the web and in its own iOS app.",
+     "text": "On the web and its own *iOS app.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "openai on google cloud",
+   "chapter": "OpenAI's models come to Google Cloud",
+   "source": "openai.com",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "OPENAI ON GOOGLE CLOUD",
+    "rows": [
+     "Frontier models in Model Garden",
+     "Codex agent workflows",
+     "Paid through Cloud Marketplace"
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, OpenAI.",
+     "text": "Next, *OpenAI.*"
+    },
+    {
+     "say": "Its frontier models and Codex are coming to Google Cloud's Model Garden.",
+     "text": "OpenAI models in *Model Garden.*"
+    },
+    {
+     "say": "Companies can buy them through Google Cloud Marketplace, and count it against their Google Cloud commitments.",
+     "text": "Buy them on *Cloud Marketplace.*"
+    },
+    {
+     "say": "General availability is planned in the coming weeks.",
+     "text": "Available in the *coming weeks.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what's next",
+   "source": "openai.com",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "ALSO SAID",
+    "rows": [
+     "Coming to Antigravity and Gemini Agent",
+     "Microsoft stays the primary cloud"
+    ]
+   },
+   "beats": [
+    {
+     "say": "OpenAI says its models will soon be in Google Antigravity and the Gemini Agent too.",
+     "text": "Coming to *Antigravity* and Gemini Agent."
+    },
+    {
+     "say": "And Microsoft remains OpenAI's primary cloud partner.",
+     "text": "Microsoft is still the *primary cloud.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "meta q3",
+   "chapter": "Meta's $135-145B spending plan",
+   "source": "Meta",
+   "card": {
+    "type": "stat",
+    "title": "META · Q3 2026",
+    "big": "$64.6B",
+    "sub": "revenue",
+    "rows": [
+     [
+      "year over year",
+      "+26%"
+     ],
+     [
+      "Q3 capital spending",
+      "$34.91B"
+     ]
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, Meta.",
+     "text": "Finally, *Meta.*"
+    },
+    {
+     "say": "It made sixty four point six billion dollars in revenue last quarter, up twenty six percent.",
+     "text": "*$64.6 billion* in revenue, up 26%."
+    },
+    {
+     "say": "Its capital spending in the quarter was thirty four point nine one billion dollars.",
+     "text": "*$34.91 billion* spent in one quarter."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the spending plan",
+   "source": "Meta",
+   "card": {
+    "type": "bars",
+    "title": "2026 CAPITAL SPENDING PLAN",
+    "rows": [
+     {
+      "k": "Old low end",
+      "v": "$130B",
+      "pct": 90
+     },
+     {
+      "k": "New low end",
+      "v": "$135B",
+      "pct": 93,
+      "hot": true
+     },
+     {
+      "k": "High end",
+      "v": "$145B",
+      "pct": 100
+     }
+    ],
+    "at": [
+     1,
+     0,
+     0
+    ]
+   },
+   "beats": [
+    {
+     "say": "Meta now expects to spend one hundred and thirty five to one hundred and forty five billion dollars this year.",
+     "text": "*$135 to $145 billion* this year."
+    },
+    {
+     "say": "Its earlier forecast started at one hundred and thirty billion.",
+     "text": "Up from a low end of *$130 billion.*"
+    },
+    {
+     "say": "It's also creating a new class of shares with no voting rights, from January.",
+     "text": "New *non-voting* shares from January."
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Would you let an agent like Duet message you first? Tell me in the comments.",
+     "text": "Would you let an agent *go first?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ],
+ "variant": 2922180625
+}
