@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:20 AI found critical PHP flaws first
+1:05 Nvidia's AI factory in a container
+1:39 Mistral and Nvidia bring AI to engineering

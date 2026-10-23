@@ -1,0 +1,15 @@
+Today's AI news in just over two minutes: OpenAI says AI helped find two critical PHP vulnerabilities before attackers did, using GPT-5.6 Sol; Nvidia's DSX POD puts a Vera Rubin AI factory in containers that can be running in as little as 14 days; and Mistral teams up with Nvidia on AI for industrial engineering.
+Every number in this video comes from the sources listed below.
+
+0:00 Today's headlines
+0:20 AI found critical PHP flaws first
+1:05 Nvidia's AI factory in a container
+1:39 Mistral and Nvidia bring AI to engineering
+
+Sources
+Patch the Planet: global response coordination as agents uncover critical vulnerabilities (OpenAI, 21 Oct): https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/
+NVIDIA Introduces DSX POD AI Factories to Accelerate Europe's Infrastructure Deployment (Nvidia via GlobeNewswire, 21 Oct): https://www.globenewswire.com/news-release/2026/10/21/3385267/0/en/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europe-s-infrastructure-deployment.html
+Mistral Advances AI for Engineering with NVIDIA (Mistral AI, 21 Oct): https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

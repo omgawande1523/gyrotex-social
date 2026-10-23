@@ -1,0 +1,103 @@
+{
+ "date": "23 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "Before *attackers*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 23 OCT",
+     "rows": ["AI found a critical PHP flaw first", "Nvidia's AI factory in a container", "Mistral and Nvidia for engineering"] },
+   "beats": [
+    { "say": "If your website runs on PHP, here's why an AI found a critical flaw in it before attackers did.", "text": "AI found a *PHP flaw* before attackers did." },
+    { "say": "Nvidia wants an AI factory running in as little as fourteen days.", "text": "An AI factory in *14 days.*" },
+    { "say": "And Mistral teams up with Nvidia to bring AI into engineering.", "text": "Mistral and Nvidia take on *engineering.*" },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story", "label": "php flaws", "chapter": "AI found critical PHP flaws first", "source": "openai.com",
+   "card": { "type": "stat", "title": "PHP FLAWS", "big": "2", "sub": "critical vulnerabilities, now patched",
+     "rows": [["found with", "GPT-5.6 Sol"], ["also found by", "Wiz"]], "at": [1, 2, 3] },
+   "beats": [
+    { "say": "First up, OpenAI.", "text": "First up, *OpenAI.*" },
+    { "say": "It says two critical flaws were found in PHP, the open source language used to run websites and web apps.", "text": "*Two critical flaws* in PHP." },
+    { "say": "Calif found one of them using OpenAI's model, GPT five point six Sol.", "text": "Found with *GPT-5.6 Sol.*" },
+    { "say": "And Wiz found and reported both flaws on its own.", "text": "*Wiz* found both on its own." }
+   ]
+  },
+  {
+   "kind": "story", "label": "the defender's window", "source": "openai.com",
+   "card": { "type": "list", "mark": "num", "title": "HOW IT WAS HANDLED",
+     "rows": ["PHP's maintainers led the fixes", "Fixes ready before disclosure", "A PHP version checker for Codex"] },
+   "beats": [
+    { "say": "PHP's maintainers led the fixes and the release.", "text": "PHP's *maintainers* led the fixes." },
+    { "say": "OpenAI calls this a defender's window, because the AI found the flaws before attackers did.", "text": "A *defender's window.*" },
+    { "say": "It's also released a Codex skill that checks if your PHP version may be vulnerable.", "text": "A *Codex skill* checks your PHP version." }
+   ]
+  },
+  {
+   "kind": "story", "label": "for defenders", "source": "openai.com",
+   "card": { "type": "stat", "title": "DAYBREAK FOR FRONTLINE DEFENDERS", "big": "$1B", "sub": "in subsidized Daybreak access",
+     "rows": [["for", "essential services"]], "at": [0, 1] },
+   "beats": [
+    { "say": "OpenAI's also committed one billion dollars in subsidized access to Daybreak.", "text": "*$1 billion* in Daybreak access." },
+    { "say": "It's for organizations with limited security resources that protect essential services.", "text": "For defenders with *limited resources.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "dsx pod", "chapter": "Nvidia's AI factory in a container", "source": "Nvidia",
+   "card": { "type": "bars", "title": "TIME TO RUNNING",
+     "rows": [ { "k": "Usual build", "v": "~6 months", "pct": 100 }, { "k": "DSX POD", "v": "14 days", "pct": 8, "hot": true } ],
+     "at": [3, 2] },
+   "beats": [
+    { "say": "Next, Nvidia.", "text": "Next, *Nvidia.*" },
+    { "say": "At GTC Berlin, it showed DSX POD, a full Vera Rubin AI factory built inside modular containers.", "text": "*DSX POD:* an AI factory in containers." },
+    { "say": "Partners say a unit can go from delivery to running in as little as fourteen days.", "text": "Running in as little as *14 days.*" },
+    { "say": "The usual approach takes about six months.", "text": "The usual way: about *six months.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "built in the factory", "source": "Nvidia",
+   "card": { "type": "list", "mark": "tick", "title": "DSX POD",
+     "rows": ["Computing and networking", "Power and liquid cooling", "Tested before it ships"], "at": [0, 0, 1] },
+   "beats": [
+    { "say": "Computing, networking, power and liquid cooling are all installed at the factory.", "text": "Installed *at the factory.*" },
+    { "say": "Each unit is tested before it ships.", "text": "*Tested* before it ships." },
+    { "say": "Partners include Dell, HPE, Lenovo and Schneider Electric.", "text": "*Dell, HPE, Lenovo* and more." },
+    { "say": "Nvidia plans to deliver them worldwide in early twenty twenty seven.", "text": "Worldwide in *early 2027.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "mistral x nvidia", "chapter": "Mistral and Nvidia bring AI to engineering", "source": "mistral.ai",
+   "card": { "type": "list", "mark": "num", "title": "MISTRAL × NVIDIA",
+     "rows": ["Faster engineering simulation", "Open physics benchmarks", "Tests for engineering agents"], "at": [2, 3, 3] },
+   "beats": [
+    { "say": "Finally, Mistral.", "text": "Finally, *Mistral.*" },
+    { "say": "It's working with Nvidia to bring AI into industrial engineering.", "text": "AI for *industrial engineering.*" },
+    { "say": "The goal is faster simulation for aerospace, cars and chips.", "text": "*Faster simulation* for planes, cars, chips." },
+    { "say": "They'll also publish open benchmarks that test whether AI agents can use engineering tools.", "text": "*Open benchmarks* for engineering agents." }
+   ]
+  },
+  {
+   "kind": "story", "label": "mistral large 4", "source": "mistral.ai",
+   "card": { "type": "stat", "title": "MISTRAL LARGE 4", "big": "1T", "sub": "parameters, roughly",
+     "rows": [["active", "49B"], ["weights", "end of October"]], "at": [1, 1, 2] },
+   "beats": [
+    { "say": "The work runs on Mistral Large four, its most capable model so far.", "text": "Built on *Mistral Large 4.*" },
+    { "say": "It has about one trillion parameters, with forty nine billion active.", "text": "About *1 trillion* parameters, 49B active." },
+    { "say": "And Mistral plans to release the weights at the end of October.", "text": "Weights due *end of October.*" }
+   ]
+  },
+  {
+   "kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Would you let an AI hunt for bugs in your code? Tell me in the comments.", "text": "Would you let AI *hunt your bugs?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
