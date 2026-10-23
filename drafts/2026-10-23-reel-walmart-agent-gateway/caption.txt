@@ -1,0 +1,9 @@
+Walmart now lets approved AI agents shop for you, while Amazon blocks them. Let an AI agent shop for you? Comment YES or NO.
+
+According to TechCrunch, Walmart's new Agent Gateway is an MCP server that lets approved AI agents search Walmart's online inventory and buy on your behalf. It covers Walmart and Sam's Club, and you don't need a Walmart+ membership.
+
+Agent Profiles, due next month, give each agent its own profile so its purchases show up apart from yours. You can approve every purchase or set a spending limit, such as $50, $100 or $200 in Walmart's examples, as reported by Unite.AI.
+
+Agents don't get your payment card details, and agents that break Walmart's terms get blocked. The gateway itself starts as an invitation-only beta for companies and developers.
+
+#Walmart #AIAgents #AgenticCommerce

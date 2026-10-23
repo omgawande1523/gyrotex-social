@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1080, height=1920">
+<script src="gsap.min.js"></script>
+<style>
+@font-face{font-family:"Archivo";font-weight:100 900;font-stretch:62% 125%;src:url("fonts/archivo-latin-wdth-normal.woff2") format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:500;src:url("fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2")}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d1f17}
+#root{position:relative;width:100%;height:100%;font-family:"Archivo",sans-serif}
+.scene{position:absolute;inset:0;overflow:hidden}
+.lab{position:absolute;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:22px;letter-spacing:.08em}
+.tl{left:70px;top:236px}.tr{right:70px;top:236px}.bl{left:70px;bottom:356px}.br{right:70px;bottom:356px}
+.mid{position:absolute;left:70px;right:70px;top:300px;bottom:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:46px}
+.motif{position:absolute;left:0;right:0;top:290px;height:690px;display:flex;align-items:center;justify-content:center}
+.txt{position:absolute;left:80px;right:80px;top:1000px;bottom:440px;display:flex;flex-direction:column;justify-content:flex-start;gap:14px}
+.big{display:block;font-weight:900;font-stretch:125%;line-height:.9;letter-spacing:-.02em;transform-origin:0 70%;white-space:nowrap}
+.label{display:block;font-weight:800;font-stretch:112%;font-size:62px;line-height:1.02;text-transform:uppercase}
+.note{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:34px;line-height:1.3}
+.dot{display:block;width:110px;height:110px;border-radius:50%;background:var(--dot)}
+.cdot{position:absolute;display:block;width:72px;height:72px;border-radius:50%;background:var(--dot)}
+.pdot{display:inline-block;width:.24em;height:.24em;border-radius:50%;margin-left:.06em;background:var(--dot)}
+.line{display:block;width:520px;height:5px;transform-origin:50% 50%;background:var(--fg)}
+.kick{display:block;font-family:"JetBrains Mono",monospace;font-weight:500;font-size:30px;letter-spacing:.14em;text-align:center}
+.wordrow{display:flex;align-items:baseline;justify-content:center;font-weight:900;font-stretch:125%;line-height:1;letter-spacing:-.02em;white-space:nowrap}
+.lt{display:inline-block}
+.wm{display:flex;align-items:baseline;justify-content:center;font-weight:900;font-stretch:125%;font-size:124px;line-height:1;letter-spacing:-.02em;white-space:nowrap}
+.ask{display:block;font-weight:800;font-stretch:112%;font-size:54px;line-height:1.1;text-align:center;text-transform:uppercase}
+.persp{perspective:1400px;width:700px;height:700px;display:flex;align-items:center;justify-content:center}
+.sph{position:relative;width:0;height:0;transform-style:preserve-3d}
+.sph i{position:absolute;left:-6px;top:-6px;width:12px;height:12px;border-radius:50%;background:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(9,34px);grid-auto-rows:34px;gap:52px}
+.gd{display:block;width:34px;height:34px;border-radius:50%;background:var(--fg)}
+.gd.g1{background:var(--dot)}.gd.g2{background:var(--alt)}
+.rings{position:relative;display:block;flex:0 0 auto;width:800px;height:800px;transform-origin:50% 50%;scale:.84}
+.rg{position:absolute;left:0;top:0;display:block}
+.st1{stroke:var(--fg)}.st2{stroke:var(--alt)}
+.bars{display:flex;align-items:flex-end;justify-content:center;gap:22px;height:600px;width:900px}
+.bar{display:block;flex:0 0 54px;height:600px;border-radius:8px;background:var(--fg);transform-origin:50% 100%}
+.bar.hot{background:var(--dot)}
+.orbits{position:relative;display:block;flex:0 0 auto;width:720px;height:720px}
+.orbw{position:absolute;left:50%;top:50%;display:block}
+.orb{position:relative;display:block;width:100%;height:100%;border-radius:50%;border:3px solid var(--fg)}
+.orb i{position:absolute;left:50%;top:-14px;margin-left:-14px;display:block;width:28px;height:28px;border-radius:50%;background:var(--alt)}
+.ring{position:absolute;display:block;width:160px;height:160px;border-radius:50%;border:4px solid var(--dot)}
+.shards{position:absolute;left:50%;top:50%;width:0;height:0}
+.sh{position:absolute;display:block;left:0;top:0}
+#intro{background:#0d1f17;color:#eef3e2;--fg:#eef3e2;--dot:#c8f560;--alt:#1f7a4d}
+#word{background:#c8f560;color:#0d1f17;--fg:#0d1f17;--dot:#0d1f17;--alt:#1f7a4d}
+#f0{background:#1f7a4d;color:#eef3e2;--fg:#eef3e2;--dot:#eef3e2;--alt:#c8f560}
+#f1{background:#eef3e2;color:#0d1f17;--fg:#0d1f17;--dot:#1f7a4d;--alt:#c8f560}
+#f2{background:#0d1f17;color:#eef3e2;--fg:#eef3e2;--dot:#c8f560;--alt:#1f7a4d}
+#brk{background:#0d1f17;color:#eef3e2;--fg:#eef3e2;--dot:#c8f560;--alt:#1f7a4d}
+#out{background:#0d1f17;color:#eef3e2;--fg:#eef3e2;--dot:#c8f560;--alt:#1f7a4d}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="18.782" data-width="1080" data-height="1920">
+<div id="intro" class="clip scene" data-start="0" data-duration="0.9091" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">01 / 07</div><div class="lab bl">INTRO · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="mid"><div class="dot" id="d0"></div><div class="line" id="ln0"></div><div class="kick" id="k0">AI NEWS · 23 OCT 2026</div></div></div>
+<div id="word" class="clip scene" data-start="0.9091" data-duration="1.8182" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">02 / 07</div><div class="lab bl">HEADLINE · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="mid"><div class="wordrow" style="font-size:147px"><span class="lt" id="lt0">W</span><span class="lt" id="lt1">A</span><span class="lt" id="lt2">L</span><span class="lt" id="lt3">M</span><span class="lt" id="lt4">A</span><span class="lt" id="lt5">R</span><span class="lt" id="lt6">T</span><span class="pdot" id="pd"></span></div><div class="kick" id="k1">WALMART AGENT GATEWAY</div></div></div>
+<div id="f0" class="clip scene" data-start="2.7273" data-duration="3.6363" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">03 / 07</div><div class="lab bl">FACT 1 · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="motif" id="m0"><div class="rings"><svg class="rg rg0" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="60" fill="none" class="st1" stroke-width="6" stroke-dasharray="20 14" /></svg><svg class="rg rg1" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="110" fill="none" class="st2" stroke-width="3" stroke-dasharray="34 23" /></svg><svg class="rg rg2" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="160" fill="none" class="st1" stroke-width="6" stroke-dasharray="48 32" /></svg><svg class="rg rg3" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="210" fill="none" class="st1" stroke-width="3" stroke-dasharray="62 41" /></svg><svg class="rg rg4" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="260" fill="none" class="st2" stroke-width="6" stroke-dasharray="76 50" /></svg><svg class="rg rg5" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="310" fill="none" class="st1" stroke-width="3" stroke-dasharray="90 59" /></svg><svg class="rg rg6" viewBox="0 0 800 800" width="800" height="800"><circle cx="400" cy="400" r="360" fill="none" class="st1" stroke-width="6" stroke-dasharray="104 68" /></svg></div><div class="cdot"></div></div><div class="txt"><div class="big" id="big0" style="font-size:330px">$50</div><div class="label" id="lb0">an example spending limit</div><div class="note" id="nt0">Or approve every purchase yourself</div></div></div>
+<div id="f1" class="clip scene" data-start="6.3636" data-duration="3.6364" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">04 / 07</div><div class="lab bl">FACT 2 · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="motif" id="m1"><div class="bars"><i class="bar b0"></i><i class="bar b1"></i><i class="bar b2"></i><i class="bar b3"></i><i class="bar b4"></i><i class="bar b5 hot"></i><i class="bar b6"></i><i class="bar b7"></i><i class="bar b8"></i><i class="bar b9"></i><i class="bar b10"></i></div></div><div class="txt"><div class="big" id="big1" style="font-size:330px">MCP</div><div class="label" id="lb1">Walmart's Agent Gateway</div><div class="note" id="nt1">Approved AI agents can search and buy</div></div></div>
+<div id="f2" class="clip scene" data-start="10" data-duration="3.6364" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">05 / 07</div><div class="lab bl">FACT 3 · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="motif" id="m2"><div class="grid"><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i><i class="gd g0"></i><i class="gd g1"></i><i class="gd g2"></i></div></div><div class="txt"><div class="big" id="big2" style="font-size:330px">NO</div><div class="label" id="lb2">card details for agents</div><div class="note" id="nt2">Rule-breaking agents get blocked</div></div></div>
+<div id="brk" class="clip scene" data-start="13.6364" data-duration="0.9091" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">06 / 07</div><div class="lab bl">SOURCE · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="mid"><div class="ring" id="rr"></div><div class="dot" id="d5"></div><div class="kick" id="k5">SOURCE · TECHCRUNCH.COM</div></div></div>
+<div id="out" class="clip scene" data-start="14.5455" data-duration="4.2365" data-track-index="1" data-layout-allow-overflow="true"><div class="lab tl">GYROTEX AI / AI NEWS</div><div class="lab tr">07 / 07</div><div class="lab bl">GYROTEX AI · WALMART AGENT GATEWAY</div><div class="lab br">23 OCT 2026</div><div class="mid"><div class="shards"><i class="sh" style="width:48px;height:31px;background:#eef3e2"></i><i class="sh" style="width:36px;height:19px;background:#c8f560"></i><i class="sh" style="width:132px;height:11px;background:#1f7a4d"></i><i class="sh" style="width:67px;height:13px;background:#eef3e2"></i><i class="sh" style="width:146px;height:21px;background:#c8f560"></i><i class="sh" style="width:117px;height:25px;background:#1f7a4d"></i><i class="sh" style="width:100px;height:22px;background:#eef3e2"></i><i class="sh" style="width:93px;height:26px;background:#c8f560"></i><i class="sh" style="width:145px;height:26px;background:#1f7a4d"></i><i class="sh" style="width:166px;height:31px;background:#eef3e2"></i><i class="sh" style="width:167px;height:12px;background:#c8f560"></i><i class="sh" style="width:150px;height:13px;background:#1f7a4d"></i><i class="sh" style="width:120px;height:14px;background:#eef3e2"></i><i class="sh" style="width:66px;height:13px;background:#c8f560"></i><i class="sh" style="width:145px;height:32px;background:#1f7a4d"></i><i class="sh" style="width:169px;height:14px;background:#eef3e2"></i><i class="sh" style="width:72px;height:18px;background:#c8f560"></i><i class="sh" style="width:122px;height:14px;background:#1f7a4d"></i><i class="sh" style="width:127px;height:13px;background:#eef3e2"></i><i class="sh" style="width:40px;height:22px;background:#c8f560"></i><i class="sh" style="width:109px;height:29px;background:#1f7a4d"></i><i class="sh" style="width:57px;height:36px;background:#eef3e2"></i><i class="sh" style="width:90px;height:33px;background:#c8f560"></i><i class="sh" style="width:46px;height:24px;background:#1f7a4d"></i><i class="sh" style="width:168px;height:22px;background:#eef3e2"></i><i class="sh" style="width:56px;height:20px;background:#c8f560"></i><i class="sh" style="width:121px;height:23px;background:#1f7a4d"></i><i class="sh" style="width:119px;height:24px;background:#eef3e2"></i></div><div class="wm" id="wm">GYROTEX AI<span class="pdot" id="pd2"></span></div><div class="line" id="ln6"></div><div class="ask" id="ask">Let an AI agent shop for you? YES or NO</div><div class="kick" id="k6">FOLLOW @GYROTEX_AI FOR DAILY AI NEWS</div></div></div>
+<audio id="score" data-start="0" data-duration="18.782" data-track-index="2" data-volume="1" src="audio/score.wav"></audio>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#m0 .rg0",{rotation:0},{rotation:120,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg0",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.727);
+tl.fromTo("#m0 .rg1",{rotation:25},{rotation:-125,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg1",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.767);
+tl.fromTo("#m0 .rg2",{rotation:50},{rotation:230,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg2",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.807);
+tl.fromTo("#m0 .rg3",{rotation:75},{rotation:-135,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg3",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.847);
+tl.fromTo("#m0 .rg4",{rotation:100},{rotation:340,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg4",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.887);
+tl.fromTo("#m0 .rg5",{rotation:125},{rotation:-145,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg5",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.927);
+tl.fromTo("#m0 .rg6",{rotation:150},{rotation:450,duration:3.6364,ease:"none"},2.7273);
+tl.fromTo("#m0 .rg6",{scale:0},{scale:1,duration:.5,ease:"back.out(1.5)"},2.967);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},2.7273);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},3.1818);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},3.6364);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},4.0909);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},4.5455);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},5);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},5.4545);
+tl.fromTo("#m0 .cdot",{scale:1},{scale:1.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},5.9091);
+tl.fromTo("#big0",{autoAlpha:0,scale:1.35},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},2.7273);
+tl.fromTo("#lb0",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},3.1818);
+tl.fromTo("#nt0",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},3.6364);
+tl.fromTo("#big0",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},4.5455);
+tl.fromTo("#big0",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},5.4545);
+tl.fromTo("#m1 .b0",{scaleY:0.04},{scaleY:0.18,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b1",{scaleY:0.04},{scaleY:0.26,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b2",{scaleY:0.04},{scaleY:0.27,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b3",{scaleY:0.04},{scaleY:0.18,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b4",{scaleY:0.04},{scaleY:0.72,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b5",{scaleY:0.04},{scaleY:0.27,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b6",{scaleY:0.04},{scaleY:0.29,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b7",{scaleY:0.04},{scaleY:0.59,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b8",{scaleY:0.04},{scaleY:0.53,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b9",{scaleY:0.04},{scaleY:0.8,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b10",{scaleY:0.04},{scaleY:0.87,duration:0.250,ease:"expo.out"},6.3636);
+tl.fromTo("#m1 .b0",{scaleY:0.18},{scaleY:0.88,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b1",{scaleY:0.26},{scaleY:0.73,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b2",{scaleY:0.27},{scaleY:0.74,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b3",{scaleY:0.18},{scaleY:0.75,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b4",{scaleY:0.72},{scaleY:0.94,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b5",{scaleY:0.27},{scaleY:0.61,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b6",{scaleY:0.29},{scaleY:0.21,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b7",{scaleY:0.59},{scaleY:0.31,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b8",{scaleY:0.53},{scaleY:0.53,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b9",{scaleY:0.8},{scaleY:0.84,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b10",{scaleY:0.87},{scaleY:0.53,duration:0.250,ease:"expo.out"},6.8182);
+tl.fromTo("#m1 .b0",{scaleY:0.88},{scaleY:0.31,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b1",{scaleY:0.73},{scaleY:0.63,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b2",{scaleY:0.74},{scaleY:0.89,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b3",{scaleY:0.75},{scaleY:0.63,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b4",{scaleY:0.94},{scaleY:0.86,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b5",{scaleY:0.61},{scaleY:0.85,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b6",{scaleY:0.21},{scaleY:0.58,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b7",{scaleY:0.31},{scaleY:0.46,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b8",{scaleY:0.53},{scaleY:0.33,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b9",{scaleY:0.84},{scaleY:0.61,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b10",{scaleY:0.53},{scaleY:0.27,duration:0.250,ease:"expo.out"},7.2727);
+tl.fromTo("#m1 .b0",{scaleY:0.31},{scaleY:0.88,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b1",{scaleY:0.63},{scaleY:0.7,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b2",{scaleY:0.89},{scaleY:0.78,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b3",{scaleY:0.63},{scaleY:0.81,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b4",{scaleY:0.86},{scaleY:0.76,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b5",{scaleY:0.85},{scaleY:0.38,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b6",{scaleY:0.58},{scaleY:0.44,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b7",{scaleY:0.46},{scaleY:0.68,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b8",{scaleY:0.33},{scaleY:0.49,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b9",{scaleY:0.61},{scaleY:0.63,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b10",{scaleY:0.27},{scaleY:0.18,duration:0.250,ease:"expo.out"},7.7273);
+tl.fromTo("#m1 .b0",{scaleY:0.88},{scaleY:0.86,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b1",{scaleY:0.7},{scaleY:0.16,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b2",{scaleY:0.78},{scaleY:0.55,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b3",{scaleY:0.81},{scaleY:0.5,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b4",{scaleY:0.76},{scaleY:0.35,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b5",{scaleY:0.38},{scaleY:0.96,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b6",{scaleY:0.44},{scaleY:0.39,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b7",{scaleY:0.68},{scaleY:0.37,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b8",{scaleY:0.49},{scaleY:0.28,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b9",{scaleY:0.63},{scaleY:0.82,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b10",{scaleY:0.18},{scaleY:0.82,duration:0.250,ease:"expo.out"},8.1818);
+tl.fromTo("#m1 .b0",{scaleY:0.86},{scaleY:0.78,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b1",{scaleY:0.16},{scaleY:0.28,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b2",{scaleY:0.55},{scaleY:0.75,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b3",{scaleY:0.5},{scaleY:0.96,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b4",{scaleY:0.35},{scaleY:0.5,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b5",{scaleY:0.96},{scaleY:0.71,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b6",{scaleY:0.39},{scaleY:0.49,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b7",{scaleY:0.37},{scaleY:0.79,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b8",{scaleY:0.28},{scaleY:0.94,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b9",{scaleY:0.82},{scaleY:0.73,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b10",{scaleY:0.82},{scaleY:0.27,duration:0.250,ease:"expo.out"},8.6364);
+tl.fromTo("#m1 .b0",{scaleY:0.78},{scaleY:0.7,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b1",{scaleY:0.28},{scaleY:0.19,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b2",{scaleY:0.75},{scaleY:0.4,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b3",{scaleY:0.96},{scaleY:0.36,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b4",{scaleY:0.5},{scaleY:0.28,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b5",{scaleY:0.71},{scaleY:0.35,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b6",{scaleY:0.49},{scaleY:0.93,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b7",{scaleY:0.79},{scaleY:0.34,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b8",{scaleY:0.94},{scaleY:0.79,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b9",{scaleY:0.73},{scaleY:0.66,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b10",{scaleY:0.27},{scaleY:0.38,duration:0.250,ease:"expo.out"},9.0909);
+tl.fromTo("#m1 .b0",{scaleY:0.7},{scaleY:0.18,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b1",{scaleY:0.19},{scaleY:0.76,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b2",{scaleY:0.4},{scaleY:0.98,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b3",{scaleY:0.36},{scaleY:0.41,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b4",{scaleY:0.28},{scaleY:0.37,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b5",{scaleY:0.35},{scaleY:0.63,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b6",{scaleY:0.93},{scaleY:0.54,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b7",{scaleY:0.34},{scaleY:0.69,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b8",{scaleY:0.79},{scaleY:1,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b9",{scaleY:0.66},{scaleY:0.9,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#m1 .b10",{scaleY:0.38},{scaleY:0.62,duration:0.250,ease:"expo.out"},9.5455);
+tl.fromTo("#big1",{autoAlpha:0,scale:1.35},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},6.3636);
+tl.fromTo("#lb1",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},6.8182);
+tl.fromTo("#nt1",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},7.2727);
+tl.fromTo("#big1",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},8.1818);
+tl.fromTo("#big1",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},9.0909);
+tl.fromTo("#m2 .gd",{scale:0},{scale:1,duration:.35,ease:"back.out(2)",stagger:{each:.012,from:"center",grid:[7,9]}},10);
+tl.fromTo("#m2 .gd",{rotation:0,borderRadius:"50%"},{rotation:45,borderRadius:"0%",scale:2.1,duration:.4,ease:"power3.inOut",stagger:{each:.01,from:"center",grid:[7,9]}},11.8182);
+tl.fromTo("#m2 .grid",{scale:1},{scale:1.12,duration:1.8182,ease:"sine.inOut"},11.8182);
+tl.fromTo("#m2 .g1",{scale:1},{scale:1.5,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},10.4545);
+tl.fromTo("#m2 .g2",{scale:1},{scale:1.5,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},10.9091);
+tl.fromTo("#m2 .g0",{scale:1},{scale:1.5,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},11.3636);
+tl.fromTo("#m2 .g2",{scale:2.1},{scale:2.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},12.2727);
+tl.fromTo("#m2 .g0",{scale:2.1},{scale:2.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},12.7273);
+tl.fromTo("#m2 .g1",{scale:2.1},{scale:2.6,duration:0.227,ease:"power2.out",yoyo:true,repeat:1},13.1818);
+tl.fromTo("#big2",{autoAlpha:0,scale:1.35},{autoAlpha:1,scale:1,duration:.34,ease:"expo.out"},10);
+tl.fromTo("#lb2",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},10.4545);
+tl.fromTo("#nt2",{autoAlpha:0,x:-60},{autoAlpha:1,x:0,duration:.3,ease:"power3.out"},10.9091);
+tl.fromTo("#big2",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},11.8182);
+tl.fromTo("#big2",{scale:1},{scale:1.035,duration:0.227,ease:"power1.out",yoyo:true,repeat:1},12.7273);
+tl.fromTo("#d0",{y:-900,scale:.6},{y:0,scale:1,duration:0.682,ease:"bounce.out"},0.03);
+tl.fromTo("#ln0",{scaleX:0},{scaleX:1,duration:0.409,ease:"power3.out"},0.2273);
+tl.fromTo("#k0",{autoAlpha:0,y:20},{autoAlpha:1,y:0,duration:.25,ease:"power2.out"},0.3409);
+tl.fromTo("#lt0",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},0.9091);
+tl.fromTo("#lt1",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.0714);
+tl.fromTo("#lt2",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.2338);
+tl.fromTo("#lt3",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.3961);
+tl.fromTo("#lt4",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.5584);
+tl.fromTo("#lt5",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.7208);
+tl.fromTo("#lt6",{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.12,ease:"power2.out"},1.8831);
+tl.fromTo("#pd",{scale:0},{scale:1,duration:.3,ease:"back.out(3)"},2.1591);
+tl.fromTo("#k1",{autoAlpha:0,y:20},{autoAlpha:1,y:0,duration:.25,ease:"power2.out"},2.2727);
+tl.fromTo("#d5",{scale:.3},{scale:1,duration:.3,ease:"back.out(2)"},13.6364);
+tl.fromTo("#rr",{scale:.2,autoAlpha:1},{scale:6,autoAlpha:0,duration:0.8636,ease:"power2.out"},13.6364);
+tl.fromTo("#k5",{autoAlpha:0,y:20},{autoAlpha:1,y:0,duration:.25,ease:"power2.out"},13.75);
+tl.fromTo("#d5",{scale:1},{scale:.05,duration:0.364,ease:"power3.in"},14.1364);
+tl.fromTo(document.querySelectorAll(".sh")[0],{x:-678,y:-558,rotation:27,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[1],{x:-607,y:240,rotation:291,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[2],{x:416,y:-320,rotation:178,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[3],{x:615,y:-342,rotation:32,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[4],{x:-368,y:-471,rotation:185,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[5],{x:-477,y:617,rotation:220,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[6],{x:-391,y:-429,rotation:215,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[7],{x:154,y:-387,rotation:277,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[8],{x:-101,y:-636,rotation:206,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[9],{x:582,y:-43,rotation:66,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[10],{x:-609,y:-593,rotation:249,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[11],{x:-307,y:422,rotation:122,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[12],{x:286,y:-313,rotation:100,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[13],{x:-256,y:-624,rotation:96,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[14],{x:502,y:475,rotation:292,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[15],{x:87,y:392,rotation:51,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[16],{x:-540,y:109,rotation:252,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[17],{x:-618,y:64,rotation:200,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[18],{x:380,y:-105,rotation:80,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[19],{x:-433,y:-179,rotation:223,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[20],{x:6,y:660,rotation:109,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[21],{x:-333,y:-645,rotation:256,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[22],{x:685,y:173,rotation:77,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[23],{x:509,y:464,rotation:187,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[24],{x:-121,y:782,rotation:102,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[25],{x:107,y:865,rotation:81,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[26],{x:-551,y:-138,rotation:56,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo(document.querySelectorAll(".sh")[27],{x:357,y:232,rotation:330,autoAlpha:1},{x:0,y:0,rotation:0,autoAlpha:0,duration:0.545,ease:"expo.in"},14);
+tl.fromTo("#wm",{autoAlpha:0,scale:1.25},{autoAlpha:1,scale:1,duration:.45,ease:"expo.out"},14.5455);
+tl.fromTo("#pd2",{scale:0},{scale:1,duration:.35,ease:"back.out(3)"},15);
+tl.fromTo("#ln6",{scaleX:0},{scaleX:1,duration:.5,ease:"power3.out"},15.4545);
+tl.fromTo("#ask",{autoAlpha:0,y:24},{autoAlpha:1,y:0,duration:.35,ease:"power2.out"},15.4545);
+tl.fromTo("#k6",{autoAlpha:0,y:24},{autoAlpha:1,y:0,duration:.35,ease:"power2.out"},16.3636);
+window.__timelines["main"] = tl; tl.seek(0);
+</script></body></html>

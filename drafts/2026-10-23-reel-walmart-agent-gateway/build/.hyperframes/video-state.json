@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "historyId": "920a0f3b-97d5-4c89-87a9-873f1a1506b7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "audio/plan.json": {
+      "hash": "707367f4fed16f586c455f10bc81f16734a5313978dcdc3008b1972c8459393f",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/70/707367f4fed16f586c455f10bc81f16734a5313978dcdc3008b1972c8459393f"
+    },
+    "fonts/archivo-latin-wdth-normal.woff2": {
+      "hash": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/e3/e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    "fonts/jetbrains-mono-latin-500-normal.woff2": {
+      "hash": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/cb/cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    "gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/44/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "index.html": {
+      "hash": "0d9e46bb4ddc9f949ca8cd35dcaebb0c812fb679321d0bd8d21b45a34224b041",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/0d/0d9e46bb4ddc9f949ca8cd35dcaebb0c812fb679321d0bd8d21b45a34224b041"
+    },
+    "meta.json": {
+      "hash": "8b3f9bbb17f7a79a3c5c9eb49ed6f731da992ef01dddf7e89c3dc215b6e5ef81",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/8b/8b3f9bbb17f7a79a3c5c9eb49ed6f731da992ef01dddf7e89c3dc215b6e5ef81"
+    },
+    "audio/score.wav": {
+      "hash": "31b7034ecb916253eb326268eb6386a39cfbc6a0f0ea8ceddcac0cd202e980ed",
+      "content": "/root/.cache/hyperframes/history/920a0f3b-97d5-4c89-87a9-873f1a1506b7/blobs/31/31b7034ecb916253eb326268eb6386a39cfbc6a0f0ea8ceddcac0cd202e980ed"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "aab3b6de-82f2-4230-bf67-15bc76fabef5"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "aab3b6de-82f2-4230-bf67-15bc76fabef5",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-23-reel-walmart-agent-gateway/build/.hyperframes/artifacts/checks/aab3b6de-82f2-4230-bf67-15bc76fabef5.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792723736551,
+        "contentHash": "e0d531b31f43ad4045999393aebb9f7e4396b77499c38b4ad1c205fc200f2f68",
+        "revision": null,
+        "inputFingerprint": "a12dabeacd673de732dabd318b82708a67a5b08df65f6014954b9b61fccaa5e4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "2a43a458-f0dc-4e96-952d-9639aa7ccd00",
+      "completedAt": 1792723787359,
+      "output": "/home/claude/gyrotex-social/drafts/2026-10-23-reel-walmart-agent-gateway/reel.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}
