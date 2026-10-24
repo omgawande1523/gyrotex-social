@@ -1,0 +1,11 @@
+OpenAI came to Google Cloud and ChatGPT ads reached 89 countries. The five AI stories that mattered this week.
+
+GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna are now in Google Cloud's Model Garden in private preview for select enterprise customers, Techzine reports. OpenAI also added 26 countries for ChatGPT ads, which show only on the Free and Go plans, according to Unite.AI.
+
+Anthropic opened a waitlist for Claude Duet, a proactive agent app for US Pro and Max subscribers that asks before it sends messages, makes payments or deletes anything. Walmart launched Agent Gateway, which lets approved AI agents search and buy at Walmart and Sam's Club without access to payment information, TechCrunch reports.
+
+Anthropic also says 17 of 211 protein designs from a 64-hour Claude run met its criteria for binding scorpion toxins. None has been tested in cells or animals yet.
+
+Which story matters most to your work? Comment the number, 1 to 5.
+
+#AINews #OpenAI #ClaudeDuet
