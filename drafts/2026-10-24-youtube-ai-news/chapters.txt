@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:20 Kimi K3.1 Pro: a 3T-class open model
+1:07 Canva Craft: Canva's first image model
+1:40 Block's Dessa: a voice model trained on speech

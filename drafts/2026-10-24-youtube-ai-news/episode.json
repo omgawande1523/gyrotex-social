@@ -1,0 +1,104 @@
+{
+ "date": "24 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "One point *behind*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 24 OCT",
+     "rows": ["Kimi K3.1 Pro, a 3T-class open model", "Canva Craft, Canva's first image model", "Block's Dessa, trained on speech alone"] },
+   "beats": [
+    { "say": "Stop paying for closed coding models until you see what Kimi K three point one Pro just scored.", "text": "What *Kimi K3.1 Pro* just scored." },
+    { "say": "Canva built its first image model, and it learned from templates, not photos.", "text": "Canva's first *image model.*" },
+    { "say": "And Block trained a voice model on speech alone, with no text at all.", "text": "A voice model trained on *speech alone.*" },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story", "label": "kimi k3.1 pro", "chapter": "Kimi K3.1 Pro: a 3T-class open model", "source": "kimi.ai",
+   "card": { "type": "stat", "title": "KIMI K3.1 PRO", "big": "3T", "sub": "class, open weights",
+     "rows": [["context", "1M tokens"], ["full weights", "by Nov 4"]], "at": [1, 2, 3] },
+   "beats": [
+    { "say": "First up, Moonshot AI.", "text": "First up, *Moonshot AI.*" },
+    { "say": "It's released Kimi K three point one Pro, and calls it the most capable three trillion class open weight model to date.", "text": "*Kimi K3.1 Pro:* a 3T-class open model." },
+    { "say": "It can read up to one million tokens at once.", "text": "A *1 million token* context." },
+    { "say": "And the full weights are due by November fourth.", "text": "Full weights due *by Nov 4.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "terminal-bench 4.0", "source": "kimi.ai",
+   "card": { "type": "bars", "title": "TERMINAL-BENCH 4.0",
+     "rows": [ { "k": "Kimi K3.1 Pro", "v": "65.7%", "pct": 66, "hot": true }, { "k": "Claude Opus 5.5", "v": "66.4%", "pct": 66 }, { "k": "GPT-6 Astra", "v": "58.2%", "pct": 58 } ],
+     "at": [0, 1, 2] },
+   "beats": [
+    { "say": "On Terminal Bench four, a test of AI agents working in the terminal, it scores sixty five point seven percent.", "text": "*65.7%* on Terminal-Bench 4.0." },
+    { "say": "Claude Opus five point five scores sixty six point four.", "text": "Claude Opus 5.5: *66.4%.*" },
+    { "say": "And GPT six Astra scores fifty eight point two, in Moonshot's own results.", "text": "GPT-6 Astra: *58.2%.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "where to use it", "source": "kimi.ai",
+   "card": { "type": "list", "mark": "tick", "title": "KIMI K3.1 PRO",
+     "rows": ["In the Kimi apps and API", "Highspeed: 2 to 3x faster", "Hard-test errors: 23.4% to 8.3%"] },
+   "beats": [
+    { "say": "It's live now in the Kimi apps, Kimi Code and the Kimi API.", "text": "Live in the *Kimi apps and API.*" },
+    { "say": "A Highspeed version runs two to three times faster.", "text": "*Highspeed:* 2 to 3x faster." },
+    { "say": "And on Moonshot's own hard hallucination test, its error rate with tools fell from twenty three point four percent to eight point three.", "text": "Hallucinations: *23.4% to 8.3%.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "canva craft", "chapter": "Canva Craft: Canva's first image model", "source": "TechCrunch",
+   "card": { "type": "stat", "title": "CANVA CRAFT", "big": "2K", "sub": "maximum resolution",
+     "rows": [["aspect ratios", "30"]], "at": [2, 3] },
+   "beats": [
+    { "say": "Next, Canva.", "text": "Next, *Canva.*" },
+    { "say": "According to TechCrunch, it's released Canva Craft, its first image generation model.", "text": "*Canva Craft,* its first image model." },
+    { "say": "It plans the layout first, then makes the image at up to two K resolution.", "text": "Plans first, then up to *2K.*" },
+    { "say": "And it comes in thirty aspect ratios for different platforms.", "text": "*30* aspect ratios." }
+   ]
+  },
+  {
+   "kind": "story", "label": "trained on templates", "source": "TechCrunch",
+   "card": { "type": "list", "mark": "num", "title": "CANVA CRAFT",
+     "rows": ["Trained on templates, not photos", "In Dream Lab, for all users", "Faster versions coming soon"], "at": [0, 2, 3] },
+   "beats": [
+    { "say": "It was trained on Canva's human designed templates, like posters, menus and presentations, instead of photos.", "text": "Trained on *templates,* not photos." },
+    { "say": "Canva says that gives accurate details and text you can read.", "text": "*Legible text,* says Canva." },
+    { "say": "It's out now for all users in Dream Lab, and through the Canva API.", "text": "Live in *Dream Lab* and the API." },
+    { "say": "Two faster versions are coming soon.", "text": "*Faster versions* coming soon." }
+   ]
+  },
+  {
+   "kind": "story", "label": "dessa", "chapter": "Block's Dessa: a voice model trained on speech", "source": "block.xyz",
+   "card": { "type": "stat", "title": "BLOCK · DESSA", "big": "1", "sub": "NVIDIA GB200 NVL72 used to train it",
+     "rows": [["text in training", "none"]], "at": [3, 2] },
+   "beats": [
+    { "say": "Finally, Block.", "text": "Finally, *Block.*" },
+    { "say": "It's built Dessa, a speech model that listens and talks at the same time.", "text": "*Dessa* listens and talks at once." },
+    { "say": "It was trained from scratch only on human conversation, with no text and no pretrained models.", "text": "Trained on *speech only.* No text." },
+    { "say": "Block says training ran on a single Nvidia G B two hundred N V L seventy two system.", "text": "Trained on *one* GB200 NVL72." }
+   ]
+  },
+  {
+   "kind": "story", "label": "audio in, audio out", "source": "block.xyz",
+   "card": { "type": "list", "mark": "tick", "title": "DESSA",
+     "rows": ["Audio in, audio out", "Runs on a MacBook Pro M4 Max", "A research preview for now"] },
+   "beats": [
+    { "say": "It takes audio in and gives audio out, with no text step in between.", "text": "*Audio in,* audio out." },
+    { "say": "Block says it runs faster than real time, even locally on a MacBook Pro with an M four Max chip or better.", "text": "Runs on a *MacBook Pro M4 Max.*" },
+    { "say": "For now it's a research preview, with early access for a small group of AI safety researchers.", "text": "A *research preview* for now." }
+   ]
+  },
+  {
+   "kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Would you switch to an open model like Kimi for your coding? Tell me in the comments.", "text": "Would you switch to an *open model?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
