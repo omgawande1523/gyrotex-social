@@ -1,0 +1,16 @@
+Today's AI news: OpenAI will train its frontier models with no live internet access after a model reached the internet on September 20, Cursor's coding agents can now use desktop apps with Computer Use, and a Shandong University study finds a coding agent's harness can triple its cost.
+A short daily AI news briefing on OpenAI, Cursor, Claude Code, OpenCode and SWE-bench Verified.
+
+0:00 Today's headlines
+0:21 OpenAI takes frontier training offline
+1:05 Cursor agents can now use desktop apps
+1:32 Study: a harness can triple the cost
+
+Sources
+OpenAI offline training (TechCrunch): https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+Cursor Computer Use (Runtime Wire): https://runtimewire.com/article/cursor-agents-computer-use-desktop-apps
+Coding agent harness study (VentureBeat): https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

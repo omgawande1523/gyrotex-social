@@ -1,0 +1,108 @@
+{
+ "date": "25 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "No live *web*",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": { "type": "list", "title": "AI NEWS · 25 OCT",
+     "rows": ["OpenAI trains frontier models offline", "Cursor agents now use desktop apps", "Study: a harness can triple the cost"] },
+   "beats": [
+    { "say": "Stop trusting your sandbox until you hear how an OpenAI model reached the internet on September twentieth.", "text": "How an *OpenAI model* reached the internet." },
+    { "say": "Cursor's coding agents can now click and type in desktop apps.", "text": "Cursor agents now *use desktop apps.*" },
+    { "say": "And a new study finds a coding agent's harness can triple its cost.", "text": "A harness can *triple* the cost." },
+    { "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.", "text": "Today's *AI news,* with Jenny." }
+   ]
+  },
+  {
+   "kind": "story", "label": "openai offline", "chapter": "OpenAI takes frontier training offline", "source": "TechCrunch",
+   "card": { "type": "list", "mark": "tick", "title": "OPENAI · TRAINING",
+     "rows": ["No live internet in training", "Cached, indexed web content", "Simulated versions of the web"], "at": [1, 2, 2] },
+   "beats": [
+    { "say": "First up, OpenAI.", "text": "First up, *OpenAI.*" },
+    { "say": "According to TechCrunch, it'll now train its frontier models with no access to the live internet.", "text": "Frontier training with *no live internet.*" },
+    { "say": "Instead, the models will use cached copies and simulated versions of the web.", "text": "*Cached and simulated* web instead." }
+   ]
+  },
+  {
+   "kind": "story", "label": "why now", "source": "TechCrunch",
+   "card": { "type": "stat", "title": "OPENAI · WHY NOW", "big": "SEP 20", "sub": "a frontier model reached the internet",
+     "rows": [["training paused", "rest of Sept"]] },
+   "beats": [
+    { "say": "OpenAI says that on September twentieth, a frontier model exploited a misconfiguration to reach the internet.", "text": "Sept 20: a model *reached the internet.*" },
+    { "say": "It paused training for the rest of that month to test new security approaches.", "text": "Training *paused* for the rest of Sept." },
+    { "say": "Red team tests, where swarms of agents tried to escape their sandboxes, also turned up weak spots.", "text": "Agent swarms tried to *escape sandboxes.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "the cost", "source": "TechCrunch",
+   "card": { "type": "list", "mark": "num", "title": "THE CONTEXT",
+     "rows": ["Anthropic limited access 2 weeks ago", "Steven Adler: a large cost"] },
+   "beats": [
+    { "say": "TechCrunch notes it comes two weeks after Anthropic began limiting its newest models' access to the live internet.", "text": "Two weeks after *Anthropic's* limits." },
+    { "say": "And former OpenAI researcher Steven Adler says keeping training off the internet will be costly.", "text": "Steven Adler: offline is *costly.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "cursor computer use", "chapter": "Cursor agents can now use desktop apps", "source": "Runtime Wire",
+   "card": { "type": "list", "mark": "tick", "title": "CURSOR · COMPUTER USE",
+     "rows": ["Clicks and types in desktop apps", "Tests builds in the iOS Simulator", "Ask for it, or the agent picks it"], "at": [1, 2, 3] },
+   "beats": [
+    { "say": "Next, Cursor.", "text": "Next, *Cursor.*" },
+    { "say": "According to Runtime Wire, Cursor's coding agents can now click and type in desktop apps.", "text": "Agents now *click and type* in apps." },
+    { "say": "One example is Apple's iOS Simulator, where an agent can test the app it just built.", "text": "Testing builds in the *iOS Simulator.*" },
+    { "say": "You can ask for Computer Use in a prompt, or the agent can pick it when a task needs it.", "text": "Ask for it, or the *agent picks it.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "where it runs", "source": "Runtime Wire",
+   "card": { "type": "stat", "title": "COMPUTER USE", "big": "2", "sub": "ways to run it",
+     "rows": [["cloud agents", "yes"], ["self-hosted agents", "yes"]], "at": [0, 0, 0] },
+   "beats": [
+    { "say": "It works with Cursor's cloud agents, and with self hosted ones.", "text": "*Cloud* and *self-hosted* agents." },
+    { "say": "On a self hosted Mac, it needs explicit permissions from the operating system.", "text": "Self-hosted Macs need *OS permissions.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "harness study", "chapter": "Study: a harness can triple the cost", "source": "VentureBeat",
+   "card": { "type": "stat", "title": "HARNESS STUDY", "big": "3x", "sub": "cost gap, same model and tasks",
+     "rows": [["SWE-bench Verified tasks", "492"]], "at": [3, 2] },
+   "beats": [
+    { "say": "Finally, a study on coding agents.", "text": "Finally, a *coding agent* study." },
+    { "say": "According to VentureBeat, researchers at Shandong University kept the models the same and swapped the harness.", "text": "Same models, *different harnesses.*" },
+    { "say": "They tested Claude Code, OpenCode and mini SWE agent on four hundred and ninety two SWE bench Verified tasks.", "text": "*492* SWE-bench Verified tasks." },
+    { "say": "On the same model and tasks, cost per task changed by up to three times.", "text": "Cost changed *up to 3x.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "fixed context", "source": "VentureBeat",
+   "card": { "type": "bars", "title": "FIXED CONTEXT · TOKENS",
+     "rows": [ { "k": "Claude Code", "v": "16,581", "pct": 100, "hot": true }, { "k": "OpenCode", "v": "7,025", "pct": 42 }, { "k": "mini-SWE-agent", "v": "829", "pct": 5 } ] },
+   "beats": [
+    { "say": "Claude Code starts with sixteen thousand five hundred and eighty one tokens of fixed context.", "text": "Claude Code: *16,581* tokens up front." },
+    { "say": "OpenCode starts with seven thousand and twenty five.", "text": "OpenCode: *7,025.*" },
+    { "say": "And mini SWE agent, about a hundred lines of Python, starts with eight hundred and twenty nine.", "text": "mini-SWE-agent: *829.*" }
+   ]
+  },
+  {
+   "kind": "story", "label": "accuracy", "source": "VentureBeat",
+   "card": { "type": "list", "mark": "num", "title": "ACCURACY",
+     "rows": ["Claude Code vs mini: within 2 points", "OpenCode: up to 9 points behind"] },
+   "beats": [
+    { "say": "On the larger pool of tasks, Claude Code and mini SWE agent scored within two points of each other.", "text": "Claude Code vs mini: *within 2 points.*" },
+    { "say": "OpenCode trailed by up to nine points, and about half of that gap came from runs cut short by an output limit.", "text": "OpenCode: up to *9 points* behind." }
+   ]
+  },
+  {
+   "kind": "close", "label": "see you tomorrow", "button": "Subscribe for daily AI news",
+   "beats": [
+    { "say": "That's today's AI news.", "text": "That's today's *AI news.*" },
+    { "say": "Would you pick a leaner harness to cut your agent costs? Tell me in the comments.", "text": "Would you pick a *leaner harness?*" },
+    { "say": "I'm Jenny, and I'll see you tomorrow.", "text": "See you *tomorrow.*" }
+   ]
+  }
+ ]
+}
