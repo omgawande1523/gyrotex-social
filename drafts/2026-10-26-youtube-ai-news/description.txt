@@ -1,0 +1,16 @@
+Today's AI news: Apollo's chief economist says AI has delivered zero financial payoff to the S&P 493, Nanbeige releases the open Nanbeige4.3-33B agentic coding model, and a 2015 image model beats GPT-6 Astra and Claude Fable 5.1 at skin cancer diagnosis.
+A short daily AI news briefing on AI ROI, open-weight coding models and AI in dermatology.
+
+0:00 Today's headlines
+0:23 Apollo: zero AI payoff outside tech
+1:03 Nanbeige opens a 33B coding model
+1:51 A 2015 model beats chatbots on skin cancer
+
+Sources
+Apollo economist on AI's payoff (TechCrunch): https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+Nanbeige4.3-33B (MarkTechPost): https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/
+A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis (Lynch Lab): https://lynchlab.net/llm-skin-cancer
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

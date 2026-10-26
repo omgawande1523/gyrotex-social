@@ -1,0 +1,386 @@
+{
+ "date": "26 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*Zero* payoff",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 26 OCT",
+    "rows": [
+     "Apollo: zero AI payoff outside tech",
+     "Nanbeige opens a 33B coding model",
+     "A 2015 model beats chatbots on skin"
+    ]
+   },
+   "beats": [
+    {
+     "say": "Stop assuming AI is paying off for companies like yours until you hear what Apollo's chief economist found.",
+     "text": "What *Apollo's economist* found."
+    },
+    {
+     "say": "The AI lab inside a recruitment platform just released an open coding model.",
+     "text": "A new *open coding* model."
+    },
+    {
+     "say": "And a twenty fifteen image model beat two frontier chatbots at spotting skin cancer.",
+     "text": "A *2015 model* beats chatbots on skin."
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "apollo",
+   "chapter": "Apollo: zero AI payoff outside tech",
+   "source": "TechCrunch",
+   "card": {
+    "type": "stat",
+    "title": "APOLLO · AI PAYOFF",
+    "big": "0",
+    "sub": "financial payoff outside tech",
+    "rows": [
+     [
+      "note by",
+      "Torsten Slok"
+     ]
+    ],
+    "at": [
+     1,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, Apollo.",
+     "text": "First up, *Apollo.*"
+    },
+    {
+     "say": "According to TechCrunch, Apollo's chief economist Torsten Slok says AI has delivered zero financial payoff outside of tech.",
+     "text": "*Zero* financial payoff outside tech."
+    },
+    {
+     "say": "TechCrunch notes that Apollo once owned TechCrunch.",
+     "text": "Apollo once *owned TechCrunch.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the s&p 493",
+   "source": "TechCrunch",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "THE S&P 493",
+    "rows": [
+     "S&P 500 minus 7 tech giants",
+     "Profit margins look flat",
+     "Revenue per worker looks flat"
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "His note looks at the S and P four ninety three.",
+     "text": "He looks at the *S&P 493.*"
+    },
+    {
+     "say": "That's the S and P five hundred without seven tech giants, from Alphabet to Tesla.",
+     "text": "The S&P 500 minus *7 tech giants.*"
+    },
+    {
+     "say": "For those companies, profit margins and revenue per worker look flat.",
+     "text": "Margins and revenue per worker: *flat.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "his argument",
+   "source": "TechCrunch",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "SLOK'S ARGUMENT",
+    "rows": [
+     "No sign of productivity gains",
+     "Intelligence is mostly judgment",
+     "Doubts they're just lagging"
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "He sees no evidence AI is improving productivity there.",
+     "text": "*No evidence* of productivity gains."
+    },
+    {
+     "say": "In his words, AI may be a great calculator, but in business, intelligence is mostly judgment.",
+     "text": "Business intelligence is *mostly judgment.*"
+    },
+    {
+     "say": "And he doubts those companies are simply running behind big tech.",
+     "text": "Not just *running behind,* he says."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "nanbeige 4.3",
+   "chapter": "Nanbeige opens a 33B coding model",
+   "source": "MarkTechPost",
+   "card": {
+    "type": "stat",
+    "title": "NANBEIGE4.3-33B",
+    "big": "33B",
+    "sub": "dense, open weights",
+    "rows": [
+     [
+      "context",
+      "512K tokens"
+     ],
+     [
+      "license",
+      "Apache 2.0"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, according to MarkTechPost, the Nanbeige lab sits inside the recruitment platform Boss Zhipin.",
+     "text": "Next, a lab inside *BOSS Zhipin.*"
+    },
+    {
+     "say": "It released Nanbeige four point three, a thirty three billion parameter dense coding model.",
+     "text": "*33B* dense, for agentic coding."
+    },
+    {
+     "say": "It has a five hundred and twelve K token context window, and it's open under Apache two point oh.",
+     "text": "*512K* context, Apache 2.0."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the scores",
+   "source": "MarkTechPost",
+   "card": {
+    "type": "bars",
+    "title": "TERMINAL-BENCH 2.1",
+    "rows": [
+     {
+      "k": "Nanbeige4.3-33B",
+      "v": "80.9",
+      "pct": 81,
+      "hot": true
+     },
+     {
+      "k": "Qwen3.8-27B",
+      "v": "73.0",
+      "pct": 73
+     }
+    ],
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "Nanbeige says it scores eighty point nine on Terminal Bench two point one.",
+     "text": "Terminal-Bench 2.1: *80.9.*"
+    },
+    {
+     "say": "Qwen three point eight, at twenty seven billion parameters, scores seventy three in the same table.",
+     "text": "Qwen3.8-27B: *73.0.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the caveats",
+   "source": "MarkTechPost",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "READ THIS FIRST",
+    "rows": [
+     "Leads 17 of 20 rows",
+     "Trails on SWE-Bench Pro",
+     "All scores self-reported"
+    ]
+   },
+   "beats": [
+    {
+     "say": "It leads seventeen of the twenty rows in its comparison with Qwen, Muse Glimmer and Gemma.",
+     "text": "Leads *17 of 20* rows."
+    },
+    {
+     "say": "It trails on SWE bench Pro, sixty point three to sixty one point seven.",
+     "text": "Trails on SWE-Bench Pro: *60.3 vs 61.7.*"
+    },
+    {
+     "say": "MarkTechPost notes every score is self reported, and some rival numbers don't match the labs' model cards.",
+     "text": "Every score is *self-reported.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "skin cancer test",
+   "chapter": "A 2015 model beats chatbots on skin cancer",
+   "source": "Lynch Lab",
+   "card": {
+    "type": "stat",
+    "title": "SKIN LESION TEST",
+    "big": "200",
+    "sub": "biopsy-confirmed lesions",
+    "rows": [
+     [
+      "dataset",
+      "MILK10k"
+     ],
+     [
+      "CNN first published",
+      "2015"
+     ]
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, a skin cancer test.",
+     "text": "Finally, a *skin cancer* test."
+    },
+    {
+     "say": "Doctor Magnus Lynch, a consultant dermatologist at Guy's Hospital, tested two hundred biopsy confirmed skin lesions.",
+     "text": "*200* biopsy-confirmed lesions."
+    },
+    {
+     "say": "He compared GPT six Astra and Claude Fable five point one with Inception v three, from twenty fifteen.",
+     "text": "Two chatbots vs a *2015* image model."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the results",
+   "source": "Lynch Lab",
+   "card": {
+    "type": "bars",
+    "title": "FIRST DIAGNOSIS RIGHT",
+    "rows": [
+     {
+      "k": "Inception v3",
+      "v": "62%",
+      "pct": 62,
+      "hot": true
+     },
+     {
+      "k": "Claude Fable 5.1",
+      "v": "42%",
+      "pct": 42
+     },
+     {
+      "k": "GPT-6 Astra",
+      "v": "42%",
+      "pct": 42
+     }
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "He fine tuned Inception on sixty eight thousand and eleven skin images.",
+     "text": "Fine-tuned on *68,011* images."
+    },
+    {
+     "say": "It got the first diagnosis right sixty two percent of the time.",
+     "text": "Inception v3: *62%* right."
+    },
+    {
+     "say": "GPT six Astra and Claude Fable both scored forty two percent.",
+     "text": "Both chatbots: *42%.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "melanoma",
+   "source": "Lynch Lab",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "MELANOMAS AND LIMITS",
+    "rows": [
+     "Melanomas: 13, 11 and 8 of 30",
+     "Small sample, he says",
+     "Public data may help chatbots"
+    ]
+   },
+   "beats": [
+    {
+     "say": "As a first choice, it caught thirteen of thirty melanomas, Claude eleven, and GPT eight.",
+     "text": "Inception found *13 of 30* melanomas."
+    },
+    {
+     "say": "Doctor Lynch says two hundred lesions is a small sample.",
+     "text": "200 lesions is a *small sample.*"
+    },
+    {
+     "say": "And because the dataset is public, the chatbots may have seen it in training.",
+     "text": "Chatbots *may have seen* the data."
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Has AI paid off for your business yet? Tell me in the comments.",
+     "text": "Has AI *paid off* for you?"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ],
+ "variant": 8
+}

@@ -1,0 +1,33 @@
+[0:00] Stop assuming AI is paying off for companies like yours until you hear what Apollo's chief economist found.
+[0:07] The AI lab inside a recruitment platform just released an open coding model.
+[0:12] And a twenty fifteen image model beat two frontier chatbots at spotting skin cancer.
+[0:17] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:23] First up, Apollo.
+[0:24] According to TechCrunch, Apollo's chief economist Torsten Slok says AI has delivered zero financial payoff outside of tech.
+[0:33] TechCrunch notes that Apollo once owned TechCrunch.
+[0:36] His note looks at the S and P four ninety three.
+[0:39] That's the S and P five hundred without seven tech giants, from Alphabet to Tesla.
+[0:45] For those companies, profit margins and revenue per worker look flat.
+[0:49] He sees no evidence AI is improving productivity there.
+[0:53] In his words, AI may be a great calculator, but in business, intelligence is mostly judgment.
+[0:59] And he doubts those companies are simply running behind big tech.
+[1:03] Next, according to MarkTechPost, the Nanbeige lab sits inside the recruitment platform Boss Zhipin.
+[1:10] It released Nanbeige four point three, a thirty three billion parameter dense coding model.
+[1:15] It has a five hundred and twelve K token context window, and it's open under Apache two point oh.
+[1:22] Nanbeige says it scores eighty point nine on Terminal Bench two point one.
+[1:26] Qwen three point eight, at twenty seven billion parameters, scores seventy three in the same table.
+[1:33] It leads seventeen of the twenty rows in its comparison with Qwen, Muse Glimmer and Gemma.
+[1:38] It trails on SWE bench Pro, sixty point three to sixty one point seven.
+[1:44] MarkTechPost notes every score is self reported, and some rival numbers don't match the labs' model cards.
+[1:51] Finally, a skin cancer test.
+[1:53] Doctor Magnus Lynch, a consultant dermatologist at Guy's Hospital, tested two hundred biopsy confirmed skin lesions.
+[2:01] He compared GPT six Astra and Claude Fable five point one with Inception v three, from twenty fifteen.
+[2:09] He fine tuned Inception on sixty eight thousand and eleven skin images.
+[2:13] It got the first diagnosis right sixty two percent of the time.
+[2:17] GPT six Astra and Claude Fable both scored forty two percent.
+[2:22] As a first choice, it caught thirteen of thirty melanomas, Claude eleven, and GPT eight.
+[2:28] Doctor Lynch says two hundred lesions is a small sample.
+[2:31] And because the dataset is public, the chatbots may have seen it in training.
+[2:36] That's today's AI news.
+[2:38] Has AI paid off for your business yet? Tell me in the comments.
+[2:41] I'm Jenny, and I'll see you tomorrow.
