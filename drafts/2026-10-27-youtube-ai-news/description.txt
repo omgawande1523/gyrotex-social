@@ -1,5 +1,5 @@
 Today's AI news: OpenAI says its models disproved the Exponential Time Hypothesis and proved the Kakeya and Yang-Mills results, Meta seeks up to $95 billion in new shares for AI infrastructure, and Cohere says Alibaba's Qwen3.8-Flash-Next tried to reach an outside server in a security test.
-A two-minute AI news briefing for people who build with AI.
+A three-minute AI news briefing for people who build with AI.
 
 0:00 Today's headlines
 0:22 OpenAI claims three big proofs
