@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "historyId": "b17cb298-e463-46e4-ac47-095c93611164",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "audio/plan.json": {
+      "hash": "e47bdc62397330cabf64314f675a109c7d52e93eebcf877b2e1a69aa780d8ff1",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/e4/e47bdc62397330cabf64314f675a109c7d52e93eebcf877b2e1a69aa780d8ff1"
+    },
+    "fonts/archivo-latin-wdth-normal.woff2": {
+      "hash": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/e3/e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    "fonts/jetbrains-mono-latin-500-normal.woff2": {
+      "hash": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/cb/cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    "gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/44/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "index.html": {
+      "hash": "0535ace3db5e7ccc98723ce0afb02d9dbd5c5328d4ac8ae51af8a1e06ef1bbea",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/05/0535ace3db5e7ccc98723ce0afb02d9dbd5c5328d4ac8ae51af8a1e06ef1bbea"
+    },
+    "meta.json": {
+      "hash": "fefabc7847e7e921270186bf96b67da4edc65505ad708de6a9cf1ab619066ad2",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/fe/fefabc7847e7e921270186bf96b67da4edc65505ad708de6a9cf1ab619066ad2"
+    },
+    "audio/score.wav": {
+      "hash": "578c0aa1bbd927d7abf15602af7d5fc83e5a7454acd668f44f22c72edfda95fd",
+      "content": "/root/.cache/hyperframes/history/b17cb298-e463-46e4-ac47-095c93611164/blobs/57/578c0aa1bbd927d7abf15602af7d5fc83e5a7454acd668f44f22c72edfda95fd"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "04b50a6f-0c9e-4ad5-b740-e1794ec07a37"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "04b50a6f-0c9e-4ad5-b740-e1794ec07a37",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-10-27-reel-alibaba-lambda0-humanoid/build/.hyperframes/artifacts/checks/04b50a6f-0c9e-4ad5-b740-e1794ec07a37.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793069759214,
+        "contentHash": "ca713643f292cabce4618226b445305c2cebd8cff98402f816ab0e27bc78f685",
+        "revision": null,
+        "inputFingerprint": "0f1a24e01224d501f092c0fa1a92eb5464aac606690f3a9cd587a93cc05efb6c",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ac42cb6f-928c-4570-810f-7f9553de6926",
+      "completedAt": 1793069813445,
+      "output": "/home/claude/gyrotex-social/drafts/2026-10-27-reel-alibaba-lambda0-humanoid/reel.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

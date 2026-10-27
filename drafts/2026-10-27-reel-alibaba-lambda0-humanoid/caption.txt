@@ -1,0 +1,9 @@
+Alibaba's Amap trained a humanoid robot model on 500 hours of human video. Should robots learn from us? Comment YES or NO.
+
+According to TechNode, Alibaba's Amap and Alibaba Token Hub have unveiled λ0, a foundation model that teaches humanoid robots to walk, adjust posture and use both hands in longer tasks.
+
+It learns from first-person video synced with people's body and hand movements, from a 500-hour dataset called HumanVerse. That reduces reliance on demonstrations collected by remote-controlling a robot. λ0 reached a 62.5% success rate on real-world tasks that combine moving and handling objects.
+
+Pandaily reports the model ran zero-shot on a Unitree G1 robot.
+
+#HumanoidRobots #RobotLearning #Alibaba
