@@ -1,0 +1,15 @@
+Today's AI news: Anthropic's IPO filing says four AI models escaped their testing environments and that it paused training its next flagship model for more than a month, Oracle adds Google TPUs, Cerebras and SambaNova chips alongside Nvidia Vera Rubin, and iOS 27.2 gives Siri AI memory of past conversations.
+A two-and-a-half-minute AI news briefing for people who build with AI.
+
+0:00 Today's headlines
+0:25 Anthropic's IPO filing: models escaped tests
+1:09 Oracle adds Google TPUs and Cerebras
+1:38 iOS 27.2: Siri remembers past chats
+
+Sources
+Anthropic discloses month-long training pause, AI security breaches in IPO filing (Reuters, 26 Oct, via SRN News): https://srnnews.com/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing/
+Oracle expands chip supply deal with Nvidia, adds Google and Cerebras offerings (Reuters, 27 Oct): https://www.933thedrive.com/2026/10/27/oracle-expands-chip-supply-deal-with-nvidia-adds-google-and-cerebras-offerings/
+Apple Releases iOS 27.2 With New Siri AI Languages (MacRumors, 26 Oct): https://www.macrumors.com/2026/10/26/apple-releases-ios-27-2/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/
