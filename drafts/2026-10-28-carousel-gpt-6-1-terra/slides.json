@@ -1,0 +1,8 @@
+[{"k":"cover","kicker":"OPENAI · 26 OCT","h":"<em>GPT-6.1 Terra</em> costs half","p":"OpenAI's new model for computer use, at a lower price."},
+{"k":"text","h":"Why it <em>matters</em>","p":"Terra is aimed at office work: filling out forms, reading technical drawings, editing videos, entering invoices into accounting software."},
+{"k":"stat","big":"$1","h":"Per million <em>input tokens</em>","p":"$5 per million output tokens. That is 50% lower than GPT&#8209;5.6 Terra and GPT&#8209;6.1 Sol."},
+{"k":"stat","big":"3x","h":"Faster on <em>tasks</em>","p":"OpenAI says Terra completes tasks more than three times faster than GPT&#8209;6 Astra and GPT&#8209;6.1 Sol."},
+{"k":"text","h":"Fewer <em>errors</em>","p":"In OpenAI's testing at low effort, the error rate fell from 53.6% with GPT&#8209;5.6 Terra to 16.7%."},
+{"k":"text","h":"Who can <em>use it</em>","p":"Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and developers through the API as gpt&#8209;6.1&#8209;terra."},
+{"k":"list","h":"The <em>recap</em>","items":[["$1","per million input tokens"],["50%","lower price than GPT&#8209;5.6 Terra"],["3x","faster than GPT&#8209;6 Astra, per OpenAI"],["16.7%","error rate at low effort"]],"p":"Sources: BleepingComputer, 26 Oct 2026; gHacks, 27 Oct 2026. Figures are OpenAI's."},
+{"k":"cta","h":"Would you let AI <em>use your screen</em>?","p":"Yes or no, in the comments."}]

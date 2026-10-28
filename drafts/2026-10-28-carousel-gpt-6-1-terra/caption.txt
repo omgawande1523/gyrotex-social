@@ -1,0 +1,11 @@
+OpenAI launched GPT-6.1 Terra, a computer-use model priced 50% below GPT-5.6 Terra: $1 per million input tokens.
+
+Terra is aimed at computer use, visual reasoning, coding and office work: filling out forms, interpreting technical drawings, editing videos, or reading invoices and entering their details into accounting software, gHacks reports.
+
+According to OpenAI's own testing, it completes tasks more than three times faster than GPT-6 Astra and GPT-6.1 Sol. At low effort its error rate fell from 53.6% with GPT-5.6 Terra to 16.7%, BleepingComputer reports.
+
+It is available now to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and to developers through the API. OpenAI still recommends its larger models for the most complex coding.
+
+Would you let an AI model use your screen? Tell me yes or no in the comments.
+
+#OpenAI #ComputerUse #AIAgents
