@@ -1,0 +1,32 @@
+[0:00] Stop picking a coding model by hand until you see what GitHub's Copilot Fusion scored.
+[0:06] Google's Gemini four Carbon is now the top-ranked AI model, but almost nobody can use it.
+[0:12] GitHub's Copilot Fusion now picks the models for you.
+[0:15] And Apple is putting AI assistants into Pages, Keynote and Numbers.
+[0:20] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:25] First up, Google's new flagship model, Gemini four Carbon.
+[0:29] According to VentureBeat, it scores fifty nine on the Artificial Analysis Intelligence Index.
+[0:35] That's one point ahead of Claude Opus five point five, and two ahead of GPT six Astra.
+[0:41] Google's previous model, Argon, scored fifty.
+[0:44] The introductory price is two dollars per million input tokens.
+[0:48] Output costs ten dollars per million.
+[0:50] After the introductory period, that goes up to four dollars and twenty dollars.
+[0:55] For now, only selected cybersecurity defenders in Google's Fairwind Program can use it.
+[1:01] Google says a broad release will come as soon as possible.
+[1:05] One catch: its hallucination rate rose from four percent to eleven percent on one test.
+[1:11] Next, GitHub has made Copilot Fusion generally available.
+[1:15] Instead of choosing a model for each task, Copilot routes the work between models for you.
+[1:20] GitHub says Fusion Max scored sixty on the Artificial Analysis Coding Agent Index.
+[1:26] That's within two points of Claude Code with Opus five point five.
+[1:30] GitHub says it did that at about half the average API cost per task.
+[1:35] It used about half the tokens and took about forty percent less time.
+[1:39] It's on all Copilot plans, in VS Code, JetBrains and the Copilot app.
+[1:45] Finally, Apple is adding AI assistants to Pages, Keynote and Numbers.
+[1:49] Apple says they're built on Apple models and OpenAI.
+[1:53] According to PPC Land, only Apple Creator Studio subscribers get them, at twelve ninety nine a month.
+[2:00] They arrive this November, in beta, in US English only.
+[2:04] There's more for builders.
+[2:05] With MCP support, outside AI agents can read content, make edits and run automated actions in these apps.
+[2:13] That part needs macOS twenty seven or later.
+[2:16] That's today's AI news.
+[2:18] Would you let Copilot pick your models for you? Tell me in the comments.
+[2:22] I'm Jenny, and I'll see you tomorrow.

@@ -1,0 +1,16 @@
+Today's AI news: Google's Gemini 4 Carbon scores 59 on the Artificial Analysis Intelligence Index, ahead of Claude Opus 5.5, at $2 per million input tokens but only for selected cyber defenders; GitHub Copilot Fusion is generally available and routes coding tasks between models; and Apple adds AI assistants and MCP support to Pages, Keynote and Numbers.
+A two-and-a-half-minute AI news briefing for people who build with AI.
+
+0:00 Today's headlines
+0:25 Gemini 4 Carbon takes the top spot
+1:11 GitHub Copilot Fusion picks your models
+1:44 Apple adds AI to Pages, Keynote, Numbers
+
+Sources
+Google unveils Gemini 4 Carbon (VentureBeat, 28 Oct): https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited
+Route and orchestrate models with GitHub Copilot Fusion (GitHub Changelog, 28 Oct): https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/
+Apple Creator Studio adds powerful new AI features (Apple Newsroom, 27 Oct): https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/
+Apple puts its new Keynote and Pages AI assistant behind a $12.99 plan (PPC Land, 28 Oct): https://ppc.land/apple-puts-its-new-keynote-and-pages-ai-assistant-behind-a-12-99-plan/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/
