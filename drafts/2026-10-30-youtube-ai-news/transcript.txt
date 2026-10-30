@@ -1,0 +1,31 @@
+[0:00] Stop paying top prices for coding agents until you see what Mistral just released.
+[0:05] Mistral has put out the weights for its one trillion parameter model.
+[0:09] Cohere says it is raising the biggest round ever for a private Canadian company.
+[0:14] And Amazon's cloud just grew thirty nine percent.
+[0:17] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:23] First up, Mistral has released the open weights for Mistral Large four.
+[0:27] It's a one trillion parameter model that Mistral nicknames Le Chonk.
+[0:31] It's on Hugging Face now, under a modified MIT license.
+[0:35] Mistral says it scores forty one percent on Terminal-Bench four.
+[0:39] That's up from twenty eight percent in the preview earlier this month.
+[0:43] According to The New Stack, GLM five point three scored forty, and Kimi K three scored twenty one.
+[0:49] Mistral also says it uses forty seven percent fewer tokens per task.
+[0:54] On Mistral's API, it costs seventy cents per million input tokens.
+[0:59] Output is two dollars ten per million.
+[1:01] One catch: companies that sell it as a hosted model service need a separate commercial license.
+[1:07] Next, Cohere has closed the first part of its Series E.
+[1:11] The round targets up to seven billion Canadian dollars.
+[1:14] Cohere says it's the largest round ever raised by a private Canadian company.
+[1:19] Schwarz Group leads it, and Nvidia and the Government of Canada are in too.
+[1:24] According to The Next Web, Cohere says the round values it at thirty five point seven billion Canadian dollars.
+[1:31] It plans to hire more than a thousand people.
+[1:33] And its annual recurring revenue rose more than one hundred and sixty five percent in a year.
+[1:39] Finally, Amazon's cloud business is speeding up.
+[1:42] AWS sales grew thirty nine percent last quarter, to forty six billion dollars.
+[1:48] Amazon's total sales were two hundred and one point nine billion dollars, up twelve percent.
+[1:54] On Bedrock, Amazon's AI model service, token volume grew nearly seventeen times.
+[2:00] Fortune five hundred spending on Bedrock rose nearly seven times from a year ago.
+[2:05] Amazon still expects about two hundred and twenty billion dollars in capital spending this year.
+[2:11] That's today's AI news.
+[2:13] Would you run Mistral's open model yourself, or stay on an API? Tell me in the comments.
+[2:18] I'm Jenny, and I'll see you tomorrow.

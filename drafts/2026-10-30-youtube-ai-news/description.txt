@@ -1,0 +1,17 @@
+Today's AI news: Mistral releases open weights for Mistral Large 4, its 1-trillion-parameter model, scoring 41% on Terminal-Bench 4.0 at $0.70 per million input tokens; Cohere opens a Series E of up to C$7 billion, the largest ever for a private Canadian company; and Amazon's AWS grows 39% to $46 billion as Bedrock token volume grows nearly 17x.
+A two-and-a-half-minute AI news briefing for people who build with AI.
+
+0:00 Today's headlines
+0:22 Mistral Large 4 is now open weight
+1:07 Cohere's record Series E
+1:39 AWS grows 39% as Bedrock takes off
+
+Sources
+Mistral Large 4 (Le Chonk) is now open weight (Mistral AI, 29 Oct): https://mistral.ai/news/mistral-large-4-oss/
+Mistral's Large 4 open weights arrive with a 1-point coding lead over GLM-5.3 (The New Stack, 29 Oct): https://thenewstack.io/mistral-chonk-coding-model/
+Who Gets to Build the Frontier for AI (Cohere, 29 Oct): https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai
+Canada joins Nvidia in backing Cohere's record C$7bn Series E (The Next Web, 29 Oct): https://thenextweb.com/news/cohere-series-e-c7bn-canada-nvidia
+Amazon.com Announces Third Quarter Results (Amazon via Business Wire, 29 Oct): https://www.businesswire.com/news/home/20261028373648/en/Amazon.com-Announces-Third-Quarter-Results
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

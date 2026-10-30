@@ -1,0 +1,4 @@
+0:00 Today's headlines
+0:22 Mistral Large 4 is now open weight
+1:07 Cohere's record Series E
+1:39 AWS grows 39% as Bedrock takes off
