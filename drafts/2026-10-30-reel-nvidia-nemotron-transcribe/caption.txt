@@ -1,0 +1,9 @@
+Nvidia's free Nemotron 3.5 Transcribe turns speech into text in 40 languages. Would you run it yourself? Comment YES or NO.
+
+According to TechCrunch, Nvidia released Nemotron 3.5 Transcribe, a free, open-weight speech-to-text model. It can translate 31 languages to and from English, handle recordings up to an hour long and tell up to eight speakers apart. It works on recorded audio, not livestreams.
+
+The model runs on a single Nvidia chip, from the Jetson AGX Thor robotics board and DGX Spark up to Blackwell data center chips. The Next Web reports the license allows commercial use.
+
+Nvidia also released version 2 of Granary, its open speech dataset: 463,062 hours of speech across 48 languages. In one test reported by The Next Web, tuning on medical speech from Indian doctors cut errors by 45.8% on held-out clips.
+
+#Nvidia #SpeechToText #OpenSourceAI

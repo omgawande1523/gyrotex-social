@@ -1,0 +1,3 @@
+Nvidia just gave away a speech model that transcribes 40 languages for free.
+Stop paying per minute for transcripts until you see what Nvidia released for free.
+Nvidia's new free model writes down speech in 40 languages and tells 8 speakers apart.
