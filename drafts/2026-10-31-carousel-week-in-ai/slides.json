@@ -1,0 +1,7 @@
+[{"k":"cover","kicker":"WEEK OF 24 TO 30 OCT","h":"5 AI stories <em>this week</em>","p":"Gemini 4 Carbon, GPT-6.1 Terra, Mistral Large 4, Genie 4 and Nvidia's Nemotron."},
+{"k":"stat","big":"59","h":"1. Gemini 4 Carbon <em>is No. 1</em>","p":"Google's model scores 59 on the Artificial Analysis Intelligence Index v5, the new top spot. Not yet public. Source: Artificial Analysis, 28 Oct."},
+{"k":"stat","big":"50%","h":"2. GPT-6.1 Terra <em>costs less</em>","p":"50% cheaper than GPT-5.6 Terra. Low-effort error rate fell from 53.6% to 16.7% in OpenAI's own test. Source: Let's Data Science, 26 Oct."},
+{"k":"stat","big":"1T","h":"3. Mistral opens <em>Large 4</em>","p":"Weights for the 1 trillion-parameter model are on Hugging Face, 52 billion active per task. Aimed at coding and cyber defence. Source: TNW, 29 Oct."},
+{"k":"stat","big":"2 min","h":"4. Genie 4 <em>adds sound</em>","p":"DeepMind's world model holds a scene for up to two minutes, double Genie 3, and generates its own audio. Trusted testers only. Source: Free Press Journal, 28 Oct."},
+{"k":"stat","big":"40","h":"5. Nvidia's free <em>transcriber</em>","p":"Nemotron 3.5 Transcribe is open-weight, covers 40 languages and handles recordings up to one hour. Commercial use allowed. Source: TNW, 28 Oct."},
+{"k":"cta","h":"Which story <em>matters most</em>?","p":"Comment the number, 1 to 5."}]

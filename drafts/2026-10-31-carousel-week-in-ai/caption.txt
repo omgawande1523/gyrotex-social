@@ -1,0 +1,11 @@
+Gemini 4 Carbon took the top score and Mistral Large 4 went open weight. The five AI stories that mattered this week.
+
+Google's Gemini 4 Carbon scores 59 on the Artificial Analysis Intelligence Index v5, the new top spot, though it is not yet publicly available. OpenAI's GPT-6.1 Terra costs 50% less than GPT-5.6 Terra, and its low-effort error rate fell from 53.6% to 16.7% in OpenAI's own testing, Let's Data Science reports.
+
+Mistral put the weights for Mistral Large 4 on Hugging Face. The Next Web says it has 1 trillion parameters, 52 billion active per task, and is aimed at agentic coding and cyber defence. Google DeepMind's Genie 4 world model holds a scene for up to two minutes and generates its own audio, for trusted testers only so far.
+
+Nvidia also released Nemotron 3.5 Transcribe, a free open-weight speech model that covers 40 languages and handles recordings up to one hour, according to The Next Web.
+
+Which story matters most to your work? Comment the number, 1 to 5.
+
+#AINews #Gemini4Carbon #MistralLarge4
