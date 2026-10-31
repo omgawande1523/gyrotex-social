@@ -1,0 +1,10 @@
+# AI news video, 31 Oct 2026 (awaiting approval)
+
+- Date: 31 Oct 2026 (India)
+- Format: YouTube video, 1920x1080, 2 min 29 s, explainer-card format, host voice "Jenny" (AI voice, Kokoro af_heart)
+- Title: Reddit Goes Login-First, One AI Opt-Out, ADT Sold for $15.3B (thumbnail: "1M referrals gone")
+- Stories: Reddit moving mainly to a logged-in experience; search referrals down more than 1 million a week on average in October; US DAUs 53.2M (Q2) to 50.7M (Q3); possible low-double-digit DAU drop next quarter; revenue $895M, up 53%; tests outside the US in Q4; anonymity kept (TechCrunch). OpenAI will honor a shared robots.txt AI-training signal (token __usage_ai-training), "in the coming months"; individual Internet-Draft by Anthropic's Kevin Kelley, not endorsed by the IETF; voluntary; existing controls stay (Unite.AI). Thrive Holdings to buy ADT: $10.00 a share cash, ~$15.3B enterprise value, 45.6% premium to the $6.87 close on 27 Oct, closing expected Q1 2027 (ADT); OpenAI took a stake in Thrive Holdings in Dec 2025 and TechCrunch calls it "a private equity firm for AI" (TechCrunch).
+- Files: video.mp4, thumbnail.jpg, description.txt, meta.json (title and tags), chapters.txt, transcript.txt, episode.json
+- Sources are listed in description.txt (plus https://techcrunch.com/2025/12/01/openais-investment-into-thrive-holdings-is-its-latest-circular-deal/ for the OpenAI stake). Every number was read on those pages in this run.
+- Notes: Hook "Here's what happens when AI answers the search for you..." scored 50 (top of five, all rated WEAK). "variant": 7 set so the first story is not on the dark background (thumbnail text was invisible). Skipped: Mistral Large 4 (yesterday's video), Anthropic AI for Science (28 Oct, over 48 hours), ElevenLabs SFX v3 (no figures), OpenAI misalignment monitoring and Model Spec (openai.com could not be opened), Canada's Cohere stake (government), Wikimedia brief (lawsuit), Claude Code extension backdoor (security incident), Amazon loan and Blackstone/Anthropic rating (Bloomberg/FT, paywalled).
+- Status: draft. Not uploaded.

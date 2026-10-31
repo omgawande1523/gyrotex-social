@@ -1,0 +1,330 @@
+{
+ "date": "31 OCT 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*1M* referrals gone",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 31 OCT",
+    "rows": [
+     "Reddit goes login-first",
+     "One opt-out for AI training",
+     "Thrive Holdings buys ADT"
+    ]
+   },
+   "beats": [
+    {
+     "say": "Here's what happens when AI answers the search for you. Reddit lost more than a million search referrals a week.",
+     "text": "AI answers the search. *Reddit pays for it.*"
+    },
+    {
+     "say": "Now Reddit is moving to a mostly logged-in site.",
+     "text": "Reddit goes *login-first.*"
+    },
+    {
+     "say": "OpenAI says it'll honor one shared signal for opting out of AI training.",
+     "text": "One opt-out for *AI training.*"
+    },
+    {
+     "say": "And an OpenAI-backed firm is buying ADT.",
+     "text": "An OpenAI-backed firm *buys ADT.*"
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "reddit logs in",
+   "chapter": "Reddit goes login-first",
+   "source": "TechCrunch",
+   "card": {
+    "type": "stat",
+    "title": "REDDIT · OCTOBER",
+    "big": "1M+",
+    "sub": "fewer search referrals a week",
+    "rows": [
+     [
+      "cause, per TechCrunch",
+      "AI-powered search"
+     ]
+    ],
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, Reddit is moving mainly to a logged-in experience, according to TechCrunch.",
+     "text": "First up, Reddit goes *login-first.*"
+    },
+    {
+     "say": "Reddit says search referrals fell by more than a million a week, on average, in October.",
+     "text": "*1 million+* fewer search referrals a week."
+    },
+    {
+     "say": "TechCrunch puts it down to AI search, where summaries answer without a website visit.",
+     "text": "AI summaries answer *without a visit.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the users",
+   "source": "TechCrunch",
+   "card": {
+    "type": "bars",
+    "title": "REDDIT · US DAILY USERS",
+    "rows": [
+     {
+      "k": "Q2 2026",
+      "v": "53.2M",
+      "pct": 100
+     },
+     {
+      "k": "Q3 2026",
+      "v": "50.7M",
+      "pct": 95,
+      "hot": true
+     }
+    ],
+    "at": [
+     0,
+     0
+    ]
+   },
+   "beats": [
+    {
+     "say": "In the US, daily users fell from fifty three point two million to fifty point seven million in one quarter.",
+     "text": "US daily users: *53.2M* to *50.7M.*"
+    },
+    {
+     "say": "Reddit warned they could drop by a low double digit percentage next quarter, if the trend continues.",
+     "text": "Could drop *low double digits* next quarter."
+    },
+    {
+     "say": "Logging in also helps protect its data from AI scraping, and opens up licensing deals.",
+     "text": "Protects data from *AI scraping.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "still growing",
+   "source": "TechCrunch",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "REDDIT · Q3 2026",
+    "rows": [
+     "Revenue $895M, up 53%",
+     "Tests outside the US in Q4",
+     "Incognito mode rebuilt"
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Revenue still grew fifty three percent, to eight hundred and ninety five million dollars.",
+     "text": "Revenue up *53%,* to *$895 million.*"
+    },
+    {
+     "say": "The change gets tested in some markets outside the US in the fourth quarter.",
+     "text": "Tests start *outside the US* in Q4."
+    },
+    {
+     "say": "And Reddit says logging in won't mean giving up anonymity.",
+     "text": "Logged in, but *still anonymous.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "one opt-out",
+   "chapter": "One opt-out signal for AI training",
+   "source": "Unite.AI",
+   "card": {
+    "type": "stat",
+    "title": "AI TRAINING OPT-OUT",
+    "big": "1 rule",
+    "sub": "for every participating provider",
+    "rows": [
+     [
+      "token",
+      "__usage_ai-training"
+     ],
+     [
+      "OpenAI",
+      "in the coming months"
+     ]
+    ],
+    "at": [
+     1,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, OpenAI says it will honor a shared signal for opting out of AI training, according to Unite AI.",
+     "text": "Next, *one opt-out* for AI training."
+    },
+    {
+     "say": "Site owners add one rule to their robots text file, and every participating provider reads the same preference.",
+     "text": "*One rule* for every participating provider."
+    },
+    {
+     "say": "OpenAI aims to switch it on in the coming months.",
+     "text": "OpenAI: *in the coming months.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the fine print",
+   "source": "Unite.AI",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "THE FINE PRINT",
+    "rows": [
+     "Draft by Anthropic's Kevin Kelley",
+     "Not endorsed by the IETF",
+     "Voluntary"
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "The draft spec was written by Kevin Kelley of Anthropic.",
+     "text": "Draft by *Anthropic's* Kevin Kelley."
+    },
+    {
+     "say": "It's an individual draft, and the IETF hasn't endorsed it.",
+     "text": "*Not endorsed* by the IETF."
+    },
+    {
+     "say": "OpenAI's existing crawler controls stay, and it calls the whole effort voluntary.",
+     "text": "Old controls stay. It's *voluntary.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "adt is sold",
+   "chapter": "Thrive Holdings buys ADT for $15.3B",
+   "source": "ADT",
+   "card": {
+    "type": "stat",
+    "title": "THRIVE HOLDINGS × ADT",
+    "big": "$15.3B",
+    "sub": "enterprise value",
+    "rows": [
+     [
+      "per share",
+      "$10.00 cash"
+     ],
+     [
+      "premium",
+      "45.6%"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, Thrive Holdings has agreed to buy the home security company ADT.",
+     "text": "Finally, *Thrive Holdings buys ADT.*"
+    },
+    {
+     "say": "ADT puts the deal's enterprise value at about fifteen point three billion dollars.",
+     "text": "Enterprise value: *$15.3 billion.*"
+    },
+    {
+     "say": "That's ten dollars a share in cash, a forty five point six percent premium.",
+     "text": "*$10 a share,* a 45.6% premium."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the ai angle",
+   "source": "TechCrunch / ADT",
+   "card": {
+    "type": "bars",
+    "title": "ADT SHARE PRICE",
+    "rows": [
+     {
+      "k": "Close, 27 Oct",
+      "v": "$6.87",
+      "pct": 69
+     },
+     {
+      "k": "Thrive's offer",
+      "v": "$10.00",
+      "pct": 100,
+      "hot": true
+     }
+    ],
+    "at": [
+     2,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "OpenAI took a stake in Thrive Holdings last December, according to TechCrunch.",
+     "text": "*OpenAI* holds a stake in Thrive."
+    },
+    {
+     "say": "TechCrunch describes Thrive as a private equity firm for AI, buying companies it thinks the tech can help.",
+     "text": "Buys companies *AI can help.*"
+    },
+    {
+     "say": "ADT's shares closed at six dollars eighty seven before the deal, and it expects to close in early twenty twenty seven.",
+     "text": "Was *$6.87.* Close expected *Q1 2027.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "And that's all of today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Would you log in to read Reddit, or just stop clicking through? Tell me in the comments.",
+     "text": "Log in, or *stop clicking?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ],
+ "variant": 7
+}

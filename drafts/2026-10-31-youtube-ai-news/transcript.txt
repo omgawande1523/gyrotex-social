@@ -1,0 +1,29 @@
+[0:00] Here's what happens when AI answers the search for you. Reddit lost more than a million search referrals a week.
+[0:07] Now Reddit is moving to a mostly logged-in site.
+[0:10] OpenAI says it'll honor one shared signal for opting out of AI training.
+[0:15] And an OpenAI-backed firm is buying ADT.
+[0:18] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:24] First up, Reddit is moving mainly to a logged-in experience, according to TechCrunch.
+[0:29] Reddit says search referrals fell by more than a million a week, on average, in October.
+[0:34] TechCrunch puts it down to AI search, where summaries answer without a website visit.
+[0:40] In the US, daily users fell from fifty three point two million to fifty point seven million in one quarter.
+[0:47] Reddit warned they could drop by a low double digit percentage next quarter, if the trend continues.
+[0:53] Logging in also helps protect its data from AI scraping, and opens up licensing deals.
+[0:59] Revenue still grew fifty three percent, to eight hundred and ninety five million dollars.
+[1:04] The change gets tested in some markets outside the US in the fourth quarter.
+[1:08] And Reddit says logging in won't mean giving up anonymity.
+[1:12] Next, OpenAI says it will honor a shared signal for opting out of AI training, according to Unite AI.
+[1:19] Site owners add one rule to their robots text file, and every participating provider reads the same preference.
+[1:26] OpenAI aims to switch it on in the coming months.
+[1:30] The draft spec was written by Kevin Kelley of Anthropic.
+[1:33] It's an individual draft, and the IETF hasn't endorsed it.
+[1:37] OpenAI's existing crawler controls stay, and it calls the whole effort voluntary.
+[1:43] Finally, Thrive Holdings has agreed to buy the home security company ADT.
+[1:48] ADT puts the deal's enterprise value at about fifteen point three billion dollars.
+[1:53] That's ten dollars a share in cash, a forty five point six percent premium.
+[1:58] OpenAI took a stake in Thrive Holdings last December, according to TechCrunch.
+[2:03] TechCrunch describes Thrive as a private equity firm for AI, buying companies it thinks the tech can help.
+[2:10] ADT's shares closed at six dollars eighty seven before the deal, and it expects to close in early twenty twenty seven.
+[2:18] And that's all of today's AI news.
+[2:20] Would you log in to read Reddit, or just stop clicking through? Tell me in the comments.
+[2:24] I'm Jenny, and I'll see you tomorrow.

@@ -1,0 +1,16 @@
+Today's AI news: Reddit moves to a logged-in site after search referrals fell by more than 1 million a week as AI search spreads, OpenAI backs one shared robots.txt opt-out for AI training, and OpenAI-backed Thrive Holdings buys ADT for $15.3 billion.
+A short daily AI news briefing for people who build with AI or run a business that uses it.
+
+0:00 Today's headlines
+0:23 Reddit goes login-first
+1:12 One opt-out signal for AI training
+1:42 Thrive Holdings buys ADT for $15.3B
+
+Sources
+Reddit: https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/
+AI training opt-out: https://www.unite.ai/openai-to-honor-shared-robots-txt-signal-for-ai-training-preferences/
+ADT and Thrive Holdings: https://newsroom.adt.com/financial/adt-to-be-acquired-by-thrive-holdings-in-15-3-billion-transaction
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/
