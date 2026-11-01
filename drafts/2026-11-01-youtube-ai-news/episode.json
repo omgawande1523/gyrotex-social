@@ -1,0 +1,240 @@
+{
+ "date": "1 NOV 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*$5.03T* crown",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 1 NOV",
+    "rows": [
+     "Apple passes Nvidia",
+     "OpenAI's GPT-Rosalind-6",
+     "Apple hires Ascend.io's team"
+    ]
+   },
+   "beats": [
+    {
+     "say": "Nvidia lost four point two percent in a day, and Apple took the top spot.",
+     "text": "Nvidia *down 4.2%.* Apple takes the top spot."
+    },
+    {
+     "say": "OpenAI's new biology model costs more, and you can't just sign up for it.",
+     "text": "OpenAI's biology model: *approved customers only.*"
+    },
+    {
+     "say": "And Apple picks up the team behind an AI data engineering startup.",
+     "text": "Apple picks up *Ascend.io's team.*"
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "apple on top",
+   "chapter": "Apple passes Nvidia at $5.03 trillion",
+   "source": "Bloomberg",
+   "card": {
+    "type": "bars",
+    "title": "MARKET VALUE · 30 OCT CLOSE",
+    "rows": [
+     { "k": "Apple", "v": "$5.03T", "pct": 100, "hot": true },
+     { "k": "Nvidia", "v": "$4.93T", "pct": 98 }
+    ],
+    "at": [1, 2]
+   },
+   "beats": [
+    {
+     "say": "First up, Apple is the world's most valuable company again, according to Bloomberg.",
+     "text": "First up, Apple is *number one* again."
+    },
+    {
+     "say": "On Friday, Apple's market value closed at five point oh three trillion dollars.",
+     "text": "Apple: *$5.03 trillion.*"
+    },
+    {
+     "say": "Nvidia's shares fell four point two percent, leaving it at four point nine three trillion.",
+     "text": "Nvidia fell *4.2%,* to *$4.93 trillion.*"
+    },
+    {
+     "say": "It's the first time Apple has passed Nvidia since late July.",
+     "text": "First time since *late July.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the ai jitters",
+   "source": "Bloomberg",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "OCTOBER, PER BLOOMBERG",
+    "rows": [
+     "Nasdaq 100: down 6.7%",
+     "CoreWeave, Nebius: down 30%+",
+     "Intel: down 45%+"
+    ],
+    "at": [1, 2, 2]
+   },
+   "beats": [
+    {
+     "say": "Bloomberg says investors went for Apple's perceived safety, amid worries about AI spending.",
+     "text": "Investors worry about *AI spending.*"
+    },
+    {
+     "say": "The Nasdaq one hundred fell six point seven percent in October.",
+     "text": "Nasdaq 100 down *6.7%* in October."
+    },
+    {
+     "say": "CoreWeave and Nebius each dropped more than thirty percent, and Intel lost more than forty five.",
+     "text": "CoreWeave, Nebius *down 30%+.* Intel *45%+.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "rosalind 6",
+   "chapter": "OpenAI GPT-Rosalind-6 for life sciences",
+   "source": "OpenAI / FourWeekMBA",
+   "card": {
+    "type": "stat",
+    "title": "GPT-ROSALIND-6",
+    "big": "$15",
+    "sub": "per million input tokens",
+    "rows": [["output", "$75 per million"], ["built on", "GPT-6 Astra weights"]],
+    "at": [2, 2, 1]
+   },
+   "beats": [
+    {
+     "say": "Next, OpenAI has a new life sciences model, GPT Rosalind six, according to FourWeekMBA.",
+     "text": "Next, OpenAI's *GPT-Rosalind-6.*"
+    },
+    {
+     "say": "It uses the same weights as GPT six Astra, and OpenAI says it added no new training data.",
+     "text": "Same weights as *GPT-6 Astra.*"
+    },
+    {
+     "say": "OpenAI's price page lists it at fifteen dollars per million input tokens, and seventy five for output.",
+     "text": "*$15* in, *$75* out, per million tokens."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "who gets in",
+   "source": "OpenAI / FourWeekMBA",
+   "card": {
+    "type": "bars",
+    "title": "INPUT PRICE · PER 1M TOKENS",
+    "rows": [
+     { "k": "GPT-6 Astra", "v": "$10", "pct": 67 },
+     { "k": "GPT-Rosalind-6", "v": "$15", "pct": 100, "hot": true }
+    ],
+    "at": [0, 0]
+   },
+   "beats": [
+    {
+     "say": "That's one and a half times the price of Astra.",
+     "text": "*1.5 times* the price of Astra."
+    },
+    {
+     "say": "And you can't just sign up. It's only for approved customers.",
+     "text": "*Approved customers* only."
+    },
+    {
+     "say": "OpenAI checks the mission, the use case, and how access is controlled.",
+     "text": "Checks *mission, use case* and controls."
+    },
+    {
+     "say": "It still refuses requests for biological weapons.",
+     "text": "Still refuses *bioweapons* requests."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "ascend.io",
+   "chapter": "Apple picks up Ascend.io's team",
+   "source": "9to5Mac",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "APPLE × ASCEND.IO",
+    "rows": [
+     "Can hire some Ascend staff",
+     "Non-exclusive license to its IP",
+     "Some patents assigned"
+    ],
+    "at": [2, 2, 2]
+   },
+   "beats": [
+    {
+     "say": "Finally, Apple has picked up the team behind Ascend dot io, according to nine to five Mac.",
+     "text": "Finally, Apple picks up *Ascend.io.*"
+    },
+    {
+     "say": "Ascend calls itself the first agentic data engineering platform, with AI agents running data pipelines.",
+     "text": "*Agentic* data engineering."
+    },
+    {
+     "say": "Apple can hire some of its staff, gets a license to its tech, and some of its patents.",
+     "text": "Staff, a *license,* and *patents.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the fine print",
+   "source": "9to5Mac / PYMNTS",
+   "card": {
+    "type": "stat",
+    "title": "ASCEND.IO",
+    "big": "2015",
+    "sub": "year founded",
+    "rows": [["disclosed on", "EU acquisitions list"], ["price", "not disclosed"]],
+    "at": [0, 1, 2]
+   },
+   "beats": [
+    {
+     "say": "Ascend was founded in twenty fifteen.",
+     "text": "Founded in *2015.*"
+    },
+    {
+     "say": "The deal showed up on a European Union list of acquisitions, not in an Apple announcement.",
+     "text": "Found on an *EU acquisitions list.*"
+    },
+    {
+     "say": "No price was given. And the site payments dot com reports a note on Ascend's site saying it's winding down.",
+     "text": "No price. Ascend is *winding down.*"
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "And that's all of today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Would you pay more for a model tuned to your field? Tell me in the comments.",
+     "text": "Would you pay more for a *specialist model?*"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}

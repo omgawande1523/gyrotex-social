@@ -1,0 +1,18 @@
+Today's AI news: Apple passes Nvidia as the world's most valuable company at $5.03 trillion amid AI spending worries, OpenAI's GPT-Rosalind-6 life sciences model costs 1.5x GPT-6 Astra and is for approved customers only, and Apple picks up the team behind agentic data engineering startup Ascend.io.
+A short daily AI news briefing for people who build with AI or run a business that uses it.
+
+0:00 Today's headlines
+0:19 Apple passes Nvidia at $5.03 trillion
+0:54 OpenAI GPT-Rosalind-6 for life sciences
+1:30 Apple picks up Ascend.io's team
+
+Sources
+Apple overtakes Nvidia to become world's most valuable company (Bloomberg via Business Standard, 31 Oct): https://www.business-standard.com/world-news/apple-overtakes-nvidia-to-become-world-s-most-valuable-company-at-5-03-trn-126103100103_1.html
+OpenAI API pricing, life sciences models (OpenAI): https://developers.openai.com/api/docs/pricing
+OpenAI Prices Rosalind-6 at 1.5x Astra on the Same Weights (FourWeekMBA, 31 Oct): https://fourweekmba.com/ai-openai-prices-rosalind-6-at-1-5x-astra-on-the-same-weights/
+Apple acquires Ascend.io, an agentic AI engineering startup (9to5Mac, 30 Oct): https://9to5mac.com/2026/10/30/apple-acquires-ascend%E2%80%A4io-an-agentic-ai-engineering-startup/
+Apple Acquires AI Firm Ascend.io Talent and Patents (PYMNTS, 30 Oct): https://www.pymnts.com/news/artificial-intelligence/2026/apple-acquires-ai-firm-ascend-talent-patents/
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

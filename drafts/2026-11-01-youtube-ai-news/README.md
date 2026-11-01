@@ -1,0 +1,10 @@
+# AI news video, 1 Nov 2026 (awaiting approval)
+
+- Date: 1 Nov 2026 (India)
+- Format: YouTube video, 1920x1080, 2 min 14 s, explainer-card format, host voice "Jenny" (AI voice, Kokoro af_heart)
+- Title: Apple Passes Nvidia; OpenAI's GPT-Rosalind-6 Costs 1.5x (thumbnail: "$5.03T crown")
+- Stories: Apple back to most valuable company on Fri 30 Oct at $5.03T; Nvidia down 4.2% to $4.93T; first time since late July; investors sought perceived safety amid AI spending concerns; in October Nasdaq 100 -6.7%, CoreWeave and Nebius each -30%+, Intel -45%+ (Bloomberg via Business Standard). GPT-Rosalind-6: same weights as GPT-6 Astra, no added training data, approved customers only (applicant review of mission, use case, governance, access control), still refuses bioweapon requests (FourWeekMBA citing OpenAI's 30 Oct system card addendum); gpt-6-rosalind $15 in / $75 out per 1M tokens vs gpt-6-astra $10 / $50 (OpenAI pricing page). Apple and Ascend.io (Ascension Labs, founded 2015): right to hire certain employees, non-exclusive IP license, certain patents assigned; disclosed on the EU list of acquisitions; no price (9to5Mac); Ascend's site says it is winding down (PYMNTS).
+- Files: video.mp4, thumbnail.jpg, description.txt, meta.json (title and tags), chapters.txt, transcript.txt, episode.json
+- Sources are listed in description.txt. Every number was read on those pages in this run.
+- Notes: Hook "Nvidia lost four point two percent in a day, and Apple took the top spot." scored 38 (top of five, all WEAK). OpenAI's system card page and openai.com could not be opened (permission/site errors), so the Rosalind-6 system-card facts come from FourWeekMBA and Jenny names it; the price comes from OpenAI's own pricing page. The model name is written "GPT-Rosalind-6" as in FourWeekMBA; OpenAI's pricing page calls it gpt-6-rosalind. PYMNTS is spoken as "payments dot com". Skipped: Meta/Fourier humanoid (The Information, paywalled), OpenAI fundraising cut (reported, unconfirmed), security incidents, data-centre protests (local politics), Anthropic AI for Science (28 Oct, over 48 hours).
+- Status: draft. Not uploaded.
