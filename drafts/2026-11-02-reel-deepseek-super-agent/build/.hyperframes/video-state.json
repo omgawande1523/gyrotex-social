@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "historyId": "f67a69bd-082d-4a57-8c73-d368f77316cf",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "audio/plan.json": {
+      "hash": "7b0f19ef399a78a4ed4312d82a534595a229598162a56e06c3bbcc415e565637",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/7b/7b0f19ef399a78a4ed4312d82a534595a229598162a56e06c3bbcc415e565637"
+    },
+    "fonts/archivo-latin-wdth-normal.woff2": {
+      "hash": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/e3/e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    "fonts/jetbrains-mono-latin-500-normal.woff2": {
+      "hash": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/cb/cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    "gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/44/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "index.html": {
+      "hash": "d95f89c9cfad26459a34105ff4b9687d87634a2d55e6931cc846055adeff523d",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/d9/d95f89c9cfad26459a34105ff4b9687d87634a2d55e6931cc846055adeff523d"
+    },
+    "meta.json": {
+      "hash": "ef651a886c17bfa6371f153a1783b4876f23440d4ef2b8b036774d55f211baa7",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/ef/ef651a886c17bfa6371f153a1783b4876f23440d4ef2b8b036774d55f211baa7"
+    },
+    "audio/score.wav": {
+      "hash": "1def165d34ca59e9cd69eaba4c9774a7fd47d297938aa6859e11a12d22c3ae16",
+      "content": "/root/.cache/hyperframes/history/f67a69bd-082d-4a57-8c73-d368f77316cf/blobs/1d/1def165d34ca59e9cd69eaba4c9774a7fd47d297938aa6859e11a12d22c3ae16"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "1c847a19-6185-4ec2-b41c-04867b8ee66b"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "1c847a19-6185-4ec2-b41c-04867b8ee66b",
+        "scope": "project",
+        "report": "/home/claude/gyrotex-social/drafts/2026-11-02-reel-deepseek-super-agent/build/.hyperframes/artifacts/checks/1c847a19-6185-4ec2-b41c-04867b8ee66b.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 10000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793588721081,
+        "contentHash": "f50af0f4243a8b121c7210dd0e34b73704977658ae92f854553e04347722755a",
+        "revision": null,
+        "inputFingerprint": "3623c457abc64d118724a525a4691d15b27e8cd7449d4e62231d558ed5fcc23f",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "512be680-f914-4594-b290-b976421a1559",
+      "completedAt": 1793588785458,
+      "output": "/home/claude/gyrotex-social/drafts/2026-11-02-reel-deepseek-super-agent/reel.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

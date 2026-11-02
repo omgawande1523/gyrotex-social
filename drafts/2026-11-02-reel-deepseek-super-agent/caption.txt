@@ -1,0 +1,9 @@
+DeepSeek's open-source coding agent can read team chat. Would you let an agent read team chat? Comment YES or NO.
+
+According to The Next Web, DeepSeek released the code for Super-Agent under the MIT license on GitHub. It is a coding agent for one GitHub repository and can also listen to Feishu, ByteDance's workplace chat app.
+
+When an approved person asks for work, it opens a task, handles it in its own session and replies in the original thread, for example with a pull request. It acts only when asked or when a rule the team wrote allows it. A web panel lists the items that need a human.
+
+DeepSeek calls it a research prototype, not an official DeepSeek product, and says to review the code before running it. Bloomberg reports DeepSeek is aiming it at Anthropic's Claude Code.
+
+#DeepSeek #AICodingAgent #OpenSourceAI

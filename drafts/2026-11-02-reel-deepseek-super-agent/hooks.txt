@@ -1,0 +1,3 @@
+DeepSeek just open-sourced a coding agent that watches your team chat and opens pull requests.
+Before you pay for another coding agent, look at what DeepSeek released under MIT for free.
+DeepSeek's new Super-Agent reads your team's GitHub and chat and only acts when someone asks.
