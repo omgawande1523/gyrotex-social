@@ -1,0 +1,18 @@
+Today's AI news: Apple Intelligence launches in China with iOS 27.3 in December, with Alibaba's Qwen in Siri, Writing Tools and Visual Intelligence; ChatGPT and Codex will share one usage limit from December on Plus, Pro and Business; and Aramco completes its $2.6 billion deal for 49% of Saudi AI company HUMAIN.
+A short daily AI news briefing for people who build with AI or run a business that uses it.
+
+0:00 Today's headlines
+0:24 Apple Intelligence comes to China
+1:06 ChatGPT and Codex share one allowance
+1:45 Aramco closes its Humain stake
+
+Sources
+Apple confirms its AI features reach China in December, with Qwen (The Next Web, 30 Oct): https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen
+Apple confirms Qwen support in China as iOS 27.3 beta arrives November 4 (The Apple Post, 31 Oct): https://www.theapplepost.com/2026/10/31/73758/apple-confirms-qwen-support-in-china-as-ios-27-3-beta-arrives-november-4/
+ChatGPT and Codex Will Share One Usage Allowance in December (FourWeekMBA, 31 Oct, citing OpenAI's help center): https://fourweekmba.com/ai-chatgpt-and-codex-will-share-one-usage-allowance-in-december/
+Aramco closes $2.6bn deal for 49% stake in Humain (Arab News, 1 Nov): https://www.arabnews.com/finance/aramco-closes-26bn-deal-for-49-stake-in-humain-3009220
+Saudi Aramco acquires 49% stake in HUMAIN in $2.6bn AI deal with PIF (Arabian Business, 1 Nov): https://www.arabianbusiness.com/business/technology/saudi-aramco-acquires-49-stake-in-humain-in-2-6bn-ai-deal-with-pif
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

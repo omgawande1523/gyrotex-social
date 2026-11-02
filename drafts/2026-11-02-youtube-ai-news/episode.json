@@ -1,0 +1,265 @@
+{
+ "date": "2 NOV 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*Qwen* inside Siri",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 2 NOV",
+    "rows": [
+     "Apple Intelligence reaches China",
+     "ChatGPT and Codex share limits",
+     "Aramco closes its Humain deal"
+    ]
+   },
+   "beats": [
+    {
+     "say": "If you sell an iPhone app in China, Apple Intelligence lands there in December, and Siri can hand questions to Alibaba's Qwen.",
+     "text": "Apple Intelligence hits *China* in December."
+    },
+    {
+     "say": "ChatGPT and Codex are about to share one usage allowance.",
+     "text": "ChatGPT and Codex: *one allowance.*"
+    },
+    {
+     "say": "And Aramco closes its two point six billion dollar deal for part of a Saudi AI company.",
+     "text": "Aramco closes a *$2.6 billion* AI deal."
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "apple in china",
+   "chapter": "Apple Intelligence comes to China",
+   "source": "Apple via The Next Web",
+   "card": {
+    "type": "stat",
+    "title": "APPLE INTELLIGENCE · CHINA",
+    "big": "Dec",
+    "sub": "with iOS 27.3",
+    "rows": [["developer beta", "from 4 Nov"], ["after the US launch", "about 2 years"]],
+    "at": [1, 2, 3]
+   },
+   "beats": [
+    {
+     "say": "First up, Apple says Apple Intelligence is coming to China, according to The Next Web.",
+     "text": "First up, Apple Intelligence comes to *China.*"
+    },
+    {
+     "say": "It reaches everyone there with iOS twenty seven point three, in December.",
+     "text": "Everyone gets it with *iOS 27.3* in December."
+    },
+    {
+     "say": "Developers get it in a beta from November fourth.",
+     "text": "Developer beta from *4 November.*"
+    },
+    {
+     "say": "That's about two years after it first launched in the United States.",
+     "text": "About *two years* after the US launch."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "qwen inside",
+   "source": "The Next Web / The Apple Post",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "WHERE QWEN SHOWS UP",
+    "rows": ["Siri", "Writing Tools", "Visual Intelligence"],
+    "at": [0, 0, 0]
+   },
+   "beats": [
+    {
+     "say": "Alibaba's Qwen is built into Siri, Writing Tools, and Visual Intelligence.",
+     "text": "*Qwen* in Siri, Writing Tools and Visual Intelligence."
+    },
+    {
+     "say": "So you can ask it about a photo, or a PDF.",
+     "text": "Ask about a *photo* or a *PDF.*"
+    },
+    {
+     "say": "The Apple Post says you'll need a Qwen account, or Sign in with Apple.",
+     "text": "Needs a *Qwen account* or Sign in with Apple."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the fine print",
+   "source": "The Next Web / The Apple Post",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "THE FINE PRINT",
+    "rows": ["No new Siri AI yet", "iPhone 15 Pro and newer", "English or simplified Chinese"],
+    "at": [0, 1, 2]
+   },
+   "beats": [
+    {
+     "say": "What's missing is Siri AI, the rebuilt assistant Apple showed at its developer conference this year.",
+     "text": "Not included: the new *Siri AI.*"
+    },
+    {
+     "say": "It works on the iPhone fifteen Pro and newer.",
+     "text": "Works on *iPhone 15 Pro* and newer."
+    },
+    {
+     "say": "And Siri has to be set to English or simplified Chinese.",
+     "text": "Siri set to *English* or *simplified Chinese.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "one allowance",
+   "chapter": "ChatGPT and Codex share one allowance",
+   "source": "OpenAI Help Center via FourWeekMBA",
+   "card": {
+    "type": "stat",
+    "title": "CHATGPT + CODEX",
+    "big": "1 pool",
+    "sub": "of usage, from December",
+    "rows": [["plans", "Plus, Pro, Business"], ["counted in", "tokens"]],
+    "at": [0, 2, 3]
+   },
+   "beats": [
+    {
+     "say": "Next, ChatGPT and Codex will share one usage allowance, starting in December.",
+     "text": "Next, ChatGPT and Codex share *one allowance.*"
+    },
+    {
+     "say": "That's from OpenAI's help center, as reported by FourWeekMBA.",
+     "text": "From OpenAI's *help center.*"
+    },
+    {
+     "say": "It covers the Plus, Pro, and Business plans.",
+     "text": "*Plus, Pro* and *Business* plans."
+    },
+    {
+     "say": "Usage is counted in tokens, so advanced models and harder tasks use more of it.",
+     "text": "Counted in *tokens.* Bigger tasks use more."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the numbers today",
+   "source": "OpenAI Help Center via FourWeekMBA",
+   "card": {
+    "type": "bars",
+    "title": "PLUS · EST. MESSAGES PER 5 HOURS, TODAY",
+    "rows": [
+     { "k": "GPT-6 Astra", "v": "5–45", "pct": 4 },
+     { "k": "GPT-6 Luna", "v": "350–3,000", "pct": 100, "hot": true }
+    ],
+    "at": [1, 2]
+   },
+   "beats": [
+    {
+     "say": "OpenAI says Instant chat won't draw from the allowance.",
+     "text": "*Instant chat* doesn't count."
+    },
+    {
+     "say": "Right now, Plus gets an estimated five to forty five GPT six Astra messages every five hours.",
+     "text": "Plus today: *5 to 45* Astra messages."
+    },
+    {
+     "say": "With GPT six Luna, it's three hundred and fifty to three thousand.",
+     "text": "With Luna: *350 to 3,000.*"
+    },
+    {
+     "say": "FourWeekMBA notes that the December allowance sizes haven't been published.",
+     "text": "December sizes: *not published yet.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "aramco and humain",
+   "chapter": "Aramco closes its Humain stake",
+   "source": "Arab News",
+   "card": {
+    "type": "stat",
+    "title": "ARAMCO × HUMAIN",
+    "big": "49%",
+    "sub": "stake, deal completed",
+    "rows": [["cash in 2026", "about $2.6B"], ["PIF keeps", "51%"]],
+    "at": [0, 1, 2]
+   },
+   "beats": [
+    {
+     "say": "Finally, Saudi Aramco has completed its deal for forty nine percent of the AI company Humain, according to Arab News.",
+     "text": "Finally, Aramco takes *49%* of Humain."
+    },
+    {
+     "say": "It's putting in about two point six billion dollars in cash this year, plus AI, computing, and digital assets.",
+     "text": "About *$2.6 billion* in cash, plus assets."
+    },
+    {
+     "say": "Saudi Arabia's Public Investment Fund keeps the other fifty one percent.",
+     "text": "PIF keeps *51%.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what humain builds",
+   "source": "Arab News",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "HUMAIN",
+    "rows": ["3 GW of AI data centres by 2030", "ALLaM, an Arabic multimodal model", "Nebius: up to 50 MW at NEOM"],
+    "at": [1, 2, 3]
+   },
+   "beats": [
+    {
+     "say": "Humain launched in May, twenty twenty five.",
+     "text": "Launched in *May 2025.*"
+    },
+    {
+     "say": "It's aiming for three gigawatts of AI data center capacity by twenty thirty.",
+     "text": "Target: *3 gigawatts* by 2030."
+    },
+    {
+     "say": "It also builds Allam, an Arabic multimodal language model.",
+     "text": "*ALLaM,* an Arabic multimodal model."
+    },
+    {
+     "say": "And under an early framework, Nebius would take up to fifty megawatts at its campus in Neom.",
+     "text": "Nebius: up to *50 megawatts* at NEOM."
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "And that's all of today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Would one shared limit change how you use ChatGPT and Codex? Tell me in the comments.",
+     "text": "Would *one shared limit* change your habits?"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}
