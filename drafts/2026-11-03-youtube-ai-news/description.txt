@@ -1,0 +1,18 @@
+Today's AI news: Anthropic's updated IPO filing shows $17 billion in Q3 revenue, an operating loss and $895 billion in compute commitments; Marvell buys optical chip maker Lumentum in a $115 billion all-stock deal; and Palantir's Q3 revenue rises 96% as US commercial sales pass US government revenue.
+A short daily AI news briefing for people who build with AI or run a business that uses it.
+
+0:00 Today's headlines
+0:26 Anthropic's $17 billion quarter
+1:17 Marvell buys Lumentum for $115 billion
+2:08 Palantir's commercial sales pass government
+
+Sources
+Anthropic's growth slowed and costs jumped in the third quarter, updated IPO filing shows (Fortune, 2 Nov): https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/
+Anthropic's quarterly revenue jumps to $17B, losses grow ahead of IPO (SiliconANGLE, 2 Nov): https://siliconangle.com/2026/11/02/anthropics-quarterly-revenue-jumps-to-17b-losses-grow-ahead-of-ipo/
+In one of the largest deals in tech history, Marvell buys Lumentum for $115B (TechCrunch, 2 Nov): https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/
+Lumentum Form 425 filing, employee FAQ (SEC, 2 Nov): https://www.sec.gov/Archives/edgar/data/0001633978/000119312526443871/d152890d425.htm
+Palantir's US commercial sales top government revenue for the first time (The Next Web, 2 Nov): https://thenextweb.com/news/palantir-q3-2026-earnings-us-commercial-revenue-tops-government
+
+This is a daily AI news briefing from Gyrotex AI for people who build with AI or run a business that uses it. The host, Jenny, is an AI voice. The graphics and music are generated in code.
+
+Gyrotex AI builds AI automation, integrations and custom AI agents: https://gyrotex-website.vercel.app/

@@ -1,0 +1,366 @@
+{
+ "date": "3 NOV 2026",
+ "host": "Jenny",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "thumb": "*$895B* bill",
+ "sections": [
+  {
+   "kind": "open",
+   "label": "today",
+   "card": {
+    "type": "list",
+    "title": "AI NEWS · 3 NOV",
+    "rows": [
+     "Anthropic's $17B quarter",
+     "Marvell buys Lumentum",
+     "Palantir's commercial jump"
+    ]
+   },
+   "beats": [
+    {
+     "say": "If you build on Claude, Anthropic just showed its books: seventeen billion dollars in one quarter, and almost nine hundred billion in compute it's promised to pay for.",
+     "text": "Anthropic: *$17 billion* in one quarter."
+    },
+    {
+     "say": "Marvell is buying the optical chip maker Lumentum, for a hundred and fifteen billion dollars.",
+     "text": "Marvell buys Lumentum: *$115 billion.*"
+    },
+    {
+     "say": "And Palantir now makes more from US companies than from the US government.",
+     "text": "Palantir: *companies* beat government."
+    },
+    {
+     "say": "I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.",
+     "text": "Today's *AI news,* with Jenny."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "anthropic's quarter",
+   "chapter": "Anthropic's $17 billion quarter",
+   "source": "Fortune / SiliconANGLE",
+   "card": {
+    "type": "stat",
+    "title": "ANTHROPIC · Q3 2026",
+    "big": "$17B",
+    "sub": "revenue, July to September",
+    "rows": [
+     [
+      "Q2 2026",
+      "$11.6B"
+     ],
+     [
+      "growth",
+      "about 47%"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "First up, Anthropic updated its IPO filing with its third quarter numbers, according to Fortune.",
+     "text": "First up, Anthropic's *Q3 numbers.*"
+    },
+    {
+     "say": "Revenue was seventeen billion dollars for July to September.",
+     "text": "*$17 billion* in revenue, July to September."
+    },
+    {
+     "say": "That's up from eleven point six billion the quarter before.",
+     "text": "Up from *$11.6 billion* in Q2."
+    },
+    {
+     "say": "Growth was about forty seven percent, down from about a hundred and forty four percent.",
+     "text": "Growth: *47%,* down from *144%.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the costs",
+   "source": "Fortune / SiliconANGLE",
+   "card": {
+    "type": "list",
+    "mark": "num",
+    "title": "WHERE THE MONEY WENT",
+    "rows": [
+     "Expenses: $17.5B",
+     "Operating loss in Q3",
+     "$5B rush hardware charge"
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Operating expenses rose to seventeen point five billion dollars, from ten point six billion.",
+     "text": "Expenses: *$17.5B,* up from $10.6B."
+    },
+    {
+     "say": "So it swung to an operating loss, after a nine hundred and seventy four million dollar profit the quarter before.",
+     "text": "An *operating loss,* after a $974M profit."
+    },
+    {
+     "say": "SiliconANGLE says that includes a five billion dollar charge for computing hardware bought at short notice.",
+     "text": "Includes *$5B* for rush-bought hardware."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "the compute bill",
+   "source": "SiliconANGLE / Fortune",
+   "card": {
+    "type": "stat",
+    "title": "ANTHROPIC · COMMITMENTS",
+    "big": "$895B",
+    "sub": "compute and infrastructure",
+    "rows": [
+     [
+      "Amazon, Oracle, SpaceX",
+      "over $100B each"
+     ]
+    ],
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "Anthropic has about eight hundred and ninety five billion dollars in compute and infrastructure commitments.",
+     "text": "*$895 billion* in compute commitments."
+    },
+    {
+     "say": "Its deals with Amazon, Oracle, and SpaceX are each worth over a hundred billion.",
+     "text": "Amazon, Oracle, SpaceX: *over $100B* each."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "marvell + lumentum",
+   "chapter": "Marvell buys Lumentum for $115 billion",
+   "source": "TechCrunch",
+   "card": {
+    "type": "stat",
+    "title": "MARVELL × LUMENTUM",
+    "big": "$115B",
+    "sub": "enterprise value, all stock",
+    "rows": [
+     [
+      "equity value",
+      "about $80B"
+     ],
+     [
+      "per Lumentum share",
+      "4.5 Marvell shares"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "say": "Next, TechCrunch reports chip designer Marvell is buying Lumentum, an optical chip maker.",
+     "text": "Next, Marvell buys *Lumentum.*"
+    },
+    {
+     "say": "The all-stock deal values Lumentum at a hundred and fifteen billion dollars, including debt.",
+     "text": "*$115 billion* enterprise value, all stock."
+    },
+    {
+     "say": "The equity value is about eighty billion.",
+     "text": "Equity value: about *$80 billion.*"
+    },
+    {
+     "say": "Lumentum holders get four and a half Marvell shares per share.",
+     "text": "*4.5* Marvell shares per Lumentum share."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "how big is that",
+   "source": "TechCrunch",
+   "card": {
+    "type": "bars",
+    "title": "BIG TECH DEALS",
+    "rows": [
+     {
+      "k": "Marvell + Lumentum",
+      "v": "$115B",
+      "pct": 100,
+      "hot": true
+     },
+     {
+      "k": "Microsoft + Activision",
+      "v": "$68.7B",
+      "pct": 60
+     },
+     {
+      "k": "Dell + EMC",
+      "v": "$67B",
+      "pct": 58
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "TechCrunch calls it one of the largest deals in tech history.",
+     "text": "One of the *largest* tech deals ever."
+    },
+    {
+     "say": "Microsoft paid sixty eight point seven billion for Activision Blizzard in twenty twenty two.",
+     "text": "Microsoft–Activision: *$68.7 billion.*"
+    },
+    {
+     "say": "Dell paid sixty seven billion for EMC in twenty sixteen.",
+     "text": "Dell–EMC: *$67 billion.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "what happens next",
+   "source": "TechCrunch / Lumentum SEC filing",
+   "card": {
+    "type": "list",
+    "mark": "tick",
+    "title": "WHAT HAPPENS NEXT",
+    "rows": [
+     "Marvell holders own about 67%",
+     "Nvidia backs both",
+     "Close: first half of 2028"
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "Lumentum's filing says Marvell shareholders will own about sixty seven percent of the combined company.",
+     "text": "Marvell holders own about *67%.*"
+    },
+    {
+     "say": "Nvidia is a major shareholder in both, and put two billion dollars into each in March.",
+     "text": "Nvidia put *$2 billion* into each."
+    },
+    {
+     "say": "The deal's expected to close in the first half of twenty twenty eight, if shareholders and regulators approve.",
+     "text": "Expected close: *first half of 2028.*"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "palantir's quarter",
+   "chapter": "Palantir's commercial sales pass government",
+   "source": "The Next Web",
+   "card": {
+    "type": "stat",
+    "title": "PALANTIR · Q3 2026",
+    "big": "$2.31B",
+    "sub": "revenue",
+    "rows": [
+     [
+      "year on year",
+      "+96%"
+     ]
+    ],
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "say": "Finally, Palantir's third quarter revenue was two point three one billion dollars, according to The Next Web.",
+     "text": "Finally, Palantir: *$2.31 billion* in Q3."
+    },
+    {
+     "say": "That's up ninety six percent from a year earlier.",
+     "text": "Up *96%* year on year."
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "label": "companies vs government",
+   "source": "The Next Web",
+   "card": {
+    "type": "bars",
+    "title": "PALANTIR · US REVENUE, Q3",
+    "rows": [
+     {
+      "k": "US commercial",
+      "v": "$984M",
+      "pct": 100,
+      "hot": true
+     },
+     {
+      "k": "US government",
+      "v": "$953M",
+      "pct": 97
+     }
+    ],
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "say": "For the first time, its US commercial sales beat its US government revenue.",
+     "text": "US *commercial* tops government."
+    },
+    {
+     "say": "US commercial revenue was nine hundred and eighty four million dollars, up a hundred and forty eight percent.",
+     "text": "Commercial: *$984M,* up 148%."
+    },
+    {
+     "say": "US government revenue was nine hundred and fifty three million, up ninety six percent.",
+     "text": "Government: *$953M,* up 96%."
+    }
+   ]
+  },
+  {
+   "kind": "close",
+   "label": "see you tomorrow",
+   "button": "Subscribe for daily AI news",
+   "beats": [
+    {
+     "say": "That's today's AI news.",
+     "text": "That's today's *AI news.*"
+    },
+    {
+     "say": "Which number surprised you most today? Tell me in the comments.",
+     "text": "Which *number* surprised you most?"
+    },
+    {
+     "say": "I'm Jenny, and I'll see you tomorrow.",
+     "text": "See you *tomorrow.*"
+    }
+   ]
+  }
+ ]
+}

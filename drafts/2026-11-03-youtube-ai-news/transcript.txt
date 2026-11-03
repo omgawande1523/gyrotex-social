@@ -1,0 +1,31 @@
+[0:00] If you build on Claude, Anthropic just showed its books: seventeen billion dollars in one quarter, and almost nine hundred billion in compute it's promised to pay for.
+[0:10] Marvell is buying the optical chip maker Lumentum, for a hundred and fifteen billion dollars.
+[0:16] And Palantir now makes more from US companies than from the US government.
+[0:21] I'm Jenny, the AI host at Gyrotex AI. Here's today's AI news.
+[0:26] First up, Anthropic updated its IPO filing with its third quarter numbers, according to Fortune.
+[0:33] Revenue was seventeen billion dollars for July to September.
+[0:36] That's up from eleven point six billion the quarter before.
+[0:40] Growth was about forty seven percent, down from about a hundred and forty four percent.
+[0:45] Operating expenses rose to seventeen point five billion dollars, from ten point six billion.
+[0:52] So it swung to an operating loss, after a nine hundred and seventy four million dollar profit the quarter before.
+[0:58] SiliconANGLE says that includes a five billion dollar charge for computing hardware bought at short notice.
+[1:05] Anthropic has about eight hundred and ninety five billion dollars in compute and infrastructure commitments.
+[1:12] Its deals with Amazon, Oracle, and SpaceX are each worth over a hundred billion.
+[1:18] Next, TechCrunch reports chip designer Marvell is buying Lumentum, an optical chip maker.
+[1:23] The all-stock deal values Lumentum at a hundred and fifteen billion dollars, including debt.
+[1:29] The equity value is about eighty billion.
+[1:32] Lumentum holders get four and a half Marvell shares per share.
+[1:36] TechCrunch calls it one of the largest deals in tech history.
+[1:39] Microsoft paid sixty eight point seven billion for Activision Blizzard in twenty twenty two.
+[1:45] Dell paid sixty seven billion for EMC in twenty sixteen.
+[1:50] Lumentum's filing says Marvell shareholders will own about sixty seven percent of the combined company.
+[1:56] Nvidia is a major shareholder in both, and put two billion dollars into each in March.
+[2:02] The deal's expected to close in the first half of twenty twenty eight, if shareholders and regulators approve.
+[2:08] Finally, Palantir's third quarter revenue was two point three one billion dollars, according to The Next Web.
+[2:15] That's up ninety six percent from a year earlier.
+[2:18] For the first time, its US commercial sales beat its US government revenue.
+[2:23] US commercial revenue was nine hundred and eighty four million dollars, up a hundred and forty eight percent.
+[2:30] US government revenue was nine hundred and fifty three million, up ninety six percent.
+[2:36] That's today's AI news.
+[2:38] Which number surprised you most today? Tell me in the comments.
+[2:41] I'm Jenny, and I'll see you tomorrow.
